@@ -48,17 +48,14 @@ Almost every child on Landfall has at one point taken a school trip to the site 
 Exodus Ships and browsed the archives of each to learn about their history. While much of it is preserved, the reason
 why they had to leave their own planet behind still remains a mystery.
 
-The most dangerous place on the moon is the Evergaol Exclusion Zone, the crash site of the massive mothership
-that invaded the planet around 164 AL. It was a wholly alien spacecraft that unleashed thousands of machines that
-abducted the Newcomers and brought them aboard the Evergaol. The spacecraft was nigh impervious to any conventional
-weapon, the only way it could be brought down using a similar ancient abandoned spacecraft discovered around the same
-time, the Orion. The Orion was commandeered by the Flotilla and smashed into the Evergaol from above, forcing them both
-to Landfall's surface. A strike force was then dispatched to rescue the abducted Newcomers and take out whatever was in
-charge. The rescue was a success, and the Evergaol was permanently disabled, but the area surrounding the two twisted
-ships was locked down permanently. Attempts have been made to study the wrecks, but too they end too often with a
-gruesome accident. Most of Landfall's criminal element is now concentrated in the Exclusion Zone for better or worse.
-Some are just daring opportunists trying to score something valuable from the wreckage while others are, like the
-Jailers, made the site their home.
+The most dangerous place on the moon is the Evergaol Exclusion Zone, the crash site of the massive automated Monolith
+dreadnought that invaded the system in 508 AA. An alien war machine dispatched from the Praetor's arsenal, it unleashed
+thousands of automated harvesters to abduct the populations of the warring Flotilla and Orkish fleets. Impervious to
+conventional fire, it was finally brought down through the desperate alliance of Flotilla warships, Orkish heavy rams,
+and the titanic intervention of Goldheart and Stormdrinker, who grappled with the dreadnought to drag it burning into
+Landfall's crust. A boarding strike force infiltrated the smoldering wreckage to disable its primary automated matrix.
+Exactly a decade later in 518 AA, the site remains a scarred, highly restricted exclusion zone, lethal with automated
+defense nodes, radiation, and rogue scavenger syndicates like the Jailers who make the twisted wreckage their home.
 
 Compared to the other moons, Landfall had a scarce few Precursor sites, and even those were picked clean by now.
 Corsairs coming here either have something to do with the crash site, or they are visiting in an unofficial capacity.
