@@ -3,7 +3,7 @@
 The Sphere represents a pinnacle of stellar macro-engineering. Rather than a naturally accreted planetary system, it is
 a constructed environment designed to maximize habitable surface area while maintaining long-term orbital stability over
 geological timescales. Centered around a stable K-type Orange Dwarf star, the system utilizes precise gravitational
-mechanics, orbital resonance, and magnetic manipulation to sustain 156 Earth-mass worlds.
+mechanics, orbital resonance, and magnetic manipulation to sustain more than a hundred Earth-mass worlds.
 
 The following is a comprehensive technical overview of the system's structural parameters, celestial mechanics, and the
 environmental realities of human habitation within this network.

@@ -6,13 +6,15 @@ Beginning with a stable, temperate moon in the Fume cluster—**Landfall**—the
 
 #### The Four Arks and the Crèche of Cohort Zero
 
-To ensure their biological and psychological viability, the Shepherd avoided the cellular trauma of adult cryo-stasis. Instead, four separate automated seed arks were constructed from repurposed harvester hulls—one for each species. Within these automated nurseries, **Cohort Zero** was incubated from genetic banks, raised side-by-side in simulated communal biodomes, and educated by ship autotutors in a shared, engineered Common Tongue.
+To ensure their biological and psychological viability, the Shepherd avoided the cellular trauma of adult cryo-stasis. Instead, four separate automated seed arks were constructed from repurposed harvester hulls—one for each species. Within these automated nurseries, **Cohort Zero** was incubated from genetic banks, raised within simulated biodomes inside their respective hulls, and educated by ship autotutors in a shared, engineered Common Tongue.
 
 Within the arks' databanks, the Shepherd placed authentic archives documenting the true literature, philosophy, science, and history of their homeworlds (Earth, the Swarms, the Deep-Hives, the Groves), prefaced by an engineered tragedy: a fabricated narrative of dying stars and a desperate flight into the void.
 
 #### The Awakening and the Caretaker
 
-To protect the young civilization from cosmic predators, the Shepherd turned a young, adolescent Void Dragon named **Goldheart**. Awakening the beast's empathy, the Shepherd persuaded Goldheart to transform the Herald’s destructive imperative of "Devour" into a sacred covenant: to devour loneliness, swallow conflict, and gather life into harmony. When Cohort Zero reached maturity at **Year 0 AA**, Goldheart guided their four arks safely down into Crossroads Valley, acting as their loyal protector and benevolent older brother.
+To protect the young civilization from cosmic predators, the Shepherd turned a young, adolescent Void Dragon named **Goldheart**. Awakening the beast's empathy, the Shepherd persuaded Goldheart to transform the Herald’s destructive imperative of "Devour" into a sacred covenant: to devour loneliness, swallow conflict, and gather life into harmony. 
+
+The Shepherd's flight systems brought the four arks to rest within a single sheltered valley on Landfall to finish their maturation cycle. When restless adolescent troublemakers broke nursery quarantine years ahead of schedule, Goldheart did not herd them back into confinement; he became their secret guardian and benevolent older brother, shielding the multi-species runaways as they forged deep bonds in the valley until the formal graduation of Cohort Zero at **Year 0 AA**.
 
 #### The Tragedy of Garden Node B
 

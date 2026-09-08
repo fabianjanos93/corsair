@@ -60,8 +60,9 @@ Layer 1 is the everyday reality experienced by citizens, spacers, and operatives
 ## Layer 2: The Known History & The Sphere Corridors (0 – 518 AA)
 
 ### 1. The Genesis & The Four Arks (0 AA – 60 AA)
-* **The Four Arks**: Four separate seed-hulls (Human, Naga, Craggen, Sylvan) gestated Cohort Zero in automated crèches. They were educated with curated, authentic homeworld archives (Earth literature, democracy, alien philosophies) alongside a manufactured tragedy of fleeing a dying star.
-* **0 AA (Graduation Day)**: The cohorts matured and were released on Landfall. **Goldheart**, an adolescent Void Dragon turned by the Shepherd to benevolence, guided their arks to Crossroads Valley.
+* **The Four Arks & Touchdown (-4 BA)**: Four separate seed-hulls (Human, Naga, Craggen, Sylvan) gestated Cohort Zero in isolated crèches, touching down in Crossroads Valley on Landfall to finish maturation.
+* **The Clandestine Breakouts (-3 to -1 BA)**: Restless teenage troublemakers bypassed autotutors, discovered the other arks in the valley, and formed cross-lineage bonds under the secret protection of **Goldheart** (an adolescent Void Dragon turned by the Shepherd to benevolence).
+* **0 AA (Graduation Day)**: The cohorts formally matured and bulkheads opened. Cohort Zero emerged already bound by three years of secret friendships, slang, and romances, founding Crossroads (1 AA).
 * **Crossroads (1 AA)**: Built with an intentionally low-slung, rustic footprint of stone and timber salvaged from Arks, designed to keep a low profile against orbital sensors.
 * **Stormdrinker & The Covenant (14 AA)**: Stormdrinker, the Scholar Dragon of Nimbus, formed an alliance with the Newcomers to explore Precursor Vaults. Together with Goldheart and the Council, they discovered the truth of the Sphere and founded **The Covenant** to contain forbidden knowledge and prevent cosmic beacons from firing.
 * **The Draco Fusion Drive (35–39 AA)**: Stormdrinker shared bio-fusion principles with the SRC $\rightarrow$ first interplanetary flight of the *Birdy*. Cloudspire founded in 45 AA beneath his perch.
@@ -92,7 +93,7 @@ Layer 1 is the everyday reality experienced by citizens, spacers, and operatives
 
 ### 1. The Precursors & The Singularity
 * **The Melding**: Biological civilization adopted neural interfaces, eventually fusing into a unified cosmic intelligence: **The Singularity**.
-* **The Sphere**: Engineered stellar system of 156 Earth-mass worlds across 26 Gas Giants in a 4:2:1 Laplace resonance around an Orange Dwarf.
+* **The Sphere**: Engineered stellar system of more than a hundred Earth-mass worlds across 26 Gas Giants in a 4:2:1 Laplace resonance around an Orange Dwarf.
 * **Harvesting Civilizations**: The Singularity harvested and melded alien species (Humans, Naga, Craggen, Sylvan, Orks, etc.) into its god-mind, storing biological samples in Vault Worlds.
 
 ### 2. The Great Fracture & The Shards
