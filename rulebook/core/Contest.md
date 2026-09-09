@@ -20,6 +20,14 @@ they could speak, or preventing an enemy you knocked prone from standing up. Whe
 to contest, and the contested creature then must decide if they are willing to perform a **Simple Test** in order to perform
 their intended action, which you can then contest, or simply forego it altogether.
 
+### Contesting Teamwork Actions
+
+When an adversary is targeted by a **Teamwork Action**, the defender gains the **Defender's Advantage**:
+* **Timing:** The defender's Contest Roll occurs *after* the attacking team has finalized swapping their dice.
+* **Targeted Elimination:** Each Hit (8+) on the Contest Roll allows the defender to eliminate the highest die from **whichever participating attacker's pool the defender chooses**.
+* **Shutting Down Attackers:** In a Complex Test, if the defender eliminates all 8+ dice from an attacker's pool, that attacker fails their Action Roll completely and **cannot proceed to the Success Roll**.
+* For full rules and multi-defender coordination, see [Teamwork](Teamwork.md).
+
 #### Contest Example
 
 Let's return to our gunslinger, Jax. He has made his attack roll against the security drone, and his final dice pool is

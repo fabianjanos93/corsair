@@ -30,7 +30,8 @@
     - [Rounds](#rounds)
     - [Turns](#turns)
     - [Going First](#going-first)
-    - [Pushing Your Limits](#pushing-your-limits-spending-more-than-2-points)
+    - [Teamwork Actions](#teamwork-actions)
+    - [Delayed Actions](#delayed-actions)
 - [Chapter 5: Player Characters](character/Player_Characters.md)
     - [Character Creation](character/Creation.md) ([Character Sheet](character/Character_Sheet.html) · [Crew Sheet](character/Crew_Sheet.html))
     - [Classes](#classes)
@@ -240,18 +241,13 @@ It is crucial to understand that the GM determines the type of test and the Attr
 your character's actions*. Your narration matters. The choices you make in describing an action can change the
 Attributes used, and therefore the dice you roll.
 
-For example, let's say your character is in melee combat with a corporate security officer.
+For example, let's say your character is in melee combat with a corporate security officer using a vibro-axe:
 
-* If you say, **"I swing my vibro-axe with all my might, trying to overwhelm them with pure force,"** the GM might call
-  for a **Strength + Strength** test. You are leveraging your raw power.
-* If you instead say, **"I feint high and then bring my vibro-axe around in a low, precise sweep to get past their
-  guard,"** the GM would likely call for a **Finesse + Agility** test. You are relying on technique and speed.
-* If you narrate, **"I roar and charge, swinging my axe wildly to terrify them into submission,"** the GM might even
-  call for a **Strength + Presence** test, as you are using your physical power and your force of personality to create
-  an effect.
+* If you say, **"I put my entire body weight into a wide, sweeping cleave to chop through their guard,"** the GM will call for an **Agility + Strength** test (the favored pair for Slashing weapons).
+* If you instead say, **"I feint high and drive the heavy poll of the axe directly into their knee joint with controlled leverage,"** the GM will call for a **Strength + Finesse** test (a Striking maneuver).
+* If you narrate, **"I slip under their swing and jab the reinforced spike of the axe into an unarmored seam,"** the GM will call for an **Agility + Finesse** test (a Piercing strike).
 
-The same action—attacking with an axe—can be resolved in different ways based entirely on your description. Be creative
-and think about your character's strengths when you narrate your actions.
+Because melee attacks always combine two different physical attributes (Strength, Agility, and Finesse), the way you narrate your strike determines which physical pair you leverage—and whether you unlock your weapon's favored damage bonus.
 
 ### Upgrades and Downgrades
 
@@ -382,6 +378,28 @@ representing them covering for each other's mistakes and successfully navigating
 
 The flexibility of the turn structure and Action Point system is designed to encourage creative problem-solving and
 dynamic, cinematic action. Don't be afraid to combine actions, work together, and push your characters to their limits.
+For full rules on coordinating actions, swapping dice, and how defenders contest Teamwork actions using Defender's Advantage, see [Teamwork](core/Teamwork.md).
+
+### Delayed Actions
+
+During high-stakes encounters, characters do not always act immediately; often, a disciplined Corsair holds their fire until an enemy leaves cover, waits for an incoming threat to breach a threshold, or readies a shot to interrupt a hostile move. You can prepare for such moments by declaring a **Delayed Action**.
+
+* **Setting Up (1 AP):** On your turn, you spend **1 Action Point** to prepare a delayed action. When declaring a delayed action, you must specify two things:
+  1. **The Trigger:** The observable event or condition you are reacting to (e.g., *"when an enemy steps out of cover,"* *"if Brant draws a sidearm,"* or *"when the blast door starts to open"*).
+  2. **The Planned Action:** The specific action you intend to take when the trigger occurs. The planned action must be manageable within **1 AP** (such as taking a shot with a firearm, swinging a melee weapon, making a Simple Test, or moving up to your base movement distance).
+
+* **Declaring Timing (Before vs. After):** You have tactical freedom over when your action resolves relative to the trigger, but you must declare your timing beforehand when setting it up:
+  * **Reacting Before (Interrupt):** You act *before* the triggering event resolves. For instance, declaring that you will shoot at a target the moment they attempt to fire at you allows you to shoot first, potentially eliminating or disrupting them before their attack can land.
+  * **Reacting After (Response):** You act *after* the triggering event has completed. For instance, waiting until an enemy has moved completely out from behind heavy cover into open ground before firing ensures they cannot claim cover bonuses against your attack.
+
+* **Action Point & Turn Accounting:** The 1 AP cost is paid **on the turn you set up the delayed action**, counting against the 2 AP limit of that turn. When the trigger condition occurs and you take your action, it requires **0 additional AP** in that moment, and it does not count against the AP limit of the turn in which it triggers.
+
+* **Resolution and Expiration:** When the trigger condition is met, you immediately execute the declared test or action. If the triggering condition does not occur before the end of the round, the prepared action expires without effect—the spent Action Point represents the time, readiness, and vigilance invested in holding your position.
+
+* **Delayed Teamwork Actions:** Multiple characters can coordinate to set up a shared delayed action (such as establishing a crossfire overwatch or setting a synchronized ambush).
+  * **Setup:** All participants must share the same space, spend **1 AP** each, and agree upon the exact same **Trigger**, **Target**, and **Timing** (Before or After). Each participant prepares the action and Attribute Pair appropriate to their weapon or tool. An ally can spend 1 AP on a subsequent turn to join an existing ally's delayed action if they enter their space.
+  * **Triggering & Swapping:** When the trigger condition occurs, all linked participants roll simultaneously for **0 additional AP** and can swap dice between their pools under standard Teamwork rules. If the target contests, Defender's Advantage applies normally.
+  * **Disruption:** If an individual participant is incapacitated, knocked out of the space, or forced to defend before the trigger occurs, their readied action is broken, but remaining allies can still execute their delayed action when the condition is met.
 
 ### Zooming In and Out
 

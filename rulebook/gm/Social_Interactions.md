@@ -76,9 +76,9 @@ A success grants crucial tactical advantages:
 
 ### 3. Clever Roleplay and Leverage: Conserving Actions
 
-Not every breakthrough requires dice. If the players uncover vital intelligence during previous scenes, produce concrete proof (such as a forged authorization chip, surveillance footage of a rival, or a satchel of untraceable bearer bonds), or voice an argument that directly answers the NPC's personal motives, the GM should reward this by **clearing 1 or more points of Determination without requiring a roll**.
+Dialogue in *Corsair* is mostly free—speaking, issuing ultimatums, or presenting evidence does not cost Action Points unless it triggers a formal mechanical test. While a GM might often rule that a compelling argument or piece of leverage simply grants an **Upgrade** to a subsequent persuasion roll, when players present truly irrefutable proof (such as surveillance footage of an escape ship fleeing, a signed confession, or a direct threat to immediate survival), the GM can make the executive call to **clear 1 or more points of Determination directly without requiring a roll at all**.
 
-Bypassing the roll through sound reasoning or tangible leverage preserves precious **Action Points** and avoids the risk of rolling failures while the Patience clock ticks down. This reinforces that astute preparation and attentive roleplay are the sharpest weapons in a Corsair's arsenal.
+Bypassing the roll through sound reasoning or tangible leverage preserves precious **Action Points** (spending 0 AP) and completely eliminates the risk of rolling failures while the Patience clock ticks down. This reinforces that astute preparation and attentive roleplay are the sharpest weapons in a Corsair's arsenal.
 
 ---
 
@@ -151,54 +151,48 @@ When players direct their arguments, leverage, or roleplay toward a specific vul
 
 ---
 
-## Comprehensive Example: The Checkpoint at Air-Lock 9
+## Comprehensive Example: Standoff in Cargo Bay 4
 
 > ### Grounded Narrative Context
-> Jax and Tessa are attempting to smuggle an unregistered reactor core aboard the *Vanguard Station* in the orbital belt of Landfall. At the cargo checkpoint, they are intercepted by Chief Inspector Ronald Vane and two armed station guards. Vane is a seasoned, weary bureaucrat who suspects foul play.
+> Jax and Tessa have cornered a squad of hostile scrappers led by a stubborn salvage boss named **Brant** in the pressurized hold of a derelict freighter. Brant and his **five armed hirelings** have slugthrowers leveled at the crew across a barricade of titanium crates. Both sides have weapons drawn, but a firefight in a pressurized compartment risks puncturing the hull and venting everyone into the vacuum.
 >
-> The GM determines that allowing an uninspected heavy shipping crate past the security perimeter carries severe professional liability for Vane, assigning him **Determination 2** (requiring **3 total Hits** to convince). Furthermore, Vane is running a tight shift; the GM announces a strict **Patience of 2 Rounds** before Vane orders the shipping container impounded and searched.
+> Jax and Tessa want Brant and his crew to drop their weapons and surrender peacefully. The GM assigns Brant a baseline Determination of 2, with each of his 5 hirelings contributing +1 Determination to their collective **Pooled Determination**, establishing a formidable **Determination 7** (requiring **8 total Hits** to break their resolve and compel a surrender). 
+>
+> With twitchy hirelings ready to panic, the GM sets a razor-thin **Patience of 1 Round**—the crew has a single round to break their nerve before gunfire erupts and the compartment decompresses.
 
-```
-SCENE SNAPSHOT: Air-Lock 9
-- Objective: Clear the crate without inspection
-- Target: Chief Inspector Ronald Vane
-- Determination: 2 (Requires 3 Total Hits)
-- Patience: 2 Rounds
-- Threat: Cargo impoundment & armed search
-```
+### The Standoff: A Single Round at Patience 1
 
-### Round 1: Probing and Psychological Crossfire
+Both Jax and Tessa begin the round with **3 Action Points (AP)** each. The standoff unfolds through *Corsair's* dynamic turn pacing, with control alternating between the players and the GM whenever a side spends 2 or more AP.
 
-Jax begins by sizing up the inspector rather than jumping into a reckless lie. Spending 1 Action Point, Jax makes an **Instinct (4) + Presence (3)** Simple Test to probe Vane's body language and work terminal, rolling 4d10: `[3, 5, 8, 9]`. 
+#### Player Turn 1 (2 AP Spent)
+* **Jax (1 AP):** Jax opens the standoff by assessing their adversaries rather than shouting blind threats. Spending 1 Action Point, Jax makes an **Instinct (4) + Presence (3)** Simple Test to read the scrappers' body language and defensive layout, rolling 4d10: `[3, 5, 8, 9]`. Jax scores two Hits (`8` and `9`). The GM reveals the gang's collective Determination (7) and the extreme urgency of the clock (Patience 1). Critically, Jax spots that the scrappers' heavy weapon is jammed and Brant keeps glancing toward the docking airlock—they are stalling, praying for their extraction shuttle. Jax spends his second Hit on an **Upgrade Effect** for Tessa. *(Jax: 2 AP remaining)*
+* **Tessa (0 AP — Free Roleplay):** Tessa immediately exploits this opening using **Clever Roleplay**. Because talking is free, delivering this revelation requires no Action Points. She taps her data slate into the overhead monitor grid, displaying station sensor telemetry that shows the scrappers' extraction cutter already burning hard into deep space. Tessa calls across the bay: *"Your pilot panicked when the alarms tripped, Brant. Look up. Your ride just jumped out of the sector. Nobody is coming to pull you out."*
+* **The GM's Call:** Showing irrefutable visual proof of abandonment strikes directly at their core survival. Rather than merely granting an Upgrade on a persuasion roll, the GM makes the call that this point is so devastating that **no roll is required at all**. The GM clears **1 point of Determination from Brant and 1 point from each of his 5 hirelings**, swatting away 6 points of Determination without spending an Action Point! The group's pooled Determination plummets from **7 down to 1**. *(Tessa: 3 AP remaining)*
+* **Tessa (1 AP):** Capitalizing instantly on the chaos, Tessa spends 1 Action Point to deliver a pressing ultimatum, rolling a **Presence (4) + Willpower (3)** Simple Test with her upgraded pool (3d10 and 1d12 from Jax's Upgrade Effect). Tessa rolls: `[4, 7, 7]` on the d10s and `10` on the d12. That `10` is a Hit! This Hit strips away the **final point of Determination** (1 - 1 = 0). The scrappers' collective resolve collapses; with Determination at 0, they now need only 1 final Hit to turn their panic into an actual surrender. *(Tessa: 2 AP remaining)*
 
-Jax scores two Hits (`8` and `9`). The GM informs Jax that Vane has **Determination 2**, but more importantly, notes that Vane's eyes keep darting toward an overdue shipment manifest—the inspector is desperate to meet his shift quota and cannot afford a bureaucratic delay. Jax spends his second Hit on an **Upgrade Effect**, signaling to Tessa that pointing out the massive paperwork required for an impoundment will hit Vane where it hurts.
+*Having spent 2 Action Points collectively (Jax 1, Tessa 1), control swaps to the GM.*
 
-Tessa steps up to exploit the opening. With her upgraded pool, she rolls a **Presence (4) + Knowledge (3)** Simple Test, declaring: *"Chief, you impound this crate, and station protocol requires a three-hour quarantine inspection that halts your entire belt conveyor. Let us through with standard transit stamps, and your throughput numbers stay clean."*
+#### GM Turn 1 (1 AP Spent)
+* **Brant (1 AP):** Cornered, humiliated, and desperate to keep his hirelings from dropping their guns, Brant spends 1 AP on an active Counter-Tactic: **Threaten/Intimidate** aimed at Jax. Leveling his sidearm, Brant snarls: *"Shut your mouth! We're not dying in a cage! I'll put a slug through your visor and vent this whole bay before I give up!"*
+* The GM rolls a Complex Test for Brant's **Presence (3) + Willpower (3)** against Jax:
+  1. **Action Roll:** Brant rolls 3d10, getting `[2, 7, 9]`. The `9` is a Hit—the threat strikes home.
+  2. **Success Roll:** Brant rolls 3d10, getting `[3, 6, 7]`. The highest die is `7`.
+* Jax takes **7 Light Wounds** to his **Mental Condition Track I**. With Endurance/Willpower of 3, Jax has 7 segments per track (4 + 3 = 7). Track I fills completely, inflicting the **Impaired** condition on Jax's **Presence** (imposing 1 Downgrade) for the rest of the scene.
 
-Tessa rolls 3d10 and 1d12 (stepped up from Jax's Upgrade Effect): `[4, 7, 8]` on the d10s and `10` on the d12. With two Hits (`8` and `10`), Tessa strips away **both points of Vane's Determination** (2 - 2 = 0). Vane's defensive stance crumbles; he only needs one final nudge (1 Hit) to sign off on the manifest.
+*Control returns to the players.*
 
-However, control swaps to the GM. Vane is flustered and lashes out defensively to regain control of his checkpoint. Targeting Jax, Vane sneers: *"You think you can quote regulations to me, drifter? I've sent better crews than yours to the penal colonies on Landfall without blinking."*
-
-The GM rolls a Complex Test for Vane's **Presence (3) + Willpower (3)** against Jax:
-1. **Action Roll:** Vane rolls 3d10, getting `[2, 7, 9]`. The `9` is a Hit, so the verbal strike succeeds.
-2. **Success Roll:** Vane rolls 3d10 for his lower attribute, getting `[3, 6, 7]`. The highest die is `7`.
-
-Jax takes **7 Light Wounds** to his **Mental Condition Track I**. Having an Endurance/Willpower of 3 gives Jax 7 segments per track (4 + 3 = 7). Track I fills completely, inflicting the **Impaired** condition on Jax's **Presence** attribute for the rest of the scene. Jax grits his teeth, his pulse racing under the inspector's cold threat.
-
-The GM announces the end of Round 1. **Patience drops from 2 to 1.**
+#### Player Turn 2 (2 AP Spent — Clinching the Surrender)
+* **Jax (1 AP):** Shaken and Impaired by Brant's venomous threat, Jax spends 1 Action Point setting up a **Delayed Action**: bracing his carbine over the titanium crate and locking his crosshairs squarely onto Brant's chest, declaring that if hostilities erupt, he will fire *before* Brant can raise his weapon to shoot. *(Jax: 1 AP remaining)*
+* **Tessa (1 AP):** Tessa has 2 AP remaining and only needs **1 final Hit** to close the encounter before Patience 1 expires at the end of the round. She steps forward to deliver the finishing blow, spending 1 AP on a **Presence (4) + Presence (4)** Simple Test: *"Drop the rifles and kick them across the deck, Brant. Do it now, and you leave here in zip-ties instead of body bags."*
+* Tessa rolls 4d10: `[2, 5, 6, 8]`.
+* The `8` is a Hit! Because Determination was already reduced to 0, this final Hit secures their unconditional compliance. Brant's defiance completely shatters. His jaw tightens, he unclips his sidearm, and tosses it onto the metal grating with a hollow clatter. Behind him, all five hirelings drop their slugthrowers and raise their hands in the air. *(Tessa: 1 AP remaining)*
 
 ---
 
-### Round 2: Closing the Deal
+### Encounter Debrief: Pacing and Roleplay Economics
 
-Only 1 Round of Patience remains before the checkpoint locks down. Because Jax's Presence is now Impaired (imposing 1 Downgrade), Jax decides not to risk rolling. Instead, he uses **Clever Roleplay to Conserve Actions**, reaching into his pocket to produce a verified maintenance dispatch slip provided by their faction contact earlier that morning. 
+The standoff is resolved in a **single, breathless Round** before the 1-Round Patience clock expires, leaving both Jax and Tessa with 1 AP still in reserve. This scene illustrates three foundational tenets of *Corsair's* social system:
 
-Jax slides the pad across the counter: *"We're clearing code green on sector seven's backup power, Chief. Your stamp doesn't just keep your belt clear; it marks this emergency repair on your shift report."*
-
-The GM rules that pairing the official maintenance requisition with Vane's desire for good shift metrics is irrefutable leverage. Vane's remaining resistance is broken, but the crew still needs 1 final Hit to secure the physical stamp.
-
-Tessa steps forward for the final 1 AP push. She makes a **Presence (4) + Presence (4)** Simple Test, rolling 4d10: `[2, 5, 6, 8]`. 
-
-The `8` is a Hit! Because Vane's Determination was already reduced to 0, this final Hit secures his compliance. Vane exhales sharply, presses his thumb against the terminal scanner, and cycles the airlock gate open with a gruff wave of his hand: *"Get it out of my bay before my relief shows up."*
-
-Jax and Tessa roll the crate through the airlock, having cleared the checkpoint through tactical probing, roleplay leverage, and decisive timing just before their window expired.
+1. **Patience as a Strict Deadline:** At Patience 1, failure to break their resolve and land the final Hit within this round would have triggered immediate gunfire. The tight timer injected combat-level urgency into a dialogue scene.
+2. **The Power of the GM's Call:** Dialogue is free. When Tessa presented irrefutable sensor footage, the GM made the deliberate ruling that the leverage was so absolute that no test was required, wiping 6 Determination for 0 AP rather than simply offering an Upgrade on a risky roll.
+3. **Turn Pacing within a Round:** A round is not a single exchange. Control swapped between players and the GM as Action Points were spent (Player Turn 1 $\rightarrow$ GM Turn 1 $\rightarrow$ Player Turn 2), allowing an organic back-and-forth of probing, counter-threats, and closing arguments.

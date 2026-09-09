@@ -78,9 +78,26 @@ Situational factors modify test dice pools through **Upgrades** (advantages) and
   * If all dice in the pool are already d8s, each additional Downgrade removes a **d8** from the pool.
   * If all dice are removed, roll **2d8 and take the lower result**.
 
+## 6. Contesting a Test
+
+A target in proximity can spend **1 AP** to contest an incoming action by rolling a Simple Test.
+* Each Hit (`8+`) rolled on the Contest Roll eliminates the highest die from the contested roll.
+* An action is **resisted** if all `8+` dice are eliminated from the contested pool.
+* In a Success Test, if no `8+` dice remain after contesting, the test yields 0 Success Points.
+
 ---
 
-## 6. Action Points
+## 7. Teamwork
+
+Multiple characters in proximity sharing the same target or objective, spending **1 AP** each, can cooperate on a single action. Each character rolls the Attribute Pair appropriate to their weapon, gear, or method of action (remembering that melee attacks always combine two different physical attributes: Striking uses Strength + Finesse, Slashing uses Agility + Strength, and Piercing uses Agility + Finesse).
+* **Dice Swap**: After rolling, participants can swap any number of dice between their pools to distribute successes.
+* **Defender's Advantage**: When contesting a Teamwork action, the defender rolls **after** attackers finalize their swap. Each Contest Hit eliminates the highest die from an attacker's pool of the defender's choice (allowing defenders to isolate and shut down individual attackers).
+* **Complex Tests**: Attackers whose pools are reduced to zero `8+` dice fail their Action Roll completely and cannot advance to the Success Roll.
+* **Teamwork Contests**: Multiple defenders can join to contest together, swapping dice between their contest pools and allocating combined Hits against attackers.
+
+---
+
+## 8. Action Points
 
 Action Points (AP) represent the currency spent to perform actions during play.
 
@@ -89,9 +106,17 @@ Action Points (AP) represent the currency spent to perform actions during play.
 * **Refill**: At the start of every Round, Action Points refill to maximum.
 * **Turn Pacing**: In structured scenes, control swaps between players and GM after the active side spends **2 or more AP** and completes their active action.
 
+### Delayed Actions
+Characters can spend **1 AP** on their turn to prepare an action triggered by a future event.
+* **Setup Requirements**: Declare the **Trigger** (the observable condition reacted to) and the **Planned Action** (must be manageable within 1 AP).
+* **Timing Choice (Before vs. After)**: Must state beforehand whether the action resolves **Before** (interrupting, e.g., shooting an adversary before they fire) or **After** (responding, e.g., shooting an enemy after they leave cover) the trigger event resolves.
+* **AP Accounting**: The 1 AP is paid on the turn the delayed action is set up (counting toward that turn's 2 AP limit). When triggered, executing the action costs **0 additional AP** on the turn it resolves.
+* **Delayed Teamwork**: Multiple allies sharing a space can coordinate or synchronize into a shared delayed action with identical Trigger, Target, and Timing (each preparing their own appropriate Attribute Pair). When triggered, they roll together for 0 AP with standard Teamwork dice swapping.
+* **Expiration**: If the trigger does not occur before the end of the round, the prepared action expires without effect.
+
 ---
 
-## 7. Effects
+## 9. Effects
 
 Effects allow characters to create tactical advantages, narrative twists, or environmental changes by sacrificing **Hits** (dice showing 8+) rolled during a test.
 
@@ -107,10 +132,6 @@ To activate an effect, sacrifice Hits from an Action Roll or Success Roll as ind
 
 ### Success Effects (Activated on Success Roll)
 * **Crit Effect**: Spend Hits on a Success Roll to increase total Success Points by **+2 per Hit spent**.
-
-### Trigger Effects
-* **Trigger Effect**: Spend 1 AP and declare a trigger condition and intended action. When triggered, roll the test immediately. Requires concentration (lost if taking another test or taking damage/interrupted). AP counts towards turn limit when spent.
-* **Persistent Trigger Effect**: A Trigger Effect requiring no concentration (used primarily for deployed items, traps, etc.).
 
 ### Removing Effects
 A creature in a position to remove an ongoing effect can spend an action and make a **Simple Test** to eliminate 1 Hit set aside for that effect.
