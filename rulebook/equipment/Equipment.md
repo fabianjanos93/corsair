@@ -50,11 +50,11 @@ For the full catalog of handguns, submachine guns, shotguns, rifles, heavy suppo
 
 ### Armor
 
-Armor is protective gear worn by a character to reduce incoming physical and kinetic damage. Every suit of armor is defined by its **Protection**, **Minimum Strength (Min STR)**, **Load**, and **Cost**.
+Armor is protective gear worn by a character to reduce incoming physical and kinetic damage. Every suit of armor is defined by its **Protection**, **Load**, **Properties**, and **Cost**.
 
 * **Protection:** A flat integer reduction applied directly to incoming damage before it affects your health. Armor Protection stacks with bonuses from **Shields** and **Cover**, but a character can only benefit from one worn suit of armor at a time.
-* **Minimum Strength (Min STR):** Armor requires physical conditioning to articulate properly. If your Strength is lower than the armor's Min STR, the suit is too heavy and cumbersome to move in, and **cannot be worn or donned**.
-* **Load:** The mass and physical bulk of the armor, which counts toward your maximum Load capacity.
+* **Load & Agility:** Armor does not enforce a minimum Strength requirement to wear. Any operative may don any suit of armor, provided they have sufficient Load capacity to carry its weight. However, heavy and siege-grade armors carry the **Cumbersome (X)** property, imposing Downgrades on all tests involving **Agility** (including speed and movement rolls).
+* **Properties:** Functional features such as **Hardened** (reducing incoming critical damage), **Blast-Dampened** (+2 Protection vs Area/Explosives), **Tactical Harness** (dedicated Load slots for equipment), and **Muffled** (+1 Upgrade on Stealth).
 
 For the full catalog of armor archetypes, defense mechanics, and armor upgrade kits, see [Armor](Armor.md).
 

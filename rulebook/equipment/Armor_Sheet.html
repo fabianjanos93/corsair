@@ -267,6 +267,12 @@ body {
     gap: 1.8mm;
 }
 
+.grid-3col {
+    display: grid;
+    grid-template-columns: 0.95fr 1.15fr 0.9fr;
+    gap: 1.8mm;
+}
+
 .grid-split-left {
     display: grid;
     grid-template-columns: 1.15fr 0.85fr;
@@ -446,7 +452,7 @@ body {
             </div>
             <div class="mh-title">
                 <h1>Armor & Defense</h1>
-                <div class="sub">Suits, Minimum Strength, Shields & Damage Mitigation</div>
+                <div class="sub">Suits, Tactical Properties, Shields & Damage Mitigation</div>
             </div>
             <div class="mh-meta">
                 <label>Operator Designation / Max Load Capacity</label>
@@ -456,160 +462,266 @@ body {
 
         <!-- MAIN BODY CONTENT -->
         <div class="grid-main">
-            <!-- TOP SPLIT: CORE RULES & UPGRADE KITS -->
-            <div class="grid-2col">
+            <!-- TOP SPLIT: CORE RULES, PROPERTIES & UPGRADE KITS -->
+            <div class="grid-3col">
                 <!-- CARD 1: CORE DEFENSE MECHANICS -->
                 <div class="card">
                     <div class="card-hd">
                         <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-                        <h2>Armor & Protection Rules</h2>
+                        <h2>Defense Rules</h2>
                     </div>
-                    <div class="card-body rules-text">
-                        <p><strong>Protection (Flat Damage Reduction):</strong> Subtract your total Protection value directly from incoming physical and kinetic damage before applying damage to health.</p>
-                        <p><strong>Minimum Strength (Min STR):</strong> Managing heavy ballistic plating or powered servos requires physical power. If <code>Strength &lt; Min STR</code>, the armor <strong>cannot be worn or donned</strong>.</p>
-                        <p><strong>Defense Stacking:</strong> Armor Protection stacks with bonuses from <strong>Shields</strong> (+1 to +3) and <strong>Cover</strong> (+1 to +3). You can only benefit from <strong>one worn suit of armor</strong> at a time.</p>
-                        <div class="rule-box">
-                            <strong>Damage Formula:</strong> <code>Net Damage = Attack Damage - (Armor + Shield + Cover)</code>
+                    <div class="card-body rules-text" style="font-size: 6.3pt; line-height: 1.2;">
+                        <p><strong>Protection (Flat Mitigation):</strong> Subtract total Protection directly from incoming physical/kinetic damage.</p>
+                        <p><strong>No Min STR:</strong> Armor has no STR gates. Any operative may wear any suit within character Load (<code>12+STR×2</code>).</p>
+                        <p><strong>Stacking:</strong> Stacks with Shields (+1 to +3) and Cover (+1 to +3). Max 1 worn armor suit.</p>
+                        <div class="rule-box" style="margin-top: 0.8mm; padding: 0.8mm 1.2mm;">
+                            <strong>Formula:</strong> <code>Net = Dmg - (Armor + Shield + Cover)</code>
                         </div>
                     </div>
                 </div>
 
-                <!-- CARD 2: ARMOR UPGRADE KITS -->
+                <!-- CARD 2: TACTICAL ARMOR PROPERTIES -->
+                <div class="card">
+                    <div class="card-hd">
+                        <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <h2>Tactical Properties</h2>
+                    </div>
+                    <div class="card-body rules-text" style="font-size: 6.2pt; line-height: 1.2;">
+                        <p style="margin-bottom: 0.6mm;"><span class="badge accent">Hardened</span> Attacker's Crit bonus reduced by 1 (+1 SP/Hit spent instead of +2).</p>
+                        <p style="margin-bottom: 0.6mm;"><span class="badge cyan">Blast-Dampened</span> +2 Protection against Area Attacks & Explosives.</p>
+                        <p style="margin-bottom: 0.6mm;"><span class="badge">Tactical Harness (X)</span> X dedicated Load slots for any equipment (not counted vs Load).</p>
+                        <p style="margin-bottom: 0.6mm;"><span class="badge">Muffled</span> +1 Upgrade on all tests involving Stealth.</p>
+                        <p style="margin-bottom: 0;"><span class="badge red">Cumbersome (X)</span> X Downgrades on all tests involving Agility.</p>
+                    </div>
+                </div>
+
+                <!-- CARD 3: ARMOR UPGRADE KITS -->
                 <div class="card">
                     <div class="card-hd">
                         <svg viewBox="0 0 24 24"><path d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94s.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"/></svg>
                         <h2>Armor Upgrade Kits</h2>
                     </div>
-                    <div class="card-body rules-text">
-                        <p>Mastercrafted armorer customization. An armor suit can receive a maximum of <strong>3 Upgrade Kits</strong>:</p>
-                        <table class="data-table" style="margin-bottom: 1mm;">
+                    <div class="card-body rules-text" style="font-size: 6.1pt; line-height: 1.18;">
+                        <p style="margin-bottom: 0.5mm;">Mil-spec armorer tuning (max 3 kits per suit):</p>
+                        <table class="data-table" style="margin-bottom: 0.6mm;">
                             <thead>
                                 <tr>
                                     <th>Tier</th>
-                                    <th>Market Cost</th>
-                                    <th>Selectable Upgrade Option</th>
+                                    <th style="text-align: right;">Cost</th>
+                                    <th>Upgrade Option</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td><span class="badge accent">1st Kit</span></td>
-                                    <td class="num-cell cost">25,000 Cr</td>
-                                    <td><strong>-1 Load</strong> (min 1) OR <strong>+1 Protection</strong></td>
+                                    <td><span class="badge accent">1st</span></td>
+                                    <td class="num-cell cost">50k</td>
+                                    <td><strong>+1 Prot</strong>, <strong>-1 Ld</strong>, or <strong>Add Prop</strong></td>
                                 </tr>
                                 <tr>
-                                    <td><span class="badge accent">2nd Kit</span></td>
-                                    <td class="num-cell cost">60,000 Cr</td>
-                                    <td><strong>-1 Load</strong> (min 1) OR <strong>+1 Protection</strong></td>
+                                    <td><span class="badge accent">2nd</span></td>
+                                    <td class="num-cell cost">100k</td>
+                                    <td><strong>+1 Prot</strong>, <strong>-1 Ld</strong>, or <strong>Add Prop</strong></td>
                                 </tr>
                                 <tr>
-                                    <td><span class="badge accent">3rd Kit</span></td>
-                                    <td class="num-cell cost">120,000 Cr</td>
-                                    <td><strong>-1 Load</strong> (min 1) OR <strong>+1 Protection</strong></td>
+                                    <td><span class="badge accent">3rd</span></td>
+                                    <td class="num-cell cost">180k</td>
+                                    <td><strong>+1 Prot</strong>, <strong>-1 Ld</strong>, or <strong>Add Prop</strong></td>
                                 </tr>
                             </tbody>
                         </table>
-                        <div style="font-size: 6.3pt; color: var(--text-dim);">
-                            <em>Load reduction cannot lower armor below 1 Load. Protection increases stack.</em>
+                        <div style="font-size: 5.5pt; color: var(--text-dim); line-height: 1.15;">
+                            <em>Options: +1 Prot, -1 Load (min 1), or install Hardened, Blast-Dampened, Tactical Harness (1), Muffled. Cannot duplicate props.</em>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- CARD 3: FULL 7-TIER ARMOR CATALOG -->
+            <!-- CARD 3: FULL ARMOR CATALOG -->
             <div class="card">
                 <div class="card-hd">
                     <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 2.18l7 3.12v4.7c0 4.67-3.13 9.04-7 10.18-3.87-1.14-7-5.51-7-10.18V6.3l7-3.12z"/></svg>
-                    <h2>Standard Armor Catalog (1-to-1 Linear Benchmark)</h2>
+                    <h2>Standard Armor Catalog</h2>
                 </div>
                 <div class="card-body no-pad">
                     <table class="eq-table">
                         <thead>
                             <tr>
-                                <th style="width: 23%;">Armor Archetype</th>
-                                <th style="width: 10%; text-align: center;">Protection</th>
-                                <th style="width: 10%; text-align: center;">Min STR</th>
-                                <th style="width: 8%; text-align: center;">Load</th>
-                                <th style="width: 12%; text-align: right;">Cost (Cr)</th>
+                                <th style="width: 21%;">Armor Archetype</th>
+                                <th style="width: 6%; text-align: center;">Prot</th>
+                                <th style="width: 6%; text-align: center;">Load</th>
+                                <th style="width: 28%;">Properties</th>
+                                <th style="width: 10%; text-align: right;">Cost (Cr)</th>
                                 <th>Tactical Role & Specifications</th>
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td>
-                                    <div style="font-family: var(--font-title); font-weight: 700; color: var(--accent); font-size: 7.6pt;">Padded Flightsuit</div>
-                                    <div style="font-family: var(--font-mono); font-size: 5.2pt; color: var(--text-dim);">Tier 1 · Pressurized Pilot Garment</div>
-                                </td>
-                                <td class="num-cell prot">1</td>
-                                <td class="num-cell">1</td>
-                                <td class="num-cell">1</td>
-                                <td class="num-cell cost">1,000</td>
-                                <td class="rules-text">Aramid-reinforced pressure suit offering baseline abrasion and shrapnel mitigation.</td>
+                            <!-- LIGHT ARMOR -->
+                            <tr class="skill-section-hd">
+                                <td colspan="6" style="padding: 0.6mm 1.5mm; font-family: var(--font-title); font-size: 6.2pt; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; color: var(--accent); background: var(--mid); border-top: 1px solid var(--accent-dim); border-bottom: 1px solid var(--accent-dim);">Light Armor · No Agility Penalties · Load 1–3 · Protection 2–4</td>
                             </tr>
                             <tr>
                                 <td>
-                                    <div style="font-family: var(--font-title); font-weight: 700; color: var(--accent); font-size: 7.6pt;">Armored Jacket</div>
-                                    <div style="font-family: var(--font-mono); font-size: 5.2pt; color: var(--text-dim);">Tier 2 · Concealed Ballistic Weave</div>
+                                    <div style="font-family: var(--font-title); font-weight: 700; color: var(--accent); font-size: 7.2pt;">Padded Flightsuit</div>
+                                    <div style="font-family: var(--font-mono); font-size: 5.2pt; color: var(--text-dim);">Tier 1 · Pilot Garment</div>
                                 </td>
                                 <td class="num-cell prot">2</td>
-                                <td class="num-cell">2</td>
-                                <td class="num-cell">2</td>
-                                <td class="num-cell cost">2,500</td>
-                                <td class="rules-text">Flexible ballistic composite jacket favored for urban mobility and spacer self-defense.</td>
+                                <td class="num-cell">1</td>
+                                <td><span style="color: var(--text-dim);">—</span></td>
+                                <td class="num-cell cost">1,200</td>
+                                <td class="rules-text">Pressurized spacer flight jumpsuit; cheap, flexible, and unencumbering.</td>
                             </tr>
                             <tr>
                                 <td>
-                                    <div style="font-family: var(--font-title); font-weight: 700; color: var(--accent); font-size: 7.6pt;">Light Combat Armor</div>
-                                    <div style="font-family: var(--font-mono); font-size: 5.2pt; color: var(--text-dim);">Tier 3 · Modular Plate Carrier</div>
+                                    <div style="font-family: var(--font-title); font-weight: 700; color: var(--accent); font-size: 7.2pt;">Infiltration Suit</div>
+                                    <div style="font-family: var(--font-mono); font-size: 5.2pt; color: var(--text-dim);">Tier 1 · Stealth Bodysuit</div>
+                                </td>
+                                <td class="num-cell prot">2</td>
+                                <td class="num-cell">1</td>
+                                <td><span class="badge">Muffled</span></td>
+                                <td class="num-cell cost">3,500</td>
+                                <td class="rules-text">Acoustic-dampening bodysuit; grants +1 Upgrade on Stealth tests.</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div style="font-family: var(--font-title); font-weight: 700; color: var(--accent); font-size: 7.2pt;">Armored Jacket</div>
+                                    <div style="font-family: var(--font-mono); font-size: 5.2pt; color: var(--text-dim);">Tier 2 · Ballistic Weave</div>
                                 </td>
                                 <td class="num-cell prot">3</td>
-                                <td class="num-cell">3</td>
-                                <td class="num-cell">3</td>
-                                <td class="num-cell cost">6,000</td>
-                                <td class="rules-text">Tactical torso carrier and shoulder pauldrons balancing agility with kinetic resistance.</td>
+                                <td class="num-cell">2</td>
+                                <td><span style="color: var(--text-dim);">—</span></td>
+                                <td class="num-cell cost">3,000</td>
+                                <td class="rules-text">Everyday utility jacket lined with flexible ballistic aramid inserts.</td>
                             </tr>
                             <tr>
                                 <td>
-                                    <div style="font-family: var(--font-title); font-weight: 700; color: var(--accent); font-size: 7.6pt;">Tactical Battleplate</div>
-                                    <div style="font-family: var(--font-mono); font-size: 5.2pt; color: var(--text-dim);">Tier 4 · Assault Ceramic Rig</div>
+                                    <div style="font-family: var(--font-title); font-weight: 700; color: var(--accent); font-size: 7.2pt;">Hardened Vest</div>
+                                    <div style="font-family: var(--font-mono); font-size: 5.2pt; color: var(--text-dim);">Tier 2 · Reinforced Plate Vest</div>
+                                </td>
+                                <td class="num-cell prot">3</td>
+                                <td class="num-cell">2</td>
+                                <td><span class="badge accent">Hardened</span></td>
+                                <td class="num-cell cost">5,500</td>
+                                <td class="rules-text">Security vest with ceramic strike faces; reduces enemy Crit bonus by 1.</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div style="font-family: var(--font-title); font-weight: 700; color: var(--accent); font-size: 7.2pt;">Light Combat Armor</div>
+                                    <div style="font-family: var(--font-mono); font-size: 5.2pt; color: var(--text-dim);">Tier 3 · Tactical Plate Carrier</div>
                                 </td>
                                 <td class="num-cell prot">4</td>
-                                <td class="num-cell">4</td>
-                                <td class="num-cell">4</td>
-                                <td class="num-cell cost">15,000</td>
-                                <td class="rules-text">Interlocking ceramic-carbide armor built for military assault units and heavy boarding squads.</td>
+                                <td class="num-cell">3</td>
+                                <td><span style="color: var(--text-dim);">—</span></td>
+                                <td class="num-cell cost">10,000</td>
+                                <td class="rules-text">Mil-spec plate carrier balancing solid ballistic defense with full agility.</td>
                             </tr>
                             <tr>
                                 <td>
-                                    <div style="font-family: var(--font-title); font-weight: 700; color: var(--accent); font-size: 7.6pt;">Heavy Carapace Armor</div>
-                                    <div style="font-family: var(--font-mono); font-size: 5.2pt; color: var(--text-dim);">Tier 5 · Full Body Alloy Plate</div>
+                                    <div style="font-family: var(--font-title); font-weight: 700; color: var(--accent); font-size: 7.2pt;">Spec-Ops Combat Armor</div>
+                                    <div style="font-family: var(--font-mono); font-size: 5.2pt; color: var(--text-dim);">Tier 3 · Elite Assault Carrier</div>
+                                </td>
+                                <td class="num-cell prot">4</td>
+                                <td class="num-cell">3</td>
+                                <td><span class="badge accent">Hardened</span></td>
+                                <td class="num-cell cost">18,000</td>
+                                <td class="rules-text">Boron-carbide reinforced carrier for high-threat covert assault.</td>
+                            </tr>
+
+                            <!-- MEDIUM ARMOR -->
+                            <tr class="skill-section-hd">
+                                <td colspan="6" style="padding: 0.6mm 1.5mm; font-family: var(--font-title); font-size: 6.2pt; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; color: var(--accent); background: var(--mid); border-top: 1px solid var(--accent-dim); border-bottom: 1px solid var(--accent-dim);">Medium Armor · Frontline Assault · Load 4–5 · Protection 5–6</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div style="font-family: var(--font-title); font-weight: 700; color: var(--accent); font-size: 7.2pt;">Tactical Battleplate</div>
+                                    <div style="font-family: var(--font-mono); font-size: 5.2pt; color: var(--text-dim);">Tier 4 · Ceramic-Carbide Rig</div>
                                 </td>
                                 <td class="num-cell prot">5</td>
-                                <td class="num-cell">5</td>
-                                <td class="num-cell">5</td>
+                                <td class="num-cell">4</td>
+                                <td><span style="color: var(--text-dim);">—</span></td>
                                 <td class="num-cell cost">30,000</td>
-                                <td class="rules-text">Comprehensive hardened alloy shell providing superior mitigation against high-caliber fire.</td>
+                                <td class="rules-text">Ceramic-carbide carrier; peak protection with no Agility penalties.</td>
                             </tr>
                             <tr>
                                 <td>
-                                    <div style="font-family: var(--font-title); font-weight: 700; color: var(--accent); font-size: 7.6pt;">Powered Exosuit</div>
-                                    <div style="font-family: var(--font-mono); font-size: 5.2pt; color: var(--text-dim);">Tier 6 · Motorized Combat Rig</div>
+                                    <div style="font-family: var(--font-title); font-weight: 700; color: var(--accent); font-size: 7.2pt;">Flak Combat Rig</div>
+                                    <div style="font-family: var(--font-mono); font-size: 5.2pt; color: var(--text-dim);">Tier 4 · Anti-Shrapnel Vest</div>
+                                </td>
+                                <td class="num-cell prot">5</td>
+                                <td class="num-cell">4</td>
+                                <td><span class="badge cyan">Blast-Dampened</span></td>
+                                <td class="num-cell cost">38,000</td>
+                                <td class="rules-text">Shrapnel-lined assault vest; +2 Protection vs Area Attacks & Explosives.</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div style="font-family: var(--font-title); font-weight: 700; color: var(--accent); font-size: 7.2pt;">Vanguard Battleplate</div>
+                                    <div style="font-family: var(--font-mono); font-size: 5.2pt; color: var(--text-dim);">Tier 4 · Squad-Leader Harness</div>
+                                </td>
+                                <td class="num-cell prot">5</td>
+                                <td class="num-cell">4</td>
+                                <td><span class="badge accent">Hardened</span> <span class="badge">Tactical Harness (1)</span></td>
+                                <td class="num-cell cost">45,000</td>
+                                <td class="rules-text">Frontline battleplate with hard strike faces and 1 dedicated gear Load slot.</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div style="font-family: var(--font-title); font-weight: 700; color: var(--accent); font-size: 7.2pt;">Heavy Carapace Armor</div>
+                                    <div style="font-family: var(--font-mono); font-size: 5.2pt; color: var(--text-dim);">Tier 5 · Full Alloy Shell</div>
                                 </td>
                                 <td class="num-cell prot">6</td>
-                                <td class="num-cell">6</td>
-                                <td class="num-cell">6</td>
+                                <td class="num-cell">5</td>
+                                <td><span class="badge red">Cumbersome (1)</span></td>
                                 <td class="num-cell cost">65,000</td>
-                                <td class="rules-text">Hydraulic exoskeleton frame supporting reinforced composite plates for sustained fire zones.</td>
+                                <td class="rules-text">Full-body alloy carapace; exceptional stopping power (-1 Agility tests).</td>
                             </tr>
                             <tr>
                                 <td>
-                                    <div style="font-family: var(--font-title); font-weight: 700; color: var(--accent); font-size: 7.6pt;">Titan Rig</div>
-                                    <div style="font-family: var(--font-mono); font-size: 5.2pt; color: var(--text-dim);">Tier 7 · Mechanized Heavy Siege Chassis</div>
+                                    <div style="font-family: var(--font-title); font-weight: 700; color: var(--accent); font-size: 7.2pt;">Bastion Carapace</div>
+                                    <div style="font-family: var(--font-mono); font-size: 5.2pt; color: var(--text-dim);">Tier 5 · Fortified Trench Rig</div>
+                                </td>
+                                <td class="num-cell prot">6</td>
+                                <td class="num-cell">5</td>
+                                <td><span class="badge red">Cumbersome (1)</span> <span class="badge accent">Hardened</span> <span class="badge">Tactical Harness (1)</span></td>
+                                <td class="num-cell cost">85,000</td>
+                                <td class="rules-text">Fortified carapace engineered to absorb sustained automatic and sniper fire.</td>
+                            </tr>
+
+                            <!-- HEAVY ARMOR -->
+                            <tr class="skill-section-hd">
+                                <td colspan="6" style="padding: 0.6mm 1.5mm; font-family: var(--font-title); font-size: 6.2pt; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; color: var(--accent); background: var(--mid); border-top: 1px solid var(--accent-dim); border-bottom: 1px solid var(--accent-dim);">Heavy Armor · Walking Fortresses · Load 6–7 · Protection 7–8</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div style="font-family: var(--font-title); font-weight: 700; color: var(--accent); font-size: 7.2pt;">Breacher Carapace</div>
+                                    <div style="font-family: var(--font-mono); font-size: 5.2pt; color: var(--text-dim);">Tier 6 · Airlock Assault Rig</div>
                                 </td>
                                 <td class="num-cell prot">7</td>
+                                <td class="num-cell">6</td>
+                                <td><span class="badge red">Cumbersome (1)</span> <span class="badge cyan">Blast-Dampened</span> <span class="badge">Tactical Harness (1)</span></td>
+                                <td class="num-cell cost">140,000</td>
+                                <td class="rules-text">Heavy blast apron and limb shields built for airlock assault point-men.</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div style="font-family: var(--font-title); font-weight: 700; color: var(--accent); font-size: 7.2pt;">Juggernaut Armor</div>
+                                    <div style="font-family: var(--font-mono); font-size: 5.2pt; color: var(--text-dim);">Tier 6 · Heavy Fortress Plate</div>
+                                </td>
+                                <td class="num-cell prot">7</td>
+                                <td class="num-cell">6</td>
+                                <td><span class="badge red">Cumbersome (1)</span> <span class="badge accent">Hardened</span></td>
+                                <td class="num-cell cost">160,000</td>
+                                <td class="rules-text">Dense shock-absorbing fortress armor that shrugs off Crits and heavy slugs.</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div style="font-family: var(--font-title); font-weight: 700; color: var(--accent); font-size: 7.2pt;">Titan Rig</div>
+                                    <div style="font-family: var(--font-mono); font-size: 5.2pt; color: var(--text-dim);">Tier 7 · Heavy Siege Chassis</div>
+                                </td>
+                                <td class="num-cell prot">8</td>
                                 <td class="num-cell">7</td>
-                                <td class="num-cell">7</td>
-                                <td class="num-cell cost">125,000</td>
-                                <td class="rules-text">Dense titanium-depleted mechanized chassis turning the operator into a walking fortress.</td>
+                                <td><span class="badge red">Cumbersome (2)</span> <span class="badge accent">Hardened</span> <span class="badge cyan">Blast-Dampened</span> <span class="badge">Tactical Harness (2)</span></td>
+                                <td class="num-cell cost">280,000</td>
+                                <td class="rules-text">Massive unpowered siege carapace; the pinnacle of personal kinetic protection.</td>
                             </tr>
                         </tbody>
                     </table>

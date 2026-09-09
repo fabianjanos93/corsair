@@ -73,6 +73,7 @@
     - [Mission Generator](gm/Mission_Generator.md)
     - [Open Play Contracts](gm/Open_Play_Missions.md)
     - [Time Management](gm/Time_Management.md)
+    - [Social Interactions](gm/Social_Interactions.md)
     - [Tracks](gm/Running_the_Game.md#tracks)
 
 ## Introduction
@@ -431,3 +432,4 @@ into **Moment to Moment** pacing.
 * [Mission Generator](gm/Mission_Generator.md)
 * [Open Play Contracts](gm/Open_Play_Missions.md)
 * [Time Management](gm/Time_Management.md)
+* [Social Interactions](gm/Social_Interactions.md)

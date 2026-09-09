@@ -26,6 +26,10 @@ A collection of plug-and-play, bite-sized mission briefs complete with locations
 
 Managing the flow of time and the transition between different pacing modes (Moment to Moment, Place to Place, Day to Day) is crucial for a smooth game. For tips and rules on handling the clock, see [Time Management](Time_Management.md).
 
+### Social Interactions & Negotiations
+
+Social encounters in Corsair are dynamic, tactical confrontations governed by Action Points, ticking Patience clocks, NPC counter-tactics, and Determination Blocker effects. For rules, player maneuvers, and GM guidance, see [Social Interactions](Social_Interactions.md).
+
 ### Tracks
 
 In Corsair, **Tracks** are a versatile mechanic used to represent ongoing situations, environmental hazards, or the progression of events too complex to be resolved with a single dice roll. For details on how to use them, see [Tracks](../core/Tracks.md).

@@ -77,5 +77,6 @@ of the disagreements nor the disagreements themselves go to a place that makes y
 * **[Bestiary: Threats of the Sphere](Bestiary.md):** Full adversary stat blocks and combat tactics.
 * **[NPC Guidelines](NPC_Guidelines.md):** Rules for building grunts, elites, and bosses.
 * **[Time Management](Time_Management.md):** Mechanics for clock progression and scene pacing transitions.
+* **[Social Interactions](Social_Interactions.md):** Running tactical social encounters, Determination blocker effects, and ticking Patience clocks.
 
 

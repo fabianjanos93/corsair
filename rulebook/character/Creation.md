@@ -136,10 +136,9 @@ All characters begin with:
 * 1 **[Commlink](../equipment/Gear.md)** (Load 0 | Long-Range Communication)
 
 ### 2. Armor (Choose 1)
-Select one suit of armor that your **Strength** satisfies (remember that if your Strength is lower than the armor's Min STR, you cannot wear it):
-* **[Padded Flightsuit](../equipment/Armor.md)** (Min STR 1 | Protection 1 | Load 1) — *Lightweight, pressurized flight garment for high mobility.*
-* **[Armored Jacket](../equipment/Armor.md)** (Min STR 2 | Protection 2 | Load 2) — *Everyday ballistic-lined coat balancing mobility and protection.*
-* **[Light Combat Armor](../equipment/Armor.md)** (Min STR 3 | Protection 3 | Load 3) — *Segmented composite tactical vest for heavy kinetic mitigation.*
+Every operative receives their choice of baseline personal protective gear:
+* **[Padded Flightsuit](../equipment/Armor.md)** (Protection 2 | Load 1) — *Lightweight, pressurized flight jumpsuit with minimal bulk.*
+* **[Armored Jacket](../equipment/Armor.md)** (Protection 3 | Load 2) — *Durable utility coat lined with flexible ballistic inserts for heavier protection.*
 
 ### 3. Melee Weapon (Choose 1)
 Select one melee weapon tier your **Strength** satisfies (1H weapons require two hands if below Min STR). Within your chosen tier, pick the weapon that matches your favored attribute pair:
