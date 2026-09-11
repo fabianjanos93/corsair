@@ -1,6 +1,6 @@
 ﻿# Sylvan
 
-> **Working draft.** Biology and the central cultural principles reflect the agreed concept. Names, caste arrangements, historical events, and radical movements remain proposals. This history takes place on the ancestral homeworld, before Landfall.
+Sylvan civilization grew around shared labor, vivid personal expression, and the Witnessing Light. Its ancestral history survives in the seed ship's archives, while its faith and political divisions continue to shape communities across the Sphere.
 
 ## The Plant People
 
@@ -20,26 +20,30 @@ Children grow up in communal houses staffed by caregivers, educators, and elders
 
 Appearance and manner are cherished expressions of individuality. Sylvans cultivate distinctive silhouettes, changing floral arrangements, voices, gestures, and elaborate styles of address. Communal textile makers and jewelers support this culture alongside living clothing. Rank affects access to rare materials, but even a modestly supplied worker can grow a striking personal display. Copying someone's signature arrangement without acknowledgment may be a serious insult.
 
+Large communal spaces anchor their settlements: broad dining halls, courtyards, gardens, and rooms where several generations can gather comfortably. Sylvans value free time as an essential part of communal life. They usually work in the morning and evening, reserving roughly **10:00 to 16:00** for meals, conversation, play, art, and companionship. These hours follow the local solar day, protecting the brightest part of it for connection. Essential services use rotating shifts so their workers also receive time in the light.
+
+Indoor life is ordinary, and sunlit rooms are especially prized. Buildings guide daylight into shared interiors through mirrors and reflective shafts. Later designs use **tubular daylighting devices**, which carry collected sunlight through reflective tubes, alongside light-transmitting optical cables that distribute it to interior fixtures. Artificial lamps supplement daylight during poor weather and after sunset. These systems make bright communal spaces possible deep within large buildings.
+
 ## The Witnessing Light
 
 The central faith teaches that **Light is life, and Light is the source of truth**. Its followers believe light ultimately reaches everywhere: a hidden act remains part of a reality that will eventually be revealed. This is a religious claim about universal witness, rather than a claim that sunlight physically penetrates every wall. Daily gatherings, public duties, and communal meals carry religious significance.
 
-Sylvans take pride in never lying. Religious law distinguishes a knowingly false statement from silence, refusal, ambiguity, and carefully limited promises. A speaker may say, "I will not raise a hand against you," while arranging for someone else to act. Such wording gives their diplomacy a Fey-like quality: exact promises, ceremonial hospitality, and beautiful courtesy with dangerous omissions. Schools within the faith disagree over when literal truth becomes a betrayal of truthful conduct.
+Sylvans take pride in never lying. Religious law distinguishes a knowingly false statement from silence, refusal, ambiguity, and carefully limited promises. An envoy named Sareth may promise, "I will not raise a hand against you," while arranging for someone else to act. A host may assure a fugitive, "No one will enter this house to arrest you tonight," knowing that guards wait outside until morning. Guests listen closely to the scope of hospitality, and negotiators examine every condition of an oath. Schools within the faith disagree over when literal truth becomes a betrayal of truthful conduct.
 
 ### The Religious Castes
 
-The proposed hierarchy has four layers. Admission depends on religious education, service, and recognition by those above; established castes can obstruct advancement even where birth does not formally determine rank.
+The hierarchy has four layers. Admission depends on religious education, service, and recognition by those above; established castes can obstruct advancement even where birth does not formally determine rank.
 
 | Caste | Communal responsibility | Distribution and religious obligation |
 | --- | --- | --- |
 | **Seedlings** | Children and novices learn communal duties. | Receive care and instruction; falsehood is corrected through teaching. |
 | **Tenders** | Carry out skilled and general work, including childcare. | Receive ordinary allocations; deliberate lying becomes a punishable breach of adult vows. |
 | **Witnesses** | Teach doctrine, keep accounts, judge disputes, and supervise distribution. | Receive greater allocations and ceremonial privileges; sworn testimony carries stricter obligations. |
-| **Luminaries** | Interpret sacred law and direct relations between communities. | Receive the highest access and authority; their public promises bind the community. |
+| **Luminaries** | Interpret sacred law and direct relations between communities. | Receive the highest access and authority; their public promises bind the community. They keep a fully vegetarian diet. |
 
 All castes are owed subsistence and care. Rank determines additional space, choice goods, ornament, and access to desirable places or duties. Official doctrine calls these resources support for greater responsibilities. Critics observe that the officials who define responsibility also decide its rewards.
 
-In the technological era, Witnesses and Luminaries wear **witness necklaces** during official service. These devices flag suspected deliberate lies using personalized physiological monitoring and checks against available records. Their alarms carry religious and legal weight. They cannot independently know every fact or reliably distinguish every false belief from conscious deception; literal truths and omissions may pass without alarm. Courts must interpret alerts, creating a powerful dispute over whether challenging a necklace challenges the Light itself.
+Witnesses wear **witness necklaces** during official service; Luminaries wear theirs at all times, accepting that their duty to truthful speech has no private interval. Introduced in the technological era, these devices flag suspected deliberate lies using personalized physiological monitoring and checks against available records. Their alarms carry religious and legal weight. They cannot independently know every fact or reliably distinguish every false belief from conscious deception; literal truths and omissions may pass without alarm. Courts must interpret alerts, creating a powerful dispute over whether challenging a necklace challenges the Light itself.
 
 ## History: From Stone to Space
 
@@ -59,15 +63,17 @@ Communities fought over water, fertile ground, and jurisdiction. Their common re
 
 ### Age of Long Winters — The Question of Darkness
 
-A succession of poor growing seasons strained food reserves. Temple authorities expanded hunting and livestock production, but some communities could not sustain their populations. Groups settled in sheltered caverns and dim uplands, relying more heavily on animal husbandry and meat. Over generations, some embraced the dark as relief from public scrutiny and religious supervision.
+A succession of poor growing seasons strained food reserves. Temple authorities expanded hunting and livestock production, but some communities could not sustain their populations. Groups settled in sheltered caverns and dim uplands, relying more heavily on animal husbandry and meat. Most welcomed sunlight whenever it returned. Others remained in darkness for prolonged periods, began moving chiefly at night, and rejected the Light and its religious order. These separatists became the ancestors of the Night Bloom.
 
-Their survival challenged claims that a virtuous life required constant exposure to light. Mainstream temples permitted necessary darkness for work and shelter, while disputing whether choosing it as a way of life rejected sacred duty. Darkness became a theological division as well as a practical condition. These communities remained Sylvan, with the same underlying biology.
+Sylvans had always lived indoors, slept in darkness, and worked beneath roofs. The separatists frightened them because they deliberately abandoned a source of shared well-being and denied the sacred obligations built around it. Nocturnal movement, meat-heavy feasts, and unfamiliar settlements fed stories of hidden predators. Some bands raided neighboring stores and herds, giving those fears a basis that spread far beyond the raiders themselves.
+
+After the Long Winters, Luminaries adopted a fully vegetarian diet as a permanent vow of devotion to the returning Light. In well-lit conditions, a carefully provisioned plant-based diet could meet their needs. The vow became a defining condition of their office and a public rejection of the separatist path. It also sharpened the question of privilege: lower castes working in prolonged darkness still required substantial meat, while Luminaries enjoyed reliable light and specially planned meals.
 
 ### Industrial Age — The Unequal Canopy
 
 Communally owned factories, mines, and transport networks increased production. Temple administrations assigned labor and distributed the gains. Yet workers in enclosed facilities needed more food and rest, while senior religious castes occupied bright residences and ceremonial gardens. Arguments over unequal allocations became sharper when the workers with the greatest physical need received less than their superiors.
 
-Reform councils demanded that nutrition and working conditions follow bodily need before religious privilege. Conservative authorities defended hierarchy as essential to coordinated life. Artificial lighting gradually improved indoor conditions, but suitable installations and power remained resources that somebody had to allocate. Communal ownership survived throughout these disputes; control of distribution was the central political struggle.
+Reform councils demanded that nutrition and working conditions follow bodily need before religious privilege. Conservative authorities defended hierarchy as essential to coordinated life. Mirror networks and tubular daylighting systems brought sunlight into workshops and halls; optical cables and artificial lighting later extended their reach. Equipment, maintenance, and power remained resources that somebody had to allocate. Campaigns also defended the midday communal interval against production schedules that consumed the brightest hours. Communal ownership survived throughout these disputes; control of distribution was the central political struggle.
 
 ### Electronic Age — The Measured Word
 
@@ -75,11 +81,13 @@ Medical sensors and extensive public records made witness necklaces possible. Th
 
 Education increasingly emphasized emotional control, contractual wording, and the limits of a promise. Critics argued that officials had become better at avoiding false sentences than at serving their communities. Religious reform remained the strongest language of opposition: the Light demanded accountability from those claiming to speak for it.
 
-### Space Age — Carrying the Light
+### Space Age — The Last Sowing
 
-Federations of temple communities pooled resources for orbital habitats and sublight exploration of their home system. Habitats used spin or thrust for gravity, with communal lighting gardens, farms, and animal-protein production planned around Sylvan needs. Every voyage required decisions about how much energy to devote to illumination and how much food to carry.
+The seed ship's historical archives describe the final age as a race against the death of the homeworld. Scientific forecasts showed that it would become uninhabitable. Temple federations redirected their resources toward a single desperate purpose: building an automated seed ship capable of carrying Sylvan life to another star. Workshops, observatories, farms, and communal schools contributed to a project whose success most contributors would never live to see.
 
-Ships and settlements remained communal institutions with shared childcare, assigned duties, and religious government. Distance forced local Witnesses to make decisions without immediate approval, encouraging new interpretations of old obligations. Some missions maintained strict caste allocations; others placed engineers and caregivers above ceremonial precedence during emergencies. Dark-preferring groups also sought settlements where they could govern themselves. The space age carried their religious arguments into new environments.
+The ship carried genetic material, automated nurseries, and libraries of science, religion, history, and art. Its passengers would be future children raised by machines, inheriting duties and memories from people they had never met. Debates over the archives became fierce. Religious authorities sought to preserve a coherent civilization; dissenters demanded that its failures and suppressed traditions survive alongside its achievements.
+
+As the end approached, communities surrendered materials and labor to complete the launch. The vessel departed under sublight propulsion, aimed toward a hoped-for refuge among the stars. Those left behind could neither accompany it nor know whether it would arrive. The Last Sowing became the supreme expression of communal responsibility: giving the remaining wealth of a world to children who might someday grow beneath another sun.
 
 ## Radical Groups
 
@@ -87,22 +95,30 @@ Ships and settlements remained communal institutions with shared childcare, assi
 
 The Unveiled believe that ambiguity, silence, and emotional concealment betray the Witnessing Light. They demand necklaces for every adult, compulsory testimony, and public scrutiny of distribution records and personal conduct. Their appeal grows after corruption scandals. Zealots force confessions and treat refusal or a disputed alarm as guilt. Many orthodox priests oppose them because they erase the accepted distinction between truthfulness and compulsory disclosure.
 
+**Nowadays — Data Liberators.** In 518 AA, Unveiled cells break into corporate, temple, and government networks to publish concealed records. Whistleblowers seek their help exposing corruption; victims of indiscriminate leaks fear them. Their hardest factions publish private correspondence and witness-necklace logs alongside evidence of wrongdoing, insisting that no person has the right to keep truth from the Light.
+
 ### The Equal Dawn — No Higher Share
 
 The Equal Dawn teach that the same Light sustains every Sylvan, so religious rank cannot justify superior portions or living conditions. They defend communal ownership and shared labor while demanding distribution by need and responsibility subject to public review. Their radical wing seizes temple stores and removes caste councils by force. Communities fear both entrenched privilege and uprisings that disrupt the systems feeding them.
+
+**Nowadays — Distribution Insurgents.** Equal Dawn organizers work through communal kitchens, labor associations, and habitat councils. They challenge caste privileges and commercial monopolies that restrict access to necessities. Militant cells seize ration depots, divert supply shipments, and erase allocation restrictions, risking shortages when redistribution outruns their ability to maintain deliveries.
 
 ### The Still Crown — An Eternal Order
 
 The Still Crown regard caste distinctions as sacred duties that reformers have weakened. They seek lifelong assignments, advancement controlled entirely by senior clergy, and strict penalties for refusing one's allocated work. They attract officials afraid of fragmentation and citizens exhausted by political upheaval. Militant chapters close dissident schools and deny opponents communal membership, threatening the very subsistence that doctrine promises everyone.
 
+**Nowadays — Caste Restorationists.** The Still Crown consolidate influence in preservationist settlements, religious schools, and communal administrations. They campaign to place education and distribution entirely under temple authority. Militant chapters enforce work assignments, intimidate reformist Witnesses, and pressure communities to exclude members who reject religious rank.
+
 ### The Night Bloom — Life Without Witness
 
-The Night Bloom are a religious countertradition that finds dignity in darkness, privacy, appetite, and self-chosen transformation. Their meat-heavy communal feasts celebrate a body sustained without dependence on daylight. Peaceful adherents maintain dark settlements and reject the claim that carnivory signals moral failure.
+The Night Bloom reject the Witnessing Light and find dignity in darkness, privacy, appetite, and self-chosen transformation. They remain in darkness for prolonged periods, move mostly at night, and sustain themselves through meat-heavy communal diets. Their settlements inspire fear among other Sylvans, who inherit stories of the Long Winters and see their way of life as a deliberate rejection of sacred truth. Some communities live in seclusion; others cultivate that fear to discourage outsiders.
 
 A radical current teaches that temple illumination is an instrument of obedience. It sabotages lighting systems and establishes enclaves beyond caste jurisdiction, sometimes forcing unwilling residents into darkness. Other Night Bloom communities condemn this coercion. The division concerns who chooses how to live, not whether eating meat makes someone cruel.
 
+**Nowadays — Blackout Cells.** Night Bloom enclaves occupy secluded station sections and settlements governed around nocturnal life. Their militant cells disable mirror controls, sever optical lighting lines, and raid under the resulting darkness. Their reputation attracts smugglers seeking concealed routes and drives frightened communities to blame them for outages they did not cause.
+
 ## GM Only: The Ancestral Inheritance
 
-This history precedes the ancestral Sylvans' absorption by the Singularity. The precise encounter remains undecided. The Shepherd later restored their lineage with genuine cultural archives and a fabricated account of homeworld loss, as established in the wider setting.
+The ancestral Sylvans were absorbed by the Singularity. The Shepherd later restored their lineage, placing it aboard a seed ship with genuine cultural archives and a manufactured account of planetary loss. The Last Sowing is that account: a remembered collective sacrifice that conceals the true circumstances of their restoration.
 
-Those archives could preserve temple law, communal practices, floral arts, and competing interpretations of the Witnessing Light. They need not preserve every institution or advanced technology intact. Descendants on Landfall could therefore inherit the same sacred texts while disagreeing profoundly about caste, truthful speech, and the right to live in darkness.
+Temple law, communal practices, floral arts, and competing interpretations of the Witnessing Light survived in the curated inheritance. Complete institutions and advanced manufacturing capabilities did not necessarily accompany their records. Descendants on Landfall inherited the same sacred texts while disagreeing profoundly about caste, truthful speech, and the right to live in darkness. Today's movements are revivals and adaptations of those traditions, rather than organizations that survived the ancestral world without interruption.
