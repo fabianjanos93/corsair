@@ -1,6 +1,6 @@
 ﻿# Sylvan
 
-Sylvan civilization grew around shared labor, vivid personal expression, and the Witnessing Light. Its ancestral history survives in the seed ship's archives, while its faith and political divisions continue to shape communities across the Sphere.
+Sylvan civilization grew around shared labor, vivid personal expression, and the Witnessing Light. Its ancestral history survives in the seed ship's archives. In the mixed cities of the modern Sphere, that inheritance appears in personal customs, civic ideals, and movements whose members may know little of the religion that first inspired them.
 
 ## The Plant People
 
@@ -10,7 +10,9 @@ Their internal biology broadly resembles that of humans. A heartlike organ circu
 
 Some Sylvans unconsciously change flower colors when emotional. Anger might bring red blossoms before a speaker has chosen their words. Controlling these changes takes practice. Learning to manage their own displays and interpret those of others contributes to their characteristic **Presence**, alongside their natural **Strength**. Color meanings vary, and a display cannot establish whether someone is honest. Quiet, socially awkward, and physically unassuming Sylvans still exist.
 
-## Community and Individuality
+## Ancestral Culture: Community and Individuality
+
+The customs below describe the ancestral society preserved in Sylvan archives. Modern urban life has adapted or set aside much of this order; preservationist settlements deliberately seek to restore it.
 
 The community owns land, buildings, tools, stores, and productive infrastructure. Every occupation fulfills a communal responsibility, including farming, art, teaching, military service, administration, and raising children. Members receive work assignments and goods through institutions governed by religious rank. Responsibilities are shared, but authority and access are unequal.
 
@@ -24,7 +26,7 @@ Large communal spaces anchor their settlements: broad dining halls, courtyards, 
 
 Indoor life is ordinary, and sunlit rooms are especially prized. Buildings guide daylight into shared interiors through mirrors and reflective shafts. Later designs use **tubular daylighting devices**, which carry collected sunlight through reflective tubes, alongside light-transmitting optical cables that distribute it to interior fixtures. Artificial lamps supplement daylight during poor weather and after sunset. These systems make bright communal spaces possible deep within large buildings.
 
-## The Witnessing Light
+## Ancestral Religion: The Witnessing Light
 
 The central faith teaches that **Light is life, and Light is the source of truth**. Its followers believe light ultimately reaches everywhere: a hidden act remains part of a reality that will eventually be revealed. This is a religious claim about universal witness, rather than a claim that sunlight physically penetrates every wall. Daily gatherings, public duties, and communal meals carry religious significance.
 
@@ -89,25 +91,37 @@ The ship carried genetic material, automated nurseries, and libraries of science
 
 As the end approached, communities surrendered materials and labor to complete the launch. The vessel departed under sublight propulsion, aimed toward a hoped-for refuge among the stars. Those left behind could neither accompany it nor know whether it would arrive. The Last Sowing became the supreme expression of communal responsibility: giving the remaining wealth of a world to children who might someday grow beneath another sun.
 
-## Radical Groups
+## Sylvans Today
+
+In 518 AA, most Sylvans share the Sphere's megacities with other lineages, participating in a common civic and commercial life. Work schedules, housing, education, and public services accommodate mixed populations. Ancestral customs have become less prominent under these practical demands. A Sylvan may favor a bright communal lunchroom, help organize neighborhood childcare, or cultivate elaborate flowering clothes without following any religious teaching. The old midday interval survives where schedules allow it, rather than governing the city around them.
+
+Religion has a smaller place in everyday life. Churches of the Witnessing Light remain among many faiths, and their authority extends to their congregations. Religious caste does not determine an ordinary citizen's occupation, income, or rights. Witness necklaces are exceptionally rare, encountered chiefly in strict religious communities, surviving ceremonial practice, or the hands of enthusiasts and activists. An urban Sylvan's carefully phrased promise may preserve a family habit without expressing a sacred vow.
+
+The old arguments survive more widely than their institutions. Truth becomes a demand for open information; communal obligation becomes a campaign against concentrated wealth. Elsewhere, purists try to reconstruct the ancestral order, while criminals adopt the secrecy and feared reputation of those who rejected it.
+
+## Radical Groups: Origins and Modern Forms
+
+These movements trace their identities to ancestral divisions. Their present-day aims reflect centuries of life alongside other peoples, and membership in most is shaped by conviction or opportunity rather than lineage.
 
 ### The Unveiled — No Private Truth
 
 The Unveiled believe that ambiguity, silence, and emotional concealment betray the Witnessing Light. They demand necklaces for every adult, compulsory testimony, and public scrutiny of distribution records and personal conduct. Their appeal grows after corruption scandals. Zealots force confessions and treat refusal or a disputed alarm as guilt. Many orthodox priests oppose them because they erase the accepted distinction between truthfulness and compulsory disclosure.
 
-**Nowadays — Data Liberators.** In 518 AA, Unveiled cells break into corporate, temple, and government networks to publish concealed records. Whistleblowers seek their help exposing corruption; victims of indiscriminate leaks fear them. Their hardest factions publish private correspondence and witness-necklace logs alongside evidence of wrongdoing, insisting that no person has the right to keep truth from the Light.
+**Nowadays — Data Liberators.** The modern Unveiled believe that truth should be free and ever-present. Their networks include hackers, archivists, journalists, and whistleblowers of different lineages; religious belief is incidental to membership. They expose corporate secrets, recover suppressed research, and keep public records available despite censorship. Some use lie detectors or restore and distribute rare witness necklaces as tools of public accountability. Radical cells treat personal privacy as another obstacle to disclosure, publishing intimate records alongside evidence of corruption. The ancient ideal of universal witness survives as an argument about who may control information.
 
 ### The Equal Dawn — No Higher Share
 
 The Equal Dawn teach that the same Light sustains every Sylvan, so religious rank cannot justify superior portions or living conditions. They defend communal ownership and shared labor while demanding distribution by need and responsibility subject to public review. Their radical wing seizes temple stores and removes caste councils by force. Communities fear both entrenched privilege and uprisings that disrupt the systems feeding them.
 
-**Nowadays — Distribution Insurgents.** Equal Dawn organizers work through communal kitchens, labor associations, and habitat councils. They challenge caste privileges and commercial monopolies that restrict access to necessities. Militant cells seize ration depots, divert supply shipments, and erase allocation restrictions, risking shortages when redistribution outruns their ability to maintain deliveries.
+**Nowadays — Socialist Rebels.** The Equal Dawn oppose the concentration of wealth and productive property in the hands of a few. They organize across lineages through labor associations, tenant movements, communal kitchens, and worker cooperatives. Their demand for shared ownership draws on Sylvan communal tradition, but their opponents are wealthy owners and corporate monopolies, and their arguments are usually secular. Militant cells occupy facilities, seize luxury holdings, and redirect goods into poor districts. Disputes within the movement concern how far rebellion may go and who remains accountable for distributing what it takes.
 
 ### The Still Crown — An Eternal Order
 
 The Still Crown regard caste distinctions as sacred duties that reformers have weakened. They seek lifelong assignments, advancement controlled entirely by senior clergy, and strict penalties for refusing one's allocated work. They attract officials afraid of fragmentation and citizens exhausted by political upheaval. Militant chapters close dissident schools and deny opponents communal membership, threatening the very subsistence that doctrine promises everyone.
 
-**Nowadays — Caste Restorationists.** The Still Crown consolidate influence in preservationist settlements, religious schools, and communal administrations. They campaign to place education and distribution entirely under temple authority. Militant chapters enforce work assignments, intimidate reformist Witnesses, and pressure communities to exclude members who reject religious rank.
+**Nowadays — Sylvan Supremacists.** The Still Crown proclaim Sylvans the true people chosen by the Light and reject the mixed culture of the cities. Their early adherents established the first exclusively Sylvan preservationist settlements after Landfall, rebuilding communal ownership under a strict religious caste order. Their successors maintain those enclaves and recruit urban Sylvans with promises of belonging, security, and freedom from competition for basic necessities.
+
+Inside a Crown settlement, communal distribution provides everyone with a living while placing housing, work, education, and supplies under religious authority. Leaving means surrendering access to nearly everything that sustains a person, often without private savings or property to carry away. Leaders use this dependence to enforce obedience and suppress dissent. Their demand for racial and cultural purity excludes other lineages and condemns blended families. Ordinary Witness churches need not share their supremacy or their ambition to govern an entire settlement.
 
 ### The Night Bloom — Life Without Witness
 
@@ -115,7 +129,7 @@ The Night Bloom reject the Witnessing Light and find dignity in darkness, privac
 
 A radical current teaches that temple illumination is an instrument of obedience. It sabotages lighting systems and establishes enclaves beyond caste jurisdiction, sometimes forcing unwilling residents into darkness. Other Night Bloom communities condemn this coercion. The division concerns who chooses how to live, not whether eating meat makes someone cruel.
 
-**Nowadays — Blackout Cells.** Night Bloom enclaves occupy secluded station sections and settlements governed around nocturnal life. Their militant cells disable mirror controls, sever optical lighting lines, and raid under the resulting darkness. Their reputation attracts smugglers seeking concealed routes and drives frightened communities to blame them for outages they did not cause.
+**Nowadays — Criminal Syndicate.** The Night Bloom now operate as a syndicate of assassins, burglars, smugglers, and criminal brokers. They sell discretion and cultivate the ancestral fear of figures moving unseen in darkness. Nocturnal routes, concealed premises, and carefully staged outages support their work throughout the megacities. Their members serve contracts, profit, and syndicate loyalties; rejecting a temple's authority has little relevance to most jobs. Sylvan members may preserve nocturnal habits and meat-heavy communal meals, while associates from other lineages share the business. The name has become a criminal reputation, and choosing a dark lifestyle alone implies no connection to it.
 
 ## GM Only: The Ancestral Inheritance
 
