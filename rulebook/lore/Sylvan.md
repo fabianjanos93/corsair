@@ -1,107 +1,108 @@
-# Sylvan
+﻿# Sylvan
 
-> **First draft for discussion.** The physical traits below follow the current race concept. The homeworld, historical eras, customs, religions, and movements are proposals for development. This account concerns ancestral Sylvan civilization before Landfall; its final section contains GM-only setting connections.
+> **Working draft.** Biology and the central cultural principles reflect the agreed concept. Names, caste arrangements, historical events, and radical movements remain proposals. This history takes place on the ancestral homeworld, before Landfall.
 
 ## The Plant People
 
-Sylvans are green-skinned, plant-based humanoids whose hair consists of living leaves and flowers. They can grow this foliage anywhere on their bodies, allowing an individual to cultivate a leafy crown, flowering shoulders, or patterns of blossoms along their arms. Leaves range from green to reddish shades, while flowers can take any color. A Sylvan's appearance is therefore something they can grow and change throughout their life.
+Sylvans are strong, green-skinned, plant-based humanoids who live around 150 years. Their hair consists of living leaves and flowers, which they can also grow anywhere on their bodies. Leaves are green or reddish; flowers can take any color. Within minutes, a Sylvan can grow a flowering collar, a leafy skirt, or overlapping foliage that serves as clothing. This growth consumes water and nutrients. Living garments remain part of the body and offer ordinary coverage rather than special armor.
 
-Their bodies combine plantlike tissues with internal systems broadly comparable to those of humans. A heartlike organ circulates vital fluid, and they must breathe oxygen, drink water, eat, and sleep. Photosynthesis supplements their nourishment, and sunlight has a positive effect on their well-being, but it cannot replace their other needs. A Sylvan farmer still needs dinner after a day in the sun.
+Their internal biology broadly resembles that of humans. A heartlike organ circulates vital fluid, and they need oxygen, water, food, and sleep. Photosynthesis supplements their diet. Light makes them more energetic and happier, reducing how much they must eat and sleep without removing either need. Prolonged darkness increases hunger and shifts their nutritional needs toward a much more meat-heavy diet. Darkness changes their physical condition and appetite; their conduct remains their own choice.
 
-Sylvans tend toward physical power and expressive social interaction, reflected in their higher **Strength** and **Presence**. These tendencies leave room for quiet Sylvans, awkward conversationalists, and individuals who prefer study to physical work. Their foliage provides an additional means of expression: some change their flowers to reflect their emotions, such as turning them red when angry. Others cultivate deliberate displays or keep a consistent appearance.
+Some Sylvans unconsciously change flower colors when emotional. Anger might bring red blossoms before a speaker has chosen their words. Controlling these changes takes practice. Learning to manage their own displays and interpret those of others contributes to their characteristic **Presence**, alongside their natural **Strength**. Color meanings vary, and a display cannot establish whether someone is honest. Quiet, socially awkward, and physically unassuming Sylvans still exist.
 
-For this draft, color changes and new growth are separate processes. Changing existing flowers is easier than growing fresh foliage, which requires time, nourishment, and water. Exact rates remain undecided. Emotional displays also vary between individuals; a flower's color is never reliable proof of what someone feels.
+## Community and Individuality
 
-## The Ancestral Homeworld
+The community owns land, buildings, tools, stores, and productive infrastructure. Every occupation fulfills a communal responsibility, including farming, art, teaching, military service, administration, and raising children. Members receive work assignments and goods through institutions governed by religious rank. Responsibilities are shared, but authority and access are unequal.
 
-The proposed Sylvan homeworld has broad seasonal woodlands, open river valleys, dry uplands, and colder regions with short growing seasons. Sylvans arose as its only intelligent species. Their earliest civilizations encountered other Sylvan peoples, with different languages and customs, rather than other intelligent races.
+Personal use is recognized without turning an assigned object into private property. A craftsperson may use the same tools for decades, yet cannot sell the workshop. Communities exchange goods with one another through appointed representatives. Disputes concern who may allocate communal wealth, who receives it, and whether those decisions fulfill sacred obligations.
 
-Their dependence on both food and sunlight encouraged settlements near woodland edges and open water. Forests provided shelter and materials, while clearings supported cultivation and communal gathering. Dense canopy, drought, and winter each demanded different solutions. No single environment or way of life represented the whole species.
+Children grow up in communal houses staffed by caregivers, educators, and elders. Biological parents may remain close and involved, but the community bears responsibility for every child's care. Long lives allow several generations of adults to teach together; they also allow senior officials to hold influence for many decades.
 
-## A Proposed History
+Appearance and manner are cherished expressions of individuality. Sylvans cultivate distinctive silhouettes, changing floral arrangements, voices, gestures, and elaborate styles of address. Communal textile makers and jewelers support this culture alongside living clothing. Rank affects access to rare materials, but even a modestly supplied worker can grow a striking personal display. Copying someone's signature arrangement without acknowledgment may be a serious insult.
 
-### The First Clearings
+## The Witnessing Light
 
-Early communities gathered food, hunted, and gradually cultivated useful plants. Maintaining a settlement meant clearing space, tending crops, and keeping water accessible. Cooperative work became important because an abandoned channel or neglected field could affect several households.
+The central faith teaches that **Light is life, and Light is the source of truth**. Its followers believe light ultimately reaches everywhere: a hidden act remains part of a reality that will eventually be revealed. This is a religious claim about universal witness, rather than a claim that sunlight physically penetrates every wall. Daily gatherings, public duties, and communal meals carry religious significance.
 
-These arrangements produced competing ideas about ownership. Some communities treated maintained land as the shared possession of its workers. Others gave enduring authority to the families who first cleared it. Both could appeal to the same principle: those who sustain a place deserve a say in its future. Disagreement centered on whether that meant present labor or ancestral contribution.
+Sylvans take pride in never lying. Religious law distinguishes a knowingly false statement from silence, refusal, ambiguity, and carefully limited promises. A speaker may say, "I will not raise a hand against you," while arranging for someone else to act. Such wording gives their diplomacy a Fey-like quality: exact promises, ceremonial hospitality, and beautiful courtesy with dangerous omissions. Schools within the faith disagree over when literal truth becomes a betrayal of truthful conduct.
 
-### The River Estates
+### The Religious Castes
 
-Larger farms and irrigation networks supported permanent towns. Families who controlled reservoirs and productive land could accumulate surpluses, employ guards, and demand tribute. Seasonal ceremonies increasingly recognized these households as guardians of communal survival, lending religious authority to economic power.
+The proposed hierarchy has four layers. Admission depends on religious education, service, and recognition by those above; established castes can obstruct advancement even where birth does not formally determine rank.
 
-Independent towns developed along other rivers and coasts, where trade and several competing water sources made concentrated control harder. Their councils included cultivators, merchants, and channel workers. Sylvan political history began to divide between hereditary stewardship and forms of government that made stewards answerable to the people they served.
+| Caste | Communal responsibility | Distribution and religious obligation |
+| --- | --- | --- |
+| **Seedlings** | Children and novices learn communal duties. | Receive care and instruction; falsehood is corrected through teaching. |
+| **Tenders** | Carry out skilled and general work, including childcare. | Receive ordinary allocations; deliberate lying becomes a punishable breach of adult vows. |
+| **Witnesses** | Teach doctrine, keep accounts, judge disputes, and supervise distribution. | Receive greater allocations and ceremonial privileges; sworn testimony carries stricter obligations. |
+| **Luminaries** | Interpret sacred law and direct relations between communities. | Receive the highest access and authority; their public promises bind the community. |
 
-### The Lean Seasons
+All castes are owed subsistence and care. Rank determines additional space, choice goods, ornament, and access to desirable places or duties. Official doctrine calls these resources support for greater responsibilities. Critics observe that the officials who define responsibility also decide its rewards.
 
-A prolonged period of unstable rainfall exposed the weaknesses of both systems. Upstream estates stored water while downstream communities lost harvests. Some rulers opened their reserves and preserved public trust. Others enforced existing dues despite crop failures. Councils also fractured over whether to feed local citizens first or admit displaced outsiders.
+In the technological era, Witnesses and Luminaries wear **witness necklaces** during official service. These devices flag suspected deliberate lies using personalized physiological monitoring and checks against available records. Their alarms carry religious and legal weight. They cannot independently know every fact or reliably distinguish every false belief from conscious deception; literal truths and omissions may pass without alarm. Courts must interpret alerts, creating a powerful dispute over whether challenging a necklace challenges the Light itself.
 
-Migration and conflict spread new customs across old borders. Revolts in several river states established a lasting reform tradition: authority over essential resources carried obligations that could justify removing an abusive ruler. Elsewhere, successful emergency leaders used the crisis to establish stronger dynasties. The same disaster became a founding story for both popular government and centralized rule.
+## History: From Stone to Space
 
-### The Crowded Cities
+### Stone Age — The Shared Clearing
 
-Industrialization drew workers into dense settlements where food, clean water, and access to daylight were increasingly purchased. Sylvans could live and work indoors, but wealthy districts enjoyed gardens and open terraces while poorer residents crowded into shaded housing. Access to sunlight became a visible sign of inequality alongside diet and sanitation.
+Sylvans evolved as the only intelligent species on their homeworld. Early groups shared shelters, hunting grounds, childcare, and food. Open clearings offered the benefits of light, while seasonal darkness increased the need for hunting and preserved meat. Maintaining access to both open ground and food became a collective burden. Early light rituals marked daily gatherings and seasonal returns, linking survival with the duty to contribute.
 
-Housing campaigns demanded courtyards, limits on overcrowding, and time outdoors. Employers and property owners resisted measures that reduced production or rentable space. Different states answered with public planning, private garden subscriptions, labor protections, or repression. These disputes made the ancient question of stewardship relevant to factories and apartment buildings.
+### Agricultural Age — The First Temple Granaries
 
-### The Age of Cultivation
+Farming and water management supported larger permanent communities. Shared granaries needed trusted keepers, and keepers publicly recited what had been received and distributed. Religious witnesses gained authority because inaccurate accounts endangered everyone. Ritual truthfulness developed into formal vows. Teachers and storekeepers gradually became a distinct religious stratum, establishing the foundations of the caste system.
 
-Advances in medicine, agriculture, and the study of living tissues improved health and made elaborate foliage cultivation more accessible. New fashions crossed national borders. Some communities embraced these changes as another expression of the Sylvan ability to grow; others feared the disappearance of inherited forms and local identities.
+### Age of Cities and Metals — The Ordered Communities
 
-By this era, Sylvan civilization comprised competing nations, faiths, commercial powers, and reform movements. They shared ancestry and increasingly connected economies, but no universal government or religion. This provides the proposed ancestral society from which their later cultural archives would be drawn.
+Irrigation networks joined settlements into temple cities. Specialized workers depended on communal stores, while Witnesses coordinated increasingly complex obligations. Luminaries arose to settle disputes between temples and define common law. Castes became more rigid as leaders controlled training and admission. Religious rank increasingly determined the quality of housing, food, and leisure, even though all property remained communal.
 
-## Culture and Everyday Life
+Communities fought over water, fertile ground, and jurisdiction. Their common religion supplied rival claims to legitimacy rather than preventing war. Treaties grew elaborate because leaders wanted to preserve freedom of action without breaking sworn words. Poets, envoys, and legal scholars elevated precise ambiguity into a prestigious art.
 
-Foliage can communicate affiliation, profession, celebration, or personal taste. A household might cultivate a recognizable flower pattern for gatherings, while a civic official adopts a restrained display during public duties. Regional conventions differ: red flowers may suggest anger in one community and courage or affection in another. Foreign visitors must learn the context.
+### Age of Long Winters — The Question of Darkness
 
-These customs also create disagreements about sincerity and privacy. Some communities prize spontaneous emotional coloration. Others teach children that controlling a display is courteous, especially during grief or negotiation. A person who maintains neutral flowers might be considered disciplined in one city and evasive in another.
+A succession of poor growing seasons strained food reserves. Temple authorities expanded hunting and livestock production, but some communities could not sustain their populations. Groups settled in sheltered caverns and dim uplands, relying more heavily on animal husbandry and meat. Over generations, some embraced the dark as relief from public scrutiny and religious supervision.
 
-Shared meals and gardens occupy an important place in many traditions. Hospitality provides what another body needs: food, water, rest, and a comfortable place to sit. Urban hosts may keep a few flowering pots beside a bright window; wealthy households may entertain in cultivated courtyards. Neither practice implies that every Sylvan enjoys gardening or lives among trees.
+Their survival challenged claims that a virtuous life required constant exposure to light. Mainstream temples permitted necessary darkness for work and shelter, while disputing whether choosing it as a way of life rejected sacred duty. Darkness became a theological division as well as a practical condition. These communities remained Sylvan, with the same underlying biology.
 
-## Religion and Philosophical Traditions
+### Industrial Age — The Unequal Canopy
 
-### The Returning Life
+Communally owned factories, mines, and transport networks increased production. Temple administrations assigned labor and distributed the gains. Yet workers in enclosed facilities needed more food and rest, while senior religious castes occupied bright residences and ceremonial gardens. Arguments over unequal allocations became sharper when the workers with the greatest physical need received less than their superiors.
 
-One widespread family of religions teaches that life is temporarily entrusted to each person and must be returned through care for future generations. Its rites connect birth, meals, seasonal change, and burial. Some branches worship personal deities who oversee these transitions; others regard the cycle itself as sacred.
+Reform councils demanded that nutrition and working conditions follow bodily need before religious privilege. Conservative authorities defended hierarchy as essential to coordinated life. Artificial lighting gradually improved indoor conditions, but suitable installations and power remained resources that somebody had to allocate. Communal ownership survived throughout these disputes; control of distribution was the central political struggle.
 
-Its central dispute concerns obligation. Does returning what one receives mean loyalty to family and ancestral land, or care for anyone in need? Estate priests historically emphasized inheritance and continuity. Reform preachers used the same teachings to argue that hoarding water violated the purpose of stewardship.
+### Electronic Age — The Measured Word
 
-### The Witnessing Light
+Medical sensors and extensive public records made witness necklaces possible. They were first adopted to strengthen confidence in official testimony after distribution scandals. Later, wearing them became a condition of higher office. Temples developed competing standards for reviewing alerts, and some treated the devices as almost sacred.
 
-Another tradition associates light with accountability: actions should withstand being seen and judged. Public testimony, open deliberation, and acknowledgment of wrongdoing feature in its rituals. Its followers may understand the sun as a divine witness or as a symbol of moral clarity.
+Education increasingly emphasized emotional control, contractual wording, and the limits of a promise. Critics argued that officials had become better at avoiding false sentences than at serving their communities. Religious reform remained the strongest language of opposition: the Light demanded accountability from those claiming to speak for it.
 
-Moderate schools defend honest government while recognizing personal privacy. Stricter schools distrust concealed emotions and demand visible declarations of loyalty. Their critics point out that flower colors can be chosen and that forced displays reward performance rather than honesty.
+### Space Age — Carrying the Light
 
-### Secular Traditions
+Federations of temple communities pooled resources for orbital habitats and sublight exploration of their home system. Habitats used spin or thrust for gravity, with communal lighting gardens, farms, and animal-protein production planned around Sylvan needs. Every voyage required decisions about how much energy to devote to illumination and how much food to carry.
 
-Many Sylvans explain their bodies and world without religious belief. Some preserve seasonal festivals as family customs; others challenge religious authority over land, appearance, or burial. Secular thinkers disagree among themselves about individual freedom, shared resources, and inherited duties just as religious communities do.
+Ships and settlements remained communal institutions with shared childcare, assigned duties, and religious government. Distance forced local Witnesses to make decisions without immediate approval, encouraging new interpretations of old obligations. Some missions maintained strict caste allocations; others placed engineers and caregivers above ceremonial precedence during emergencies. Dark-preferring groups also sought settlements where they could govern themselves. The space age carried their religious arguments into new environments.
 
-## Radical Movements
+## Radical Groups
 
-### The Rootbound
+### The Unveiled — No Private Truth
 
-The Rootbound grow from communities displaced by development and cultural centralization. They promise to restore local control of land and protect ancestral practices. Their wider constituency includes farmers and families with legitimate grievances. Radical chapters claim that only hereditary members of a community may own its land or hold office, expelling migrants and treating cultural change as betrayal. Local autonomy becomes a justification for hereditary exclusion.
+The Unveiled believe that ambiguity, silence, and emotional concealment betray the Witnessing Light. They demand necklaces for every adult, compulsory testimony, and public scrutiny of distribution records and personal conduct. Their appeal grows after corruption scandals. Zealots force confessions and treat refusal or a disputed alarm as guilt. Many orthodox priests oppose them because they erase the accepted distinction between truthfulness and compulsory disclosure.
 
-### The Open Canopy
+### The Equal Dawn — No Higher Share
 
-This movement emerges from urban housing struggles and disputes over access to water. Most supporters seek public utilities, healthier homes, and enforceable civic rights. A militant current concludes that ownership of essential resources is itself intolerable. It occupies reservoirs and destroys private distribution equipment, sometimes interrupting supplies to the neighborhoods it claims to defend.
+The Equal Dawn teach that the same Light sustains every Sylvan, so religious rank cannot justify superior portions or living conditions. They defend communal ownership and shared labor while demanding distribution by need and responsibility subject to public review. Their radical wing seizes temple stores and removes caste councils by force. Communities fear both entrenched privilege and uprisings that disrupt the systems feeding them.
 
-### The Unveiled
+### The Still Crown — An Eternal Order
 
-The Unveiled arise after scandals involving officials who used cultivated displays of sincerity to conceal corruption. Drawing on the Witnessing Light, they promise a society without deception. Their radical congregations require public confessions and prescribed emotional displays, interpreting refusal as evidence of guilt. Their pursuit of honesty becomes a system of coercion built around signals that cannot establish truth.
+The Still Crown regard caste distinctions as sacred duties that reformers have weakened. They seek lifelong assignments, advancement controlled entirely by senior clergy, and strict penalties for refusing one's allocated work. They attract officials afraid of fragmentation and citizens exhausted by political upheaval. Militant chapters close dissident schools and deny opponents communal membership, threatening the very subsistence that doctrine promises everyone.
 
-These movements belong to particular historical circumstances. None expresses an instinct shared by all Sylvans, and each faces opposition from people who share some of its concerns.
+### The Night Bloom — Life Without Witness
 
-## GM Only: What Survived Before Landfall
+The Night Bloom are a religious countertradition that finds dignity in darkness, privacy, appetite, and self-chosen transformation. Their meat-heavy communal feasts celebrate a body sustained without dependence on daylight. Peaceful adherents maintain dark settlements and reject the claim that carnivory signals moral failure.
 
-Existing setting lore establishes that the Singularity absorbed the ancestral Sylvans and that the Shepherd later restored their lineage. The precise circumstances of their absorption remain open in this draft. Their religions, disagreements, and institutions should first make sense within their own history, independent of that eventual fate.
+A radical current teaches that temple illumination is an instrument of obedience. It sabotages lighting systems and establishes enclaves beyond caste jurisdiction, sometimes forcing unwilling residents into darkness. Other Night Bloom communities condemn this coercion. The division concerns who chooses how to live, not whether eating meat makes someone cruel.
 
-The restored Sylvans received genuine cultural material alongside a manufactured account of planetary loss. Their inheritance could therefore contain both a landowner's defense of ancestral duty and a displaced worker's condemnation of it. Later descendants might mistake one surviving tradition for the belief of their entire species, or revive a movement without understanding the conditions that produced it.
+## GM Only: The Ancestral Inheritance
 
-## Questions for the Next Draft
+This history precedes the ancestral Sylvans' absorption by the Singularity. The precise encounter remains undecided. The Shepherd later restored their lineage with genuine cultural archives and a fabricated account of homeworld loss, as established in the wider setting.
 
-- How quickly can Sylvans change flower colors, and how much emotional coloration is involuntary?
-- What are their lifespan, reproductive biology, and childhood needs?
-- How much does sunlight affect health and diet, and what happens during prolonged darkness?
-- Which proposed historical conflicts and religious traditions should become established lore?
-- What technological stage had they reached when the Singularity encountered them?
+Those archives could preserve temple law, communal practices, floral arts, and competing interpretations of the Witnessing Light. They need not preserve every institution or advanced technology intact. Descendants on Landfall could therefore inherit the same sacred texts while disagreeing profoundly about caste, truthful speech, and the right to live in darkness.
