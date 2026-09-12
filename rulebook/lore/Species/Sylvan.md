@@ -1,6 +1,6 @@
 ﻿# Sylvan
 
-Sylvans are a people of living homes, cultivated appearances, and promises that must be heard carefully. On their ancestral world of **Viridia**, families lived among vast forests until light-transfer tubes made the first great cities possible. Rural tree homes and the Queens' urban Courts became the two poles of Sylvan life. Their descendants now carry those traditions into the mixed societies of the Sphere.
+Sylvans grow homes from Living Trees, dress themselves in leaves and flowers, and prize a promise whose every word holds true. On their ancestral world of **Viridia**, families lived among vast forests until light-transfer tubes made great cities possible. Life spread between independent tree homes and wealthy urban Courts. Their descendants now carry those traditions into the mixed societies of the Sphere.
 
 ## The Plant People
 
@@ -14,7 +14,7 @@ Some Sylvans unconsciously change flower colors when emotional. Anger might brin
 
 Sylvans can tune to plants through sustained contact and care. Tuning lets them sense a plant's condition and guide its growth within the limits of its biology. Gardeners use it to recognize thirst, damage, or disease and encourage healthy growth over time. Other plants respond in smaller ways, but a Living Tree can form a particularly deep bond with the family that tends it. Sylvans and Living Trees are said to share distant evolutionary ancestors, a kinship many families feel when tuning to their home.
 
-A Living Tree is a long-lived organism whose growth can be guided into habitable spaces. Once a family has tuned to it, the tree fluidly reshapes branches, chambers, openings, and sheltering foliage around their needs. A new room can grow within days. Given abundant nutrients, water, and light, a seed can become a habitable home within weeks. Rapid growth draws heavily on those resources, so a family feeds and waters its tree as attentively as any other member of the household.
+A Living Tree is a long-lived organism whose growth can be guided into habitable spaces. Once a family has tuned to it, the tree reshapes branches, chambers, openings, and sheltering foliage around their needs. A new room can grow within days. With enough light, water, and nutrients, a seed can grow into a home within weeks. The faster it grows, the more water and nutrients the family must provide.
 
 ### Children of the Soil
 
@@ -58,15 +58,17 @@ Stories placed the raiders' stronghold beneath the mountains: the underground **
 
 ### Industrial Age — The Cities of Borrowed Sun
 
-The invention of **light-transfer tubes** let Sylvans carry collected sunlight into spaces that had once remained dim. Reflective tubes, and later light-transmitting optical cables, brought daylight deep into buildings; artificial lamps supplemented it during poor weather and after sunset. Families could now thrive far from open groves. Dense settlements grew rapidly into super-megacities, each organized as a Queen's Court.
+The invention of **light-transfer tubes** let Sylvans carry collected sunlight into spaces that had once remained dim. Reflective tubes, and later light-transmitting optical cables, brought daylight deep into buildings; artificial lamps supplemented it during poor weather and after sunset. Families could now thrive far from open groves. Dense settlements grew rapidly into super-megacities known as Courts, where wealthy royal houses competed for influence.
 
-The **Summer Court** became the greatest of these cities, ruled by its Queen across generations. Other Queens governed Courts with their own manners, rivalries, and ambitions. They sponsored light networks, gardens, workshops, and the systems that supplied clean water and fertile soil. Outside them, families continued to spread through the countryside in Living Trees. The difference between a rooted household and a crowded Court became the enduring duality of Sylvan civilization.
+The **Summer Court** became the largest city, governed by several Queens whose houses held power for generations. Each Queen commanded great wealth and political influence through control of land, light networks, gardens, workshops, or the systems that supplied clean water and fertile soil. Their alliances kept the city running; their rivalries shaped its laws and fortunes.
 
-Courts struggled to supply enough nutrients, soil, and growing space for every birthing pod. Most city families traveled to rural relatives or temporary groves to plant their seeds and remained there until the children emerged. A pod sustained by an urban Living Tree still drew on the city's limited resources. Wealthy households and families supported by a Queen, or by a King in a Court with that title, could secure the needed space and provisions without leaving the city. Access to a city birth became a visible mark of favor.
+Other cities formed Courts of their own. Outside the cities, families continued to spread through the countryside in Living Trees. The rooted household and the crowded Court became the two familiar ways of Sylvan life.
+
+Courts struggled to supply enough nutrients, soil, and growing space for every birthing pod. Most city families traveled to rural relatives or temporary groves to plant their seeds and remained there until the children emerged. A pod sustained by an urban Living Tree still drew on the city's limited resources. Wealthy households and families supported by a Queen could secure the needed space and provisions without leaving the city. Access to a city birth became a visible mark of favor.
 
 ### Electronic Age — The Brilliant Courts
 
-Sensors, records, and communication networks gave Courts new ways to coordinate sprawling cities. They also made reputation more visible and political games harder to escape. A Queen's promise might be broadcast to millions, then examined word by word by rivals. Sylvan custom continued to prize a promise kept by choice.
+Sensors, records, and communication networks gave Courts new ways to coordinate sprawling cities. They also made reputation more visible and political games harder to escape. A Queen's promise might be broadcast to millions, then examined word by word by rival Queens. Sylvan custom continued to prize a promise kept by choice.
 
 Technological ambition divided families. Court loyalists celebrated new habitats, medicine, and daylight systems as proof that their people could shape any environment. Others defended groves and Living Trees against expansion that treated them as replaceable infrastructure. Both camps valued living homes; they disagreed over who should decide how a tree and its family must live.
 
@@ -78,13 +80,13 @@ The collections included records of Living Trees, the Witnessing Light, Courtly 
 
 ## Sylvans Today
 
-In 518 AA, Sylvans live throughout the Sphere. Some families occupy Living Trees in settlements descended from the preservationist communities founded after Landfall. Others keep a young Living Tree in a pot beside an apartment window, tuning to it even when it has no room to become a house. Many have made their lives in the mixed-species metropolises of Landfall and other moons, where their homes, work, and families reflect the shared culture that began at Crossroads. Each choice offers a different way to carry an ancestral memory forward.
+In 518 AA, Sylvans live throughout the Sphere. Some families occupy Living Trees in settlements descended from the preservationist communities founded after Landfall. Others tune to a young tree in a pot beside an apartment window. Many live in the mixed-species metropolises of Landfall and other moons, sharing homes, work, and families with other lineages. That common culture began when the four founding lineages met in Crossroads Valley.
 
-Court fashion, competitions of wit, and carefully worded promises survive in modern life, often far from any royal household. The Witnessing Light remains a quiet practice for some and a remembered story for others. The ship archives made the old groves and Courts vivid to Cohort Zero, but the people who grew up together on Landfall also built a common society with Humans, Naga, Craggen, and their descendants.
+Court fashion, competitions of wit, and carefully worded promises survive in modern life, often far from any royal household. The Witnessing Light remains a quiet practice for some and a remembered story for others. A Sylvan Corsair might have grown up inside a Living Tree, tended a potted one in a city apartment, or known the old groves only through ship archives. Any of them might find a rival's clever truth delightful or maddening.
 
 ## Radical Groups: Origins and Modern Forms
 
-The seed ship's archives preserved the history of grove households, the Queens' Courts, and the Night Bloom. After Landfall, some Sylvans tried to recover one of these ancestral ways of life in full. Their radical groups stand apart from the everyday mix of Sylvan and wider Newcomer customs. Each began with an old story and became something new in the Sphere.
+The seed ship's archives preserved the history of grove households, the Queens' Courts, and the Night Bloom. After Landfall, some Sylvans tried to rebuild one of these ancestral ways of life in full. The movements below grew from those efforts and now challenge the mixed culture of the Sphere in different ways.
 
 ### The Deep Root — Keep the Living Groves
 
@@ -92,11 +94,13 @@ The seed ship's archives preserved the history of grove households, the Queens' 
 
 **Nowadays — Rural Restorationists.** The Deep Root establish single-lineage tree settlements outside mixed cities, protect old groves, and pass seeds and tuning practices between families. Their most committed cells occupy development sites, disable equipment, or move trees and seed stocks without permission. Some pressure urban Sylvans to abandon their homes and return to the groves. Their central dispute concerns how far they may go to protect a tree whose own family has chosen a different future.
 
-### The Gilded Canopy — For the Queen
+### The Gilded Crown — For the Queen
 
-**Origins — The Summer Court.** Light-transfer tubes brought Sylvans together in enormous cities and made the Summer Court the greatest of them. Its Queen held the city through generations of patronage, engineering, and carefully managed alliances. The Gilded Canopy look to that age as the fullest expression of Sylvan ambition.
+**Origins — The Summer Court.** Light-transfer tubes brought Sylvans together in enormous cities and made the Summer Court the greatest of them. Its Queens held immense wealth and political influence, each directing the resources and alliances of a powerful house. The Gilded Crown look to that age as the fullest expression of Sylvan ambition.
 
-**Nowadays — Court Loyalists.** The Gilded Canopy rebuild royal households in the Sphere, support daylight infrastructure and living architecture, and devote themselves to the Queen they recognize. Some seek influence within existing cities; others work toward a new Court of their own. Militant factions sabotage rivals, pressure families to surrender land or tuned trees, and call dissent a betrayal of the Queen. Their devotion can turn a contest for favor into a struggle over who gets to live beneath the city's borrowed sun.
+**Nowadays — Court Loyalists.** Queen **Aster Vey** leads the Gilded Crown on Landfall. She built her fortune through companies that manufacture daylight equipment and supply the water and nutrients needed by urban Living Trees. Her contracts give her a voice in city planning; her wealth funds gardens, tree homes, and an elaborate royal household. Aster calls her followers the **Summer Court**, claiming the old city's name for the society she intends to build.
+
+Her followers serve Court projects, compete for her favor, and promote Court fashion and living architecture. Militant members sabotage rivals, pressure families to surrender land or tuned trees, and call dissent a betrayal of the Queen. Their devotion can turn a contest for favor into a struggle over who gets to live beneath the city's borrowed sun.
 
 ### The Night Bloom — Life Without Witness
 
