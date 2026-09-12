@@ -28,7 +28,9 @@ The ancestral society preserved in Sylvan archives spread through forests, garde
 
 Appearance and manner were cherished expressions of individuality. Sylvans cultivated distinctive silhouettes, changing floral arrangements, voices, gestures, and elaborate styles of address. Textiles and jewelry complemented living clothing. Copying someone's signature arrangement without acknowledgment could be a serious insult; borrowing it with permission could be an intimate compliment.
 
-Sylvans traditionally regarded a deliberate lie as a failure of character. Keeping one's words true showed confidence, self-command, and respect for one's reputation. Yet an artful truth that led a rival to a mistaken conclusion could earn admiration. An envoy named Sareth might promise, "I will not raise a hand against you," while arranging for someone else to act. A guest who caught the gap could claim a victory of their own. Silence, refusal, ambiguity, and carefully limited promises were all part of the contest. An outright false statement spoiled it. Sylvans still disagreed about when a clever truth became a betrayal of trust.
+Hospitality gave these displays a social purpose. A host might tune the doorway into a new shape for an honored guest, then let it grow closed when the visit ended. Invitations named a place, an hour, and what the host would provide. Guests answered with a gift, a story, or a promise of their own. A lavish welcome could begin a friendship, announce an alliance, or place someone under an obligation that would be remembered for years.
+
+Sylvans traditionally regarded a deliberate lie as a failure of character. Keeping one's words true showed confidence, self-command, and respect for one's reputation. Yet an artful truth that led a rival to a mistaken conclusion could earn admiration. An envoy named Sareth might promise, "I will not raise a hand against you," while arranging for someone else to act. A guest who caught the gap could claim a victory of their own. Silence, refusal, ambiguity, and carefully limited promises were all part of the contest. An outright false statement spoiled it. Sylvans still disagreed about when a clever truth became a betrayal of trust, especially where family or hospitality was concerned.
 
 ## The Witnessing Light
 
@@ -62,6 +64,8 @@ The invention of **light-transfer tubes** let Sylvans carry collected sunlight i
 
 The **Summer Court** became the largest city. Its Queen ruled with immense wealth and political influence, and the title passed to her descendants. The royal family controlled land, light networks, gardens, workshops, and systems that supplied clean water and fertile soil. Other wealthy houses sought its patronage and competed to shape the city's laws and fortunes.
 
+Court life made politics a public performance. Houses announced their standing through flower colors, living façades, feasts, and carefully chosen gifts. A Queen could invite two rivals to the same table, then settle their dispute by asking each for a promise before witnesses. Accepting a gift might signal support; declining it could be an insult. Courtiers learned the exact words of an invitation before crossing a threshold, because favors and obligations often began with a welcome.
+
 Other cities formed Courts of their own. Outside the cities, families continued to spread through the countryside in Living Trees. The rooted household and the crowded Court became the two familiar ways of Sylvan life.
 
 Courts struggled to supply enough nutrients, soil, and growing space for every birthing pod. Most city families traveled to rural relatives or temporary groves to plant their seeds and remained there until the children emerged. A pod sustained by an urban Living Tree still drew on the city's limited resources. Wealthy households and families supported by a Queen could secure the needed space and provisions without leaving the city. Access to a city birth became a visible mark of favor.
@@ -82,7 +86,7 @@ The collections included records of Living Trees, the Witnessing Light, Courtly 
 
 In 518 AA, Sylvans live throughout the Sphere. Some families occupy Living Trees in settlements descended from the preservationist communities founded after Landfall. Others tune to a young tree in a pot beside an apartment window. Many live in the mixed-species metropolises of Landfall and other moons, sharing homes, work, and families with other lineages. That common culture began when the four founding lineages met in Crossroads Valley.
 
-Court fashion, competitions of wit, and carefully worded promises survive in modern life, often far from any royal household. The Witnessing Light remains a quiet practice for some and a remembered story for others. A Sylvan Corsair might have grown up inside a Living Tree, tended a potted one in a city apartment, or known the old groves only through ship archives. Any of them might find a rival's clever truth delightful or maddening.
+Court fashion, competitions of wit, elaborate hospitality, and carefully worded promises survive in modern life, often far from any royal household. The Witnessing Light remains a quiet practice for some and a remembered story for others. A Sylvan Corsair might have grown up inside a Living Tree, tended a potted one in a city apartment, or known the old groves only through ship archives. Any of them might find a rival's clever truth delightful or maddening.
 
 ## Radical Groups: Origins and Modern Forms
 
@@ -100,7 +104,7 @@ The seed ship's archives preserved the history of grove households, the Queens' 
 
 **Nowadays — Court Loyalists.** Queen **Aster Vey** leads the Gilded Crown on Landfall. She built her fortune through companies that manufacture daylight equipment and supply the water and nutrients needed by urban Living Trees. Her contracts give her a voice in city planning; her wealth funds gardens, tree homes, and an elaborate royal household. Aster calls her followers the **Summer Court**, claiming the old city's name for the society she intends to build.
 
-Her followers serve Court projects, compete for her favor, and promote Court fashion and living architecture. Militant members sabotage rivals, pressure families to surrender land or tuned trees, and call dissent a betrayal of the Queen. Their devotion can turn a contest for favor into a struggle over who gets to live beneath the city's borrowed sun.
+Her followers serve Court projects, compete for her favor, and recreate the old rituals of invitation, gift, and public promise. Aster's receptions offer advancement to those who impress her, while a slight can close doors across her network. Militant members sabotage rivals, pressure families to surrender land or tuned trees, and call dissent a betrayal of the Queen. Their devotion can turn a contest for favor into a struggle over who gets to live beneath the city's borrowed sun.
 
 ### The Night Bloom — Life Without Witness
 
