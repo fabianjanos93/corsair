@@ -2,6 +2,8 @@
 
 Sylvans grow homes from Living Trees, dress themselves in leaves and flowers, and prize a promise whose every word holds true. On their ancestral world of **Viridia**, families lived among vast forests until light-transfer tubes made great cities possible. Life spread between independent tree homes and wealthy urban Courts. Their descendants now carry those traditions into the mixed societies of the Sphere.
 
+![Watercolor portrait of a Sylvan with leafy hair and flowering clothes](images/Sylvan_Portrait_Watercolor.png)
+
 ## The Plant People
 
 Sylvans are strong, green-skinned, plant-based humanoids who live around 150 years. Their hair consists of living leaves and flowers, which they can also grow anywhere on their bodies. Leaves are green or reddish; flowers can take any color. Within minutes, a Sylvan can grow a flowering collar, a leafy skirt, or overlapping foliage that serves as clothing. This growth consumes water and nutrients. Living garments remain part of the body and offer ordinary coverage rather than special armor.
@@ -15,6 +17,8 @@ Some Sylvans unconsciously change flower colors when emotional. Anger might brin
 Sylvans can tune to plants through sustained contact and care. Tuning lets them sense a plant's condition and guide its growth within the limits of its biology. Gardeners use it to recognize thirst, damage, or disease and encourage healthy growth over time. Other plants respond in smaller ways, but a Living Tree can form a particularly deep bond with the family that tends it. Sylvans and Living Trees are said to share distant evolutionary ancestors, a kinship many families feel when tuning to their home.
 
 A Living Tree is a long-lived organism whose growth can be guided into habitable spaces. Once a family has tuned to it, the tree reshapes branches, chambers, openings, and sheltering foliage around their needs. A new room can grow within days. With enough light, water, and nutrients, a seed can grow into a home within weeks. The faster it grows, the more water and nutrients the family must provide.
+
+![Watercolor scene of a Sylvan family beside their Living Tree home](images/Sylvan_Living_Tree_Watercolor.png)
 
 ### Children of the Soil
 
