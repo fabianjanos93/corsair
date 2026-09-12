@@ -58,9 +58,9 @@ Stories placed the raiders' stronghold beneath the mountains: the underground **
 
 ### Industrial Age — The Cities of Borrowed Sun
 
-The invention of **light-transfer tubes** let Sylvans carry collected sunlight into spaces that had once remained dim. Reflective tubes, and later light-transmitting optical cables, brought daylight deep into buildings; artificial lamps supplemented it during poor weather and after sunset. Families could now thrive far from open groves. Dense settlements grew rapidly into super-megacities known as Courts, where wealthy royal houses competed for influence.
+The invention of **light-transfer tubes** let Sylvans carry collected sunlight into spaces that had once remained dim. Reflective tubes, and later light-transmitting optical cables, brought daylight deep into buildings; artificial lamps supplemented it during poor weather and after sunset. Families could now thrive far from open groves. Dense settlements grew rapidly into super-megacities known as Courts, where wealthy houses competed for the ruler's favor.
 
-The **Summer Court** became the largest city, governed by several Queens whose houses held power for generations. Each Queen commanded great wealth and political influence through control of land, light networks, gardens, workshops, or the systems that supplied clean water and fertile soil. Their alliances kept the city running; their rivalries shaped its laws and fortunes.
+The **Summer Court** became the largest city. Its Queen ruled with immense wealth and political influence, and the title passed to her descendants. The royal family controlled land, light networks, gardens, workshops, and systems that supplied clean water and fertile soil. Other wealthy houses sought its patronage and competed to shape the city's laws and fortunes.
 
 Other cities formed Courts of their own. Outside the cities, families continued to spread through the countryside in Living Trees. The rooted household and the crowded Court became the two familiar ways of Sylvan life.
 
@@ -68,7 +68,7 @@ Courts struggled to supply enough nutrients, soil, and growing space for every b
 
 ### Electronic Age — The Brilliant Courts
 
-Sensors, records, and communication networks gave Courts new ways to coordinate sprawling cities. They also made reputation more visible and political games harder to escape. A Queen's promise might be broadcast to millions, then examined word by word by rival Queens. Sylvan custom continued to prize a promise kept by choice.
+Sensors, records, and communication networks gave Courts new ways to coordinate sprawling cities. They also made reputation more visible and political games harder to escape. A Queen's promise might be broadcast to millions, then examined word by word by rival houses and other Courts. Sylvan custom continued to prize a promise kept by choice.
 
 Technological ambition divided families. Court loyalists celebrated new habitats, medicine, and daylight systems as proof that their people could shape any environment. Others defended groves and Living Trees against expansion that treated them as replaceable infrastructure. Both camps valued living homes; they disagreed over who should decide how a tree and its family must live.
 
@@ -96,7 +96,7 @@ The seed ship's archives preserved the history of grove households, the Queens' 
 
 ### The Gilded Crown — For the Queen
 
-**Origins — The Summer Court.** Light-transfer tubes brought Sylvans together in enormous cities and made the Summer Court the greatest of them. Its Queens held immense wealth and political influence, each directing the resources and alliances of a powerful house. The Gilded Crown look to that age as the fullest expression of Sylvan ambition.
+**Origins — The Summer Court.** Light-transfer tubes brought Sylvans together in enormous cities and made the Summer Court the greatest of them. A hereditary line of Queens held its wealth and political power, directing the resources and alliances of the royal house. The Gilded Crown look to that age as the fullest expression of Sylvan ambition.
 
 **Nowadays — Court Loyalists.** Queen **Aster Vey** leads the Gilded Crown on Landfall. She built her fortune through companies that manufacture daylight equipment and supply the water and nutrients needed by urban Living Trees. Her contracts give her a voice in city planning; her wealth funds gardens, tree homes, and an elaborate royal household. Aster calls her followers the **Summer Court**, claiming the old city's name for the society she intends to build.
 
