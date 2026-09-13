@@ -40,7 +40,7 @@
         - [Pilot](classes/Pilot.md) ([Sheet](classes/Pilot_Sheet.html))
         - [Vanguard](classes/Vanguard.md) ([Sheet](classes/Vanguard_Sheet.html))
         - [Weaver](classes/Weaver.md) ([Sheet](classes/Weaver_Sheet.html))
-    - [Traits](character/Traits.md)
+    - [Traits](character/Traits.md) ([Sheet](character/Traits_Sheet.html))
     - [Character Advancement](character/Advancement.md)
     - [Core Attributes](character/Player_Characters.md#core-attributes)
     - [Derived Attributes](character/Player_Characters.md#derived-attributes)
@@ -68,7 +68,8 @@
     - [Rest and Relaxation](downtime/Day_to_Day_Life.md#rest-and-relaxation)
     - [Travel](downtime/Day_to_Day_Life.md#travel)
 - [Chapter 10: Running the Game](gm/Running_the_Game.md)
-    - [GM Guide](gm/GM_Guide.md)
+    - [Time Management](gm/Time_Management.md)
+    - [Social Interactions](gm/Social_Interactions.md)
     - [NPC Guidelines](gm/NPC_Guidelines.md)
     - [Bestiary: Threats of the Sphere](gm/Bestiary.md)
     - [Mission Generator](gm/Mission_Generator.md)
@@ -405,18 +406,9 @@ During high-stakes encounters, characters do not always act immediately; often, 
 
 The GM can transition between scene types as the story demands.
 
-* **Zooming In:** When a broader scene suddenly becomes more dangerous or dramatic, the GM can "zoom in." For example,
-  while the crew is exploring a derelict ship (Place to Place), they might be ambushed by security drones, instantly
-  shifting the scene to moment-to-moment. When you are zooming in, set aside any Action Points you had in the broader
-  pacing. You then begin a new round, in the new pacing, refilling to your Action Point Max. You retain any ongoing
-  effects you created in a broader pacing.
+* **Zooming In:** When a broader scene suddenly becomes more dangerous or dramatic, the GM can "zoom in." For example, while the crew is exploring a derelict ship (Place to Place), they might be ambushed by security drones, instantly shifting the scene to Moment to Moment. When zooming in, all characters present in the scene synchronize their broader Action Points down to the lowest remaining AP among them (reflecting time elapsed together). They then refill their Action Points in the new, narrower pacing to their maximum (3 AP) and begin a fresh round. Any ongoing effects created in the broader pacing are retained.
 
-* **Zooming Out:** Conversely, after a firefight is over (Moment to Moment), the GM can "zoom out" to place-to-place to
-  cover the rest of the crew's exploration in the area, or even further to day-to-day to cover their journey to the next
-  star system. When you are zooming out, you first lose all action points you currently have, then continue the round in
-  the new broader pacing. If you previously set aside any Action Points when zooming in from new pacing when zooming in,
-  regain those Action Points, minus one to signify the time spent in the narrower pacing. If it's the first time zooming
-  out to a specific pacing, you gain your full Action Point Max, minus one.
+* **Zooming Out:** When a high-stakes scene concludes, the GM "zooms out" back to the broader pacing. Players set aside their tactical Action Points and resume the broader pacing with their remaining broader Action Points. If characters still have Action Points remaining in that broader round, they continue their shift or day; if all broader AP have been spent, the broader round concludes at the End of the Round. Characters operating in parallel in other locations retain their unspent broader AP and can take actions during that same timeframe.
 
 ## Chapter 5: Player Characters
 
@@ -444,10 +436,9 @@ into **Moment to Moment** pacing.
 ## Chapter 10: Running the Game
 
 [Running the Game](gm/Running_the_Game.md)
-* [GM Guide](gm/GM_Guide.md)
+* [Time Management](gm/Time_Management.md)
+* [Social Interactions](gm/Social_Interactions.md)
 * [NPC Guidelines](gm/NPC_Guidelines.md)
 * [Bestiary: Threats of the Sphere](gm/Bestiary.md)
 * [Mission Generator](gm/Mission_Generator.md)
 * [Open Play Contracts](gm/Open_Play_Missions.md)
-* [Time Management](gm/Time_Management.md)
-* [Social Interactions](gm/Social_Interactions.md)

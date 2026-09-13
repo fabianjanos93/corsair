@@ -42,10 +42,10 @@ For Corsairs, it is recommended that each player selects a different sponsor:
 
 ## Race
 
-Choose a race for your character. Your race represents your character's biological lineage, granting innate attribute adjustments or additional Skill Points at character creation:
+Choose a race for your character. Your race represents your character's biological lineage, granting innate attribute adjustments or additional Experience Points (XP) at character creation:
 
 - **Human:** *Adaptable, ambitious, and widespread humanoids found across the Sphere.*
-    - Gain **+4 Skill Points**.
+    - Gain **+4 XP** (for a total of 10 starting XP).
 - **Craggen:** *Stout, small-sized humanoids with mineral-dense skin and crystalline gemstone eyes.*
     - Gain **+2 points** distributed between **Finesse** and **Knowledge** (+2/+0, +1/+1, or +0/+2).
 - **Naga:** *Cold-blooded, bipedal reptilians adorned with vibrant, decorative cranial crests.*
@@ -53,11 +53,11 @@ Choose a race for your character. Your race represents your character's biologic
 - **Sylvan:** *Imposing, powerful humanoids marked by majestic manes, tusks, and chlorophyllic skin.*
     - Gain **+2 points** distributed between **Strength** and **Presence** (+2/+0, +1/+1, or +0/+2).
 - **Drakeling:** *Nimble, scaly humanoids bearing swept horns and expressive, serpentine tails.*
-    - Gain **+2 Skill Points**, plus **+1 Agility** or **+1 Instinct**.
+    - Gain **+2 XP** (for a total of 8 starting XP), plus **+1 Agility** or **+1 Instinct**.
 - **Elf:** *Graceful, slender humanoids with pointed ears and mild chlorophyllic pigmentation.*
-    - Gain **+2 Skill Points**, plus **+1 Strength** or **+1 Presence**.
+    - Gain **+2 XP** (for a total of 8 starting XP), plus **+1 Strength** or **+1 Presence**.
 - **Gnome:** *Inquisitive, slender humanoids with standard skin tones and iridescent eye, hair, and nail pigmentation.*
-    - Gain **+2 Skill Points**, plus **+1 Finesse** or **+1 Knowledge**.
+    - Gain **+2 XP** (for a total of 8 starting XP), plus **+1 Finesse** or **+1 Knowledge**.
 - **Dwarf:** *Dense, subterranean humanoids combining crystalline skin deposits with muscular, reinforced frames.*
     - Gain **+1 Strength** or **+1 Presence**, plus **+1 Finesse** or **+1 Knowledge**.
 - **Kobold:** *Cunning, small-stature reptilians crowned with natural, gemstone-patterned facial bone masks.*
@@ -114,22 +114,17 @@ Every character in Corsair is defined by six Core Attributes representing their 
 * **Starting Cap:** The maximum rating for any Core Attribute at character creation is **5**.
 * **Racial Bonuses:** Racial attribute increases are applied prior to Creation Point distribution, meaning if you want to increase an Attribute to 5, you cannot use a racial bonus to avoid paying 2 Creation Points for going from 4 to 5.
 
-## Skills
-
-While Attributes represent innate talent, Skills represent specialized training and field expertise. Skills are linked to specific Attribute Pairs and grant automatic **Upgrades** when making tests with that pair (see [Skills](Player_Characters.md#skills)).
-
-* **Starting Values:** Characters begin with no trained Skills (Skill Level 0).
-* **Point Budget:** Spend **6 Skill Points** (plus any additional Skill Points granted by your Race) to purchase and improve Skills.
-* **Point Costs:**
-    * Purchasing a **Level 1** Skill costs **1 Skill Point**.
-    * Increasing a Skill from **Level 1 to 2** costs **2 Skill Points**.
-    * Increasing a Skill from **Level 2 to 3** costs **3 Skill Points**.
-* **Starting Cap:** The maximum rating for any Skill at character creation is **Level 3** (granting +3 Upgrades).
-
-
 ## Starter Kit
 
 Every operative is equipped with baseline survival gear for life in the fringe, consisting of standard personal communications, armor, a melee weapon, a firearm, and one specialized utility kit. Select items from each category below that fit your **Strength** and chosen combat attributes:
+
+### Maximum Load Capacity
+
+All weapons, protective armor, and gear are governed by the **Load** system, representing the physical mass, weight, and bulk of equipment carried on your person. An operative's carrying limit is determined directly by their physical power:
+
+$$\text{Maximum Load Capacity} = 12 + (\text{Strength} \times 2)$$
+
+This carrying capacity is an absolute operational limit; an operative cannot carry items with a total Load exceeding this value under any circumstances. When outfitting your operative with weapons, armor, and gear below, sum their Load values against your maximum capacity, keeping in mind that leaving spare Load capacity is vital for carrying mission salvage, heavy ammo supplies, or recovered assets in the field.
 
 ### 1. Universal Gear
 All characters begin with:
@@ -169,7 +164,7 @@ Select one firearm based on your operative's desired effective engagement range 
     * **[Combat Shotgun](../equipment/Firearms.md)** (Shotgun, 2H | Load 3 | Dmg +3 | RoF 1 | Acc: 4 / 3 / 0 / -) — *Hard-hitting magazine-fed scattergun engineered for aggressive room clearing.*
 
 * **Mid-Range & General Combat (Medium Range Focus: 6–12 spaces / ~20–40m):**
-    * **[Heavy Revolver](../equipment/Firearms.md)** (Handgun, 1H | Load 1 | Dmg +3 | RoF 0 | Acc: 3 / 2 / 1 / -) — *Large-frame magnum sidearm delivering heavy single-shot stopping power.*
+    * **[Heavy Revolver](../equipment/Firearms.md)** (Handgun, 1H | Load 1 | Dmg +2 | RoF 0 | Acc: 3 / 2 / 1 / -) — *Large-frame magnum sidearm delivering heavy single-shot stopping power.*
     * **[Assault Carbine](../equipment/Firearms.md)** (Rifle, 2H | Load 3 | Dmg +2 | RoF 2 | Acc: 3 / 3 / 2 / 1) — *Maneuverable shoulder rifle balancing burst fire with engagement capability out to Long range.*
     * **[Assault Rifle](../equipment/Firearms.md)** (Rifle, 2H | Load 3 | Dmg +2 | RoF 2 | Acc: 2 / 4 / 3 / 1) — *Standard military long gun with peak accuracy at Medium range and full-range coverage.*
 
@@ -204,6 +199,28 @@ Choose one specialized utility kit to complete your operational loadout:
 ## Credits
 
 You start with 5,000 Credits, which you can use to purchase any desired gear or keep for later.
+
+## Skills & Traits
+
+While Attributes represent your character's raw physical and mental talent, Skills represent specialized training and field expertise linked to specific Attribute Pairs (granting automatic **Upgrades** on relevant tests, as detailed in [Skills](Player_Characters.md#skills)). In addition, operatives can acquire unique [Traits](Traits.md) that provide tactical exceptions, defensive reactions, and specialized combat capabilities.
+
+Now that your operative's chassis, core attributes, combat equipment, and loadout are established, you finalize your character by selecting their specialized training and tactical habits. Instead of tracking an isolated pool of Skill Points, characters receive flat **Experience Points (XP)** at character creation. Operatives can spend this starting XP freely to purchase Skills, acquire Traits, or combine both:
+
+* **Starting XP Budget:** Characters begin with a baseline of **6 XP** (with **Humans** receiving **+4 XP** for 10 XP total, and **Human-mixed races**—Drakelings, Elves, and Gnomes—receiving **+2 XP** for 8 XP total).
+* **Purchasing Skills:**
+    * Learning a new **Level 1** Skill costs **2 XP** (granting +1 Upgrade).
+    * Increasing a Skill from **Level 1 to Level 2** costs **4 XP** (cumulative cost of 6 XP; granting +2 Upgrades).
+    * Increasing a Skill from **Level 2 to Level 3** costs **6 XP** (cumulative cost of 12 XP; granting +3 Upgrades).
+* **Purchasing Traits:**
+    * Operatives can spend their starting XP directly on any [Traits](Traits.md) of their choice.
+    * Each Trait costs between **2 XP and 8 XP** as listed in the Traits catalog. There are no prerequisite unlock challenges or gatekeeping requirements.
+* **Flexible Creation Options:** With a baseline of 6 XP, operatives have full freedom to shape their operational focus:
+    * **Three Level 1 Skills:** Purchase three separate Level 1 Skills (3 × 2 XP = 6 XP) for well-rounded field proficiency.
+    * **One Level 2 Skill:** Invest all 6 XP into a single signature specialization (2 XP for Level 1 + 4 XP for Level 2 = 6 XP) to start as a dedicated specialist.
+    * **Traits Focus:** Spend the entire 6 XP on Traits (such as *Tough as Nails* for 6 XP, or *Brawler* [2 XP] + *Counter Striker* [4 XP] = 6 XP).
+    * **Mixed Skills & Traits:** Combine one Level 1 Skill (2 XP) and one 4 XP Trait (such as *Marksman*, *Iron Will*, or *Healer*) for 6 XP total.
+    * **Human & Hybrid Customization:** Races with bonus XP enjoy even broader combinations. A Human with 10 XP can acquire a Level 2 Skill (6 XP) plus two Level 1 Skills (4 XP), or choose a high-end Trait like *Controlled Blast* (8 XP) alongside a Level 1 Skill (2 XP).
+* **Starting Skill Cap:** The maximum rating for any Skill at character creation is **Level 2** (6 XP total), preserving Level 3 as an elite distinction achieved through campaign advancement.
 
 ## Character & Crew Sheets
 

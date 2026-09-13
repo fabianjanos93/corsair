@@ -6,7 +6,7 @@ attributes, and traits will determine their success or failure.
 
 ### Character Creation & Modes of Play
 
-Before building characters, the group selects a **Mode of Play** ([Freelancers](Creation.md#1-freelancers-aspirants), [Corsairs](Creation.md#2-corsairs-chartered-cell), or [Rogue Corsairs](Creation.md#3-rogue-corsairs-outlaws)), determining whether the crew possesses official sponsors and a starship. Creating a character then involves selecting a sponsor (or ex-sponsor), race, and class chassis, as well as distributing points to attributes and skills. For the full step-by-step process, see [Character Creation](Creation.md).
+Before building characters, the group selects a **Mode of Play** ([Freelancers](Creation.md#1-freelancers-aspirants), [Corsairs](Creation.md#2-corsairs-chartered-cell), or [Rogue Corsairs](Creation.md#3-rogue-corsairs-outlaws)), determining whether the crew possesses official sponsors and a starship. Creating a character then involves selecting a sponsor (or ex-sponsor), race, and class chassis, as well as distributing points to attributes, outfitting a starter kit, and investing starting XP into skills and traits. For the full step-by-step process, see [Character Creation](Creation.md).
 
 You can download a printable [Character Sheet](Character_Sheet.html) to record your character's details.
 
@@ -22,8 +22,7 @@ Classes define your character's specialized role and unique abilities. Choose on
 
 ### Traits
 
-Traits are unique qualities or backgrounds that provide specific benefits or flavor to your character. See the full list
-of [Traits](Traits.md).
+Traits are unique operational qualities, specialized combat habits, and tactical capabilities that provide distinct mechanical advantages or narrative permissions. Rather than advancing along tiered numerical levels, each Trait has a flat Experience Point (XP) cost. Operatives can purchase Traits during character creation with their starting XP or acquire them during downtime training. See the full list of [Traits](Traits.md).
 
 ### Character Advancement
 

@@ -69,7 +69,7 @@ A combatant can choose to hold and fight with a weapon in each hand, creating a 
 
 Even standard issue weapons can be customized into mastercrafted instruments through high-grade aerospace machining, monomolecular edge-honing, ergonomic carbon-fiber balancing, or high-frequency vibration emitters. Because each subsequent modification requires increasingly complex precision engineering, upgrade kits are steeply priced and escalate in cost with every installation.
 
-* **Upgrade Limit:** A single melee weapon can benefit from a maximum of **3 Upgrade Kits** in total.
+* **Upgrade Limit:** Two-handed (2H) melee weapons can benefit from a maximum of **3 Upgrade Kits**, while compact one-handed (1H) weapons are limited to a maximum of **2 Upgrade Kits**.
 * **Tiered Cost Structure:**
   * **1st Upgrade:** **10,000 Credits**
   * **2nd Upgrade:** **25,000 Credits**

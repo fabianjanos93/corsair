@@ -144,10 +144,10 @@ Combat in Corsair often gets personal. When you are in the same space as a hosti
 **Close Quarters Combat (CQC)**. This state has significant implications for ranged weaponry.
 
 * **Firing in CQC:** If you attempt to fire a ranged weapon while you are in CQC (i.e., there is an enemy in your
-  space), you suffer **3 Downgrades** to your attack test. It is extremely difficult to aim a gun when someone is trying
-  to hit you with a sword.
+  space), you suffer **2 Downgrades** to your attack test.
+
 * **Firing into CQC:** If you are outside of a melee but fire into a space where allies and enemies are engaged in CQC,
-  you suffer **2 Downgrades** to your attack test. The chaotic swirl of melee combat makes it hard to get a clean shot
+  you suffer **1 Downgrades** to your attack test. The chaotic swirl of melee combat makes it hard to get a clean shot
   without hitting a friend.
 
 ### Cover

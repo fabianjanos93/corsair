@@ -37,7 +37,7 @@ This skill documents the design principles, mathematical rules, naming conventio
 
 Mastercrafted equipment upgrades represent high-end precision aerospace machining and custom armorer tuning.
 
-* **Hard Cap:** A single piece of equipment can benefit from a maximum of **3 Upgrade Kits**.
+* **Hard Cap:** A single piece of equipment can benefit from a maximum of **3 Upgrade Kits** (restricted to a maximum of **2 Upgrade Kits** for one-handed weapons).
 * **Tiered Escalating Pricing:**
   * **Weapons (Melee & Firearms):**
     * **1st Upgrade:** `10,000 Credits`

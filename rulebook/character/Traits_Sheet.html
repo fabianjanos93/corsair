@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corsair — Tactical Traits Reference Sheet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,400;0,600;0,700;0,900;1,400&family=Barlow:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <style>
+/* ======================================================  TOKENS  */
+:root {
+    --black: #080a0c;
+    --dark: #10131a;
+    --mid: #181c24;
+    --surface: #1d2130;
+    --border: #2a3040;
+    --border-light: #3a4256;
+    --accent: #c8a84b;
+    --accent-dim: #7a6428;
+    --accent-glow: rgba(200, 168, 75, 0.15);
+    --red: #a02828;
+    --red-dim: #5c1616;
+    --cyan: #29b6f6;
+    --green: #4caf50;
+    --text: #ccc7ba;
+    --text-dim: #6a6458;
+    --text-muted: #3e3c36;
+    --stripe: rgba(200, 168, 75, 0.025);
+
+    --font-title: 'Barlow Condensed', sans-serif;
+    --font-body: 'Barlow', sans-serif;
+    --font-mono: 'Share Tech Mono', monospace;
+}
+
+/* ======================================================  RESET  */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 7.6pt;
+}
+
+body {
+    font-family: var(--font-body);
+    background: var(--black);
+    color: var(--text);
+    line-height: 1.22;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+}
+
+/* ======================================================  PRINT STYLES  */
+@page {
+    size: A4 portrait;
+    margin: 3.5mm;
+}
+
+@media print {
+    body {
+        background: #ffffff !important;
+        color: #000000 !important;
+    }
+
+    :root {
+        --black: #ffffff;
+        --dark: #ffffff;
+        --mid: #ffffff;
+        --surface: #ffffff;
+        --border: #888888;
+        --border-light: #cccccc;
+        --accent: #000000;
+        --accent-dim: #333333;
+        --accent-glow: transparent;
+        --red: #8b1a1a;
+        --red-dim: #333333;
+        --cyan: #000000;
+        --green: #000000;
+        --text: #000000;
+        --text-dim: #333333;
+        --text-muted: #666666;
+        --stripe: transparent;
+    }
+
+    .page {
+        background: #ffffff !important;
+        box-shadow: none !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        border: none !important;
+        width: 100% !important;
+        height: auto !important;
+        max-height: 297mm !important;
+    }
+
+    .page::before {
+        display: none !important;
+    }
+
+    .mh-logo {
+        background: #ffffff !important;
+        color: #000000 !important;
+        border: 1px solid #000000 !important;
+        clip-path: none !important;
+        padding-right: 3mm !important;
+        min-width: unset !important;
+    }
+
+    .mh-logo svg {
+        fill: #000000 !important;
+    }
+
+    .card-hd {
+        border-bottom-width: 1px !important;
+    }
+
+    .card-hd svg {
+        fill: #000000 !important;
+    }
+
+    .skill-table th {
+        background: #ffffff !important;
+        color: #000000 !important;
+        border-bottom: 1px solid #000000 !important;
+    }
+
+    .skill-section-hd td {
+        background: #ffffff !important;
+        color: #000000 !important;
+        border-top: 1px solid #000000 !important;
+        border-bottom: 1px solid #000000 !important;
+    }
+
+    .badge, .tag {
+        background: #ffffff !important;
+        border-color: #000000 !important;
+        color: #000000 !important;
+    }
+
+    .rule-box {
+        background: #ffffff !important;
+        border-left: 2px solid #000000 !important;
+        border-top: 1px solid #cccccc;
+        border-right: 1px solid #cccccc;
+        border-bottom: 1px solid #cccccc;
+    }
+}
+
+/* ======================================================  PAGE CONTAINER  */
+.page {
+    width: 210mm;
+    height: 297mm;
+    max-height: 297mm;
+    margin: 0 auto;
+    padding: 3.5mm 4mm;
+    background: var(--dark);
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.page::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background:
+        radial-gradient(ellipse at 85% 5%, rgba(200, 168, 75, 0.05) 0%, transparent 60%),
+        radial-gradient(ellipse at 15% 95%, rgba(41, 182, 246, 0.03) 0%, transparent 50%),
+        repeating-linear-gradient(0deg, transparent, transparent 1.8mm, rgba(200, 168, 75, 0.008) 1.8mm, rgba(200, 168, 75, 0.008) 2.0mm);
+    pointer-events: none;
+    z-index: 0;
+}
+
+.page > * {
+    position: relative;
+    z-index: 1;
+}
+
+/* ======================================================  MASTHEAD  */
+.masthead {
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 1.5mm;
+    border: 1px solid var(--accent-dim);
+    background: var(--mid);
+    flex-shrink: 0;
+}
+
+.mh-logo {
+    background: var(--accent);
+    color: var(--black);
+    padding: 1.2mm 2.5mm;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    clip-path: polygon(0 0, calc(100% - 7px) 0, 100% 50%, calc(100% - 7px) 100%, 0 100%);
+    padding-right: 7mm;
+    min-width: 16mm;
+    flex-shrink: 0;
+}
+
+.mh-logo svg {
+    width: 15px;
+    height: 15px;
+    fill: var(--black);
+}
+
+.mh-logo .logo-text {
+    font-family: var(--font-title);
+    font-weight: 900;
+    font-size: 5pt;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    margin-top: 1px;
+}
+
+.mh-title {
+    padding: 1.2mm 2.5mm;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mh-title h1 {
+    font-family: var(--font-title);
+    font-weight: 900;
+    font-size: 12.5pt;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent);
+    line-height: 1;
+}
+
+.mh-title .sub {
+    font-family: var(--font-title);
+    font-weight: 300;
+    font-size: 6.2pt;
+    letter-spacing: 0.2em;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    margin-top: 1px;
+}
+
+.mh-meta {
+    border-left: 1px solid var(--border);
+    padding: 1.2mm 2.5mm;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 44mm;
+}
+
+.mh-meta label {
+    font-family: var(--font-title);
+    font-size: 5pt;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--accent-dim);
+    margin-bottom: 0.5mm;
+}
+
+.fl {
+    border-bottom: 1px solid var(--border);
+    min-height: 3.5mm;
+}
+
+/* ======================================================  SUMMARY BANNER  */
+.rule-banner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5mm;
+    margin-bottom: 1.5mm;
+    flex-shrink: 0;
+}
+
+.banner-box {
+    background: var(--mid);
+    border: 1px solid var(--border);
+    border-left: 2px solid var(--accent);
+    padding: 1mm 1.5mm;
+    font-size: 6.3pt;
+    line-height: 1.2;
+}
+
+.banner-box strong {
+    font-family: var(--font-title);
+    font-weight: 700;
+    color: var(--accent);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+/* ======================================================  GRID LAYOUT  */
+.grid-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.8mm;
+    flex: 1;
+    align-content: stretch;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4mm;
+}
+
+/* ======================================================  CARDS  */
+.card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-top: 1.5px solid var(--accent-dim);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.card-hd {
+    display: flex;
+    align-items: center;
+    gap: 1.5mm;
+    padding: 0.8mm 1.5mm;
+    background: var(--mid);
+    border-bottom: 1px solid var(--border);
+    flex-shrink: 0;
+}
+
+.card-hd svg {
+    width: 9px;
+    height: 9px;
+    fill: var(--accent);
+    flex-shrink: 0;
+}
+
+.card-hd h2 {
+    font-family: var(--font-title);
+    font-weight: 700;
+    font-size: 7pt;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0;
+    line-height: 1;
+}
+
+.card-hd .count-tag {
+    margin-left: auto;
+    font-family: var(--font-mono);
+    font-size: 5pt;
+    color: var(--text-dim);
+    letter-spacing: 0.05em;
+}
+
+.card-body {
+    padding: 0;
+}
+
+/* ======================================================  TABLES  */
+.skill-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 6.6pt;
+}
+
+.skill-table th {
+    background: var(--mid);
+    color: var(--text-dim);
+    font-family: var(--font-title);
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 0.6mm 1.2mm;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+    font-size: 5.6pt;
+}
+
+.skill-table td {
+    padding: 0.8mm 1.2mm;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+    line-height: 1.2;
+}
+
+.skill-table tr:last-child td {
+    border-bottom: none;
+}
+
+.skill-table tr:nth-child(even) td {
+    background: var(--stripe);
+}
+
+.skill-section-hd td {
+    background: var(--mid) !important;
+    font-family: var(--font-title);
+    font-weight: 700;
+    font-size: 5.8pt;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--accent);
+    padding: 0.5mm 1.2mm;
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+}
+
+.trait-hd {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1mm;
+}
+
+.trait-name {
+    font-family: var(--font-title);
+    font-weight: 700;
+    font-size: 7.2pt;
+    color: var(--accent);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.rules-text {
+    color: var(--text);
+    font-weight: 400;
+}
+
+.rules-text strong {
+    color: var(--accent);
+    font-weight: 600;
+}
+
+.badge {
+    display: inline-block;
+    font-family: var(--font-mono);
+    font-size: 5pt;
+    padding: 0.3px 2.5px;
+    border: 1px solid var(--border-light);
+    color: var(--text-dim);
+    text-transform: uppercase;
+    background: var(--mid);
+    line-height: 1.1;
+    white-space: nowrap;
+}
+
+.badge.accent {
+    border-color: var(--accent-dim);
+    color: var(--accent);
+    font-weight: 600;
+}
+
+/* ======================================================  PAGE FOOTER  */
+.page-foot {
+    font-family: var(--font-title);
+    font-size: 5.5pt;
+    letter-spacing: 0.25em;
+    color: var(--text-muted);
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: auto;
+    padding-top: 1.2mm;
+    flex-shrink: 0;
+}
+    </style>
+</head>
+<body>
+    <div class="page">
+        <!-- MASTHEAD -->
+        <div class="masthead">
+            <div class="mh-logo">
+                <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/><circle cx="12" cy="12" r="1.5"/></svg>
+                <span class="logo-text">Corsair</span>
+            </div>
+            <div class="mh-title">
+                <h1>Tactical Traits Reference</h1>
+                <div class="sub">Operational Doctrines, Reflexes & Specialized Tactical Habits</div>
+            </div>
+            <div class="mh-meta">
+                <label>Operative / Call-Sign</label>
+                <div class="fl"></div>
+            </div>
+        </div>
+
+        <!-- SUMMARY BANNER -->
+        <div class="rule-banner">
+            <div class="banner-box">
+                <strong>Acquiring Traits:</strong> Fixed flat cost (2 XP to 8 XP). Independent tactical assets with no prerequisite unlock trees or arbitrary gatekeeping challenges.
+            </div>
+            <div class="banner-box">
+                <strong>Character Creation:</strong> Starting pool of <strong>6 XP</strong> (Hybrids receive <strong>8 XP</strong>, Humans receive <strong>10 XP</strong>). Spend freely on Skills, Traits, or both.
+            </div>
+            <div class="banner-box">
+                <strong>Downtime Training:</strong> Earned XP from completed missions can be invested during day-to-day downtime to permanently acquire new Traits ready for the field.
+            </div>
+        </div>
+
+        <!-- 2-COLUMN MAIN CONTENT (15 Traits per Column) -->
+        <div class="grid-main">
+            <!-- COLUMN 1: Melee (6), Ranged & Ordnance (6), Stealth & Medical (3) = 15 Traits -->
+            <div class="col">
+                <!-- CARD 1: MELEE COMBAT -->
+                <div class="card">
+                    <div class="card-hd">
+                        <svg viewBox="0 0 24 24"><path d="M14.5 17.5L3 6V3h3l11.5 11.5-3 3zm7-11.5L20 4.5l-4 4 1.5 1.5 4-4zM6.5 19.5L5 21l-2-2 1.5-1.5 2 2z"/></svg>
+                        <h2>Melee Combat</h2>
+                        <span class="count-tag">6 Traits</span>
+                    </div>
+                    <div class="card-body">
+                        <table class="skill-table">
+                            <thead>
+                                <tr>
+                                    <th style="width: 29%;">Trait / Cost</th>
+                                    <th>Operational Effect</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="trait-hd"><span class="trait-name">Brawler</span><span class="badge accent">2 XP</span></div>
+                                    </td>
+                                    <td class="rules-text">
+                                        You cannot be outnumbered in melee; hostiles gain <strong>no Upgrades from Outnumbering</strong> when attacking you.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="trait-hd"><span class="trait-name">Combo Master</span><span class="badge accent">5 XP</span></div>
+                                    </td>
+                                    <td class="rules-text">
+                                        Spend one <strong>Gambit</strong> die to perform an additional melee attack (paying 1 AP), even if the Player Turn would normally end.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="trait-hd"><span class="trait-name">Counter Striker</span><span class="badge accent">4 XP</span></div>
+                                    </td>
+                                    <td class="rules-text">
+                                        If you fully eliminate all Hits when contesting a melee attack, deal damage to one attacker equal to your <strong>highest rolled Contest die</strong>.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="trait-hd"><span class="trait-name">Duelist</span><span class="badge accent">3 XP</span></div>
+                                    </td>
+                                    <td class="rules-text">
+                                        Gain <strong>+2 Upgrades</strong> on all melee attacks and contests against a target if you two are the only creatures occupying that space.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="trait-hd"><span class="trait-name">Interceptor</span><span class="badge accent">2 XP</span></div>
+                                    </td>
+                                    <td class="rules-text">
+                                        When you successfully contest a creature's movement, deal damage to that creature equal to your <strong>highest rolled Contest die</strong>.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="trait-hd"><span class="trait-name">Striker</span><span class="badge accent">3 XP</span></div>
+                                    </td>
+                                    <td class="rules-text">
+                                        Your unarmed strikes deal bonus physical damage equal to your <strong>Endurance</strong>.
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- CARD 2: RANGED COMBAT & HEAVY ORDNANCE -->
+                <div class="card">
+                    <div class="card-hd">
+                        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3v3m0 12v3m-9-9h3m12 0h3"/></svg>
+                        <h2>Ranged & Heavy Ordnance</h2>
+                        <span class="count-tag">6 Traits</span>
+                    </div>
+                    <div class="card-body">
+                        <table class="skill-table">
+                            <thead>
+                                <tr>
+                                    <th style="width: 29%;">Trait / Cost</th>
+                                    <th>Operational Effect</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="trait-hd"><span class="trait-name">Marksman</span><span class="badge accent">4 XP</span></div>
+                                    </td>
+                                    <td class="rules-text">
+                                        Treat your target as being one <strong>Range Band</strong> closer or further for determining weapon <strong>Accuracy</strong>.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="trait-hd"><span class="trait-name">Rapid Fire</span><span class="badge accent">6 XP</span></div>
+                                    </td>
+                                    <td class="rules-text">
+                                        Spend one <strong>Gambit</strong> die to perform an additional ranged attack (paying 1 AP), even if the Player Turn would normally end.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="trait-hd"><span class="trait-name">Gunslinger</span><span class="badge accent">4 XP</span></div>
+                                    </td>
+                                    <td class="rules-text">
+                                        Ignore the <strong>3 Downgrades</strong> for firing a ranged weapon while in Close Quarters Combat (CQC).
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="trait-hd"><span class="trait-name">Sharpshooter</span><span class="badge accent">7 XP</span></div>
+                                    </td>
+                                    <td class="rules-text">
+                                        Ignore Protection bonuses from cover and the <strong>2 Downgrades</strong> for firing into Close Quarters Combat (CQC).
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="trait-hd"><span class="trait-name">Bombardier</span><span class="badge accent">3 XP</span></div>
+                                    </td>
+                                    <td class="rules-text">
+                                        <strong>Crit Effects</strong> activated on Ordnance tests increase damage by <strong>+3 per Hit spent</strong> (instead of +2).
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="trait-hd"><span class="trait-name">Controlled Blast</span><span class="badge accent">8 XP</span></div>
+                                    </td>
+                                    <td class="rules-text">
+                                        When using an item or ability dealing area damage across spaces, choose any number of creatures to be <strong>unaffected</strong>.
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- CARD 3: INFILTRATION & FIELD SUPPORT -->
+                <div class="card">
+                    <div class="card-hd">
+                        <svg viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+                        <h2>Infiltration & Support</h2>
+                        <span class="count-tag">3 Traits</span>
+                    </div>
+                    <div class="card-body">
+                        <table class="skill-table">
+                            <thead>
+                                <tr>
+                                    <th style="width: 29%;">Trait / Cost</th>
+                                    <th>Operational Effect</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="skill-section-hd">
+                                    <td colspan="2">Stealth & Infiltration</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="trait-hd"><span class="trait-name">Seasoned Stalker</span><span class="badge accent">5 XP</span></div>
+                                    </td>
+                                    <td class="rules-text">
+                                        If the turn ends with you hidden from all non-allies, spend 1 <strong>Gambit</strong> die to take one more action (paying 1 AP as normal).
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="trait-hd"><span class="trait-name">Sneak Attack</span><span class="badge accent">3 XP</span></div>
+                                    </td>
+                                    <td class="rules-text">
+                                        When you attack a creature that has not detected you yet, the attack deals <strong>+3 bonus damage</strong>.
+                                    </td>
+                                </tr>
+                                <tr class="skill-section-hd">
+                                    <td colspan="2">Medical & Field Support</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="trait-hd"><span class="trait-name">Healer</span><span class="badge accent">4 XP</span></div>
+                                    </td>
+                                    <td class="rules-text">
+                                        Once per round, when healing your own or an ally's Physical or Mental Condition, heal <strong>1 additional segment</strong>.
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- COLUMN 2: Defense (6), Teamwork (4), Social & Gambit (5) = 15 Traits -->
+            <div class="col">
+                <!-- CARD 4: DEFENSE & RESILIENCE -->
+                <div class="card">
+                    <div class="card-hd">
+                        <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 2.18l7 3.12v4.7c0 4.67-3.13 9.06-7 10.18-3.87-1.12-7-5.51-7-10.18V6.3l7-3.12z"/></svg>
+                        <h2>Defense & Resilience</h2>
+                        <span class="count-tag">6 Traits</span>
+                    </div>
+                    <div class="card-body">
+                        <table class="skill-table">
+                            <thead>
+                                <tr>
+                                    <th style="width: 29%;">Trait / Cost</th>
+                                    <th>Operational Effect</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="trait-hd"><span class="trait-name">Bodyguard</span><span class="badge accent">5 XP</span></div>
+                                    </td>
+                                    <td class="rules-text">
+                                        Gain <strong>+2 Upgrades</strong> on your Contest Roll when contesting an attack targeting an ally in your space.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="trait-hd"><span class="trait-name">Iron Will</span><span class="badge accent">4 XP</span></div>
+                                    </td>
+                                    <td class="rules-text">
+                                        Gain <strong>+2 Willpower</strong> (adds +2 capacity to each Mental Track). Does not modify other Attributes.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="trait-hd"><span class="trait-name">Stoic</span><span class="badge accent">5 XP</span></div>
+                                    </td>
+                                    <td class="rules-text">
+                                        Gain passive <strong>Mental Protection</strong> equal to your <strong>Willpower</strong>.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="trait-hd"><span class="trait-name">Lightning Reflexes</span><span class="badge accent">8 XP</span></div>
+                                    </td>
+                                    <td class="rules-text">
+                                        Once per round, you can contest one attack targeting you without spending an Action Point (<strong>0 AP</strong>).
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="trait-hd"><span class="trait-name">Tough as Nails</span><span class="badge accent">6 XP</span></div>
+                                    </td>
+                                    <td class="rules-text">
+                                        Gain <strong>+2 Endurance</strong> (adds +2 capacity to each Physical Track). Does not modify other Attributes.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="trait-hd"><span class="trait-name">Thick Skin</span><span class="badge accent">7 XP</span></div>
+                                    </td>
+                                    <td class="rules-text">
+                                        Gain passive <strong>Physical Protection</strong> equal to your <strong>Endurance</strong> while not wearing armor.
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- CARD 5: TEAMWORK & LEADERSHIP -->
+                <div class="card">
+                    <div class="card-hd">
+                        <svg viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+                        <h2>Teamwork & Leadership</h2>
+                        <span class="count-tag">4 Traits</span>
+                    </div>
+                    <div class="card-body">
+                        <table class="skill-table">
+                            <thead>
+                                <tr>
+                                    <th style="width: 29%;">Trait / Cost</th>
+                                    <th>Operational Effect</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="trait-hd"><span class="trait-name">Coordinator</span><span class="badge accent">3 XP</span></div>
+                                    </td>
+                                    <td class="rules-text">
+                                        When participating in a <strong>Teamwork</strong> Action, every other participant gains <strong>1 Upgrade</strong> on their roll.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="trait-hd"><span class="trait-name">Leader</span><span class="badge accent">5 XP</span></div>
+                                    </td>
+                                    <td class="rules-text">
+                                        Once per round, when taking part in a <strong>Teamwork</strong> Action, one chosen ally can join for free (<strong>0 AP</strong>).
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="trait-hd"><span class="trait-name">Planner</span><span class="badge accent">3 XP</span></div>
+                                    </td>
+                                    <td class="rules-text">
+                                        When two or more Delayed Actions trigger in the same turn, you gain a <strong>d10 Gambit die</strong>.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="trait-hd"><span class="trait-name">Heart of Team</span><span class="badge accent">4 XP</span></div>
+                                    </td>
+                                    <td class="rules-text">
+                                        Allies can transfer earned Gambit dice to you, and you can transfer Gambit dice to allies when they spend Gambit.
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- CARD 6: SOCIAL, GAMBIT & MOMENTUM -->
+                <div class="card">
+                    <div class="card-hd">
+                        <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM7.5 18c-.83 0-1.5-.67-1.5-1.5S6.67 15 7.5 15s1.5.67 1.5 1.5S8.33 18 7.5 18zm0-9C6.67 9 6 8.33 6 7.5S6.67 6 7.5 6 9 6.67 9 7.5 8.33 9 7.5 9zm4.5 4.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm4.5 4.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm0-9c-.83 0-1.5-.67-1.5-1.5S15.67 6 16.5 6s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/></svg>
+                        <h2>Social & Momentum</h2>
+                        <span class="count-tag">5 Traits</span>
+                    </div>
+                    <div class="card-body">
+                        <table class="skill-table">
+                            <thead>
+                                <tr>
+                                    <th style="width: 29%;">Trait / Cost</th>
+                                    <th>Operational Effect</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="skill-section-hd">
+                                    <td colspan="2">Social & Negotiation</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="trait-hd"><span class="trait-name">Closer</span><span class="badge accent">5 XP</span></div>
+                                    </td>
+                                    <td class="rules-text">
+                                        Spend 1 <strong>Gambit</strong> die to perform a communication test (paying 1 AP), even if the Player Turn would normally end.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="trait-hd"><span class="trait-name">Impressive</span><span class="badge accent">2 XP</span></div>
+                                    </td>
+                                    <td class="rules-text">
+                                        Your first social interaction test with a creature you have never met before gains <strong>+1 Upgrade</strong>.
+                                    </td>
+                                </tr>
+                                <tr class="skill-section-hd">
+                                    <td colspan="2">Gambit & Momentum</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="trait-hd"><span class="trait-name">Called Shot</span><span class="badge accent">4 XP</span></div>
+                                    </td>
+                                    <td class="rules-text">
+                                        When you add a <strong>Gambit</strong> die to a dice pool before rolling, you can re-roll that Gambit die once after the roll.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="trait-hd"><span class="trait-name">Double Down</span><span class="badge accent">5 XP</span></div>
+                                    </td>
+                                    <td class="rules-text">
+                                        When you spend two or more <strong>Gambit</strong> dice on a single test, those Gambit dice step up to <strong>d12s</strong>.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="trait-hd"><span class="trait-name">Draw Two</span><span class="badge accent">4 XP</span></div>
+                                    </td>
+                                    <td class="rules-text">
+                                        When you earn a <strong>Gambit</strong> die and your Gambit pool was empty, gain an additional <strong>d8 Gambit die</strong>.
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PAGE FOOTER -->
+        <div class="page-foot">
+            Corsair RPG · Chapter 5: Player Characters · Tactical Traits Reference Sheet · 30 Operational Assets
+        </div>
+    </div>
+</body>
+</html>
