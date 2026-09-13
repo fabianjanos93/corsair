@@ -113,11 +113,11 @@ The Booster Kit delivers aggressive neuro-stimulants, respiratory dilators, and 
 * **Cost:** 1 AP
 * **Effect:** *Adrenal superchargers flood motor neurons, amplifying raw physical output.* Roll a **Serum Simple Test**. For each **Hit** you sacrifice, grant **+1 Upgrade** to all physical tests made by a creature in your space or an adjacent space until the end of the round.
 
-**Adrenaline Rush `[Action]`**
+**Adrenaline Rush `[Free Action]`**
 * **Attribute:** Serum
 * **Pressure Change:** `-3 Pressure`
-* **Cost:** 1 AP
-* **Effect:** *An emergency surge of neuro-stimulants accelerates synaptic transmission to hyper-reflexive speeds.* Roll a **Serum Simple Test**. For each **Hit** you sacrifice, grant **1 temporary Action Point (1 AP)** to an ally in your space or an adjacent space (up to the character maximum of 3 AP). This bonus AP must be spent before the end of the target's current Player Turn or it is lost.
+* **Cost:** 0 AP
+* **Effect:** *An emergency surge of neuro-stimulants accelerates synaptic transmission to hyper-reflexive speeds.* Target yourself or an ally in your space or an adjacent space. The next action taken by the target does not count against the Player Turn limit.
 
 ---
 

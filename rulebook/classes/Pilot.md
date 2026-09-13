@@ -43,7 +43,7 @@ The Exodrone’s high-torque actuators, energy carbines, and specialized modules
 * **Capacity:** The Exodrone can store a maximum of **10 Batteries**.
 * **Expenditure:** Activating specialized Pilot abilities expends a designated number of Batteries from this reserve.
 * **Recharging:** At the beginning of each Round, the Exodrone automatically recharges **2 Batteries** if it is in Attached Mode. While in Detached Mode, it recharges 0 Batteries. During place-to-place or day-to-day pacing, the Battery pool automatically refills to maximum (10).
-* **Damage & Shutdown:** When the Exodrone suffers damage while in Detached Mode, its physical casing and capacitors absorb the shock: it loses **1 Battery for every 3 points of damage suffered**, rounded down. If the Exodrone’s Battery pool drops to **0 Batteries**, it enters an emergency shutdown state, collapsing and ceasing all functions until it recharges at least 1 Battery.
+* **Damage & Shutdown:** When the Exodrone suffers damage while in Detached Mode, its physical casing and capacitors absorb the shock: it loses **1 Battery for every 4 points of damage suffered**, rounded down. If the Exodrone’s Battery pool drops to **0 Batteries**, it enters an emergency shutdown state, collapsing and ceasing all functions until it recharges at least 1 Battery.
 
 ## Pilot Abilities
 
@@ -54,13 +54,12 @@ The Pilot customizes their Exodrone through specialized hardware and software **
 The Wingman Module emphasizes tactical synergy and coordinated maneuvers between the operative and their detached Exodrone.
 
 **Boost `[Free Action]`**
-* **Cost:** 2 Batteries
-* **Limit:** Once per turn
+* **Cost:** 1 Battery
+* **Limit:** Max 3 per turn
 * **Effect:** You route auxiliary current to the Exodrone’s primary servos. The Exodrone gains **+1 Upgrade** to any one chosen Exodrone Attribute until the beginning of the next Player Turn.
 
 **Double Move `[Rider]`**
-* **Cost:** 2 Batteries
-* **Limit:** Once per round
+* **Cost:** 1 Battery
 * **Trigger:** When you take a Movement Action during the Player Turn.
 * **Effect:** Fluid coordination allows the Exodrone to reposition alongside you. The Exodrone immediately executes a full Movement Action for **0 additional AP**.
 
@@ -78,7 +77,7 @@ The Warden Module configures the Exodrone into a hardened defensive bastion, abs
 * **Cost:** 1 Battery
 * **Limit:** Once per round
 * **Requirement:** Attached Mode
-* **Effect:** The Exodrone shifts its interlocking ceramic plates across your vitals. Your Physical Protection increases by **+1** until the end of the Round.
+* **Effect:** The Exodrone shifts its interlocking ceramic plates across your vitals. Your Physical Protection increases by **+2** until the end of the Round.
 
 **Guardian `[Reaction]`**
 * **Cost:** 2 Batteries
@@ -95,41 +94,41 @@ The Warden Module configures the Exodrone into a hardened defensive bastion, abs
 The Duelist Module transforms the Exodrone into a lethal close-quarters combatant, mounting high-frequency cutting edges for silent breaches and melee skirmishes.
 
 **Shadow Strike `[Rider]`**
-* **Cost:** 4 Batteries
+* **Cost:** 1 Battery
 * **Requirement:** Attached Mode, or occupying the same space as the target in Detached Mode.
 * **Trigger:** After successfully landing a melee attack.
 * **Effect:** The Exodrone executes an immediate hydraulic follow-up blow. Add bonus damage to your attack equal to the Exodrone Attribute corresponding to the Physical Attribute used in your attack.
 
-**Vibro-Blades `[Free Action]`**
-* **Cost:** 2 Batteries
-* **Effect:** The Exodrone extends twin wrist-mounted high-frequency vibro-blades, remaining active until the end of the round. They function as dual-wielded 1H melee weapons with a **Damage Bonus of +3**, allowing you to choose between **Slashing** (favored pair **Agility + Strength**) or **Piercing** (favored pair **Agility + Finesse**) damage for your melee attacks.
+**Power Weapons `[Free Action]`**
+* **Cost:** 1 Battery
+* **Effect:** The Exodrone extends twin wrist-mounted powered weapons of your choice between vibro-blades, shock-batons, or pneumatic spikes, remaining active until the end of the round. They function as dual-wielded 1H melee weapons with a **Damage Bonus of 1 plus your Pilot Level**, allowing you to choose between **Slashing** (favored pair **Agility + Strength**), **Striking** (favored pair **Strength + Finesse**) or **Piercing** (favored pair **Agility + Finesse**) damage for your melee attacks.
 
 **Thermal Lance `[Action]`**
-* **Cost:** 3 Batteries, 1 AP
-* **Effect:** The Exodrone locks its articulated frame and unleashes a superheated thermal cutting lance in a devastating thrust against a target or structural barrier in its space or an adjacent space. This strike completely ignores the target's Physical Protection and Cover, dealing unmitigated damage. Against inanimate objects, reinforced security doors, or armored bulkheads, it automatically cuts through and breaches them.
+* **Cost:** 2 Batteries, 1 AP
+* **Effect:** The Exodrone locks its articulated frame and unleashes a superheated thermal cutting lance in a devastating thrust against a target or structural barrier. Make a single melee attack using any melee attribute pair, with the following modifiers: **Damage Bonus: +5 + Pilot Level**. This Damage ignores the target's Physical Protection.
 
 ### Arsenal Module
 
 The Arsenal Module outfits the Exodrone with heavy ranged weaponry, transforming it into a versatile mobile weapons platform.
 
 **Laser Carbine `[Free Action]`**
-* **Cost:** 3 Batteries
-* **Effect:** The Exodrone deploys a wrist-mounted pulsed laser carbine, remaining active until the end of the round. It features the following firearm profile: `Acc: [3/2/1/-], Dmg: +2, RoF: 2`.
+* **Cost:** 1 Battery
+* **Effect:** The Exodrone deploys a wrist-mounted pulsed laser carbine, remaining active until the end of the round. It features the following firearm profile: `Acc: [3/2/1/-], Dmg: +1 + Pilot Class Level, RoF: 2`.
 
-**Shoulder Laser `[Action]`**
-* **Cost:** 3 Batteries, 1 AP
-* **Effect:** The Exodrone locks its chassis and discharges a concentrated high-output optical blast from its shoulder-mounted heavy laser: `Acc: [1/4/3/2], Dmg: +5, RoF: 0`.
+**Shoulder Cannon `[Action]`**
+* **Cost:** 2 Batteries, 1 AP
+* **Effect:** The Exodrone locks its chassis and discharges a concentrated high-output optical blast from its shoulder-mounted heavy laser: `Acc: [1/4/3/2], Dmg: +4 + Pilot Class Level, RoF: 0`.
 
-**Thermobaric Grenade `[Action]`**
-* **Cost:** 3 Batteries, 1 AP
-* **Effect:** The Exodrone launches a high-yield concussion grenade at any target space within Short range (0–5 spaces), resolving as an explosive area attack: `Area Attack, Ordnance 4, 4m Radius`.
+**Plasma Grenade `[Action]`**
+* **Cost:** 2 Batteries, 1 AP
+* **Effect:** The Exodrone produces a small blob of superheated plasma and lobs it at any target space within Short range (0–5 spaces). The blob acts as a grenade with the following profile: `Ordnance: 3 + Pilot Class Level, 2m Radius`.
 
 ### Assault Module
 
 The Assault Module enhances dynamic movement, enabling the Exodrone to scale vertical obstacles, drop from high altitudes, and close combat distances rapidly.
 
 **Full Throttle `[Action]`**
-* **Cost:** 3 Batteries, 1 AP
+* **Cost:** 1 Battery, 1 AP
 * **Effect:** Overcharging hydraulic leg actuators, you or your Exodrone sprint up to 12 meters in a straight line directly into a hostile creature's space and execute a melee attack as part of the same action.
 
 **Spider Climb `[Free Action]`**
@@ -137,8 +136,8 @@ The Assault Module enhances dynamic movement, enabling the Exodrone to scale ver
 * **Effect:** Micro-fiber magnetic clamps engage across the Exodrone’s extremities. Until the end of the round, the Exodrone gains **Surface Adhesion**, allowing it to move across vertical bulkheads and sheer ceilings as regular terrain.
 
 **Jump Pack `[Action]`**
-* **Cost:** 3 Batteries, 1 AP
-* **Effect:** The Exodrone fires integrated vector thrusters, gaining the **Mobility** virtual item attribute equal to its Speed Attribute. It immediately executes a Jetpack flight movement per [Gear.md](file:///c:/Users/csisz/IdeaProjects/corsair/rulebook/equipment/Gear.md) (base speed 8 meters, rolling a **Mobility + Agility** / **Speed Success Test** to add +1 meter per Success Point). You may sacrifice Hits on the Success Roll to gain +4 meters of movement per Hit spent (Vector Boost). The user ignores all falling damage, but falls at the end of the Player Turn unless on solid ground.
+* **Cost:** 2 Batteries
+* **Effect:** The Exodrone fires integrated vector thrusters, gaining the **Mobility** virtual item attribute equal to 3 + Pilot Class Level. Until the end of round, the Exodrone's and the wearer's base movement speed becomes 12, it may sacrifice Hits on movement tests to gain +4 meters of movement per Hit spent and it and its wearer ignores difficult terrain and all damage from falling until end of turn. If in mid-air, it falls at the end of the Player Turn, taking no damage.
 
 ### Recon Module
 
@@ -146,13 +145,13 @@ The Recon Module equips the Exodrone with adaptive optical cloaking, remote neur
 
 **Active Camouflage `[Free Action]`**
 * **Cost:** 2 Batteries
-* **Effect:** The Exodrone (or the Pilot if in Attached Mode) engages adaptive light-refracting micro-panels and acoustic baffles until the end of the round or until an attack is made. The chassis establishes a **Persistent Blocker Effect** against any hostile attempts to spot, detect, or target it from outside its space. Furthermore, any test that benefits from remaining unseen gains **+2 Upgrades**.
+* **Effect:** The Exodrone (or the Pilot if in Attached Mode) engages adaptive light-refracting micro-panels and acoustic baffles until the end of the round or until an attack is made. The chassis establishes a **Persistent Blocker Effect** against any hostile attempts to spot, detect, or target it from outside its space. Furthermore, any test that benefits from remaining unseen gains **+1 Upgrade**.
 
 **Neural Relay `[Passive]`**
 * **Effect:** A high-bandwidth duplex neural transceiver streams full sensory and cognitive telemetry between you and your machine. While in Detached Mode, you can directly see and hear everything your Exodrone perceives in real time, and the Exodrone shares your mental Attributes (**Knowledge**, **Presence**, and **Instinct**). This enables the Exodrone to independently scout ahead, deploy and use tactical gear, administer medical triage kits, bypass security locks, and perform tests requiring mental Attributes.
 
 **Omni Tool `[Action]`**
-* **Cost:** 3 Batteries, 1 AP
+* **Cost:** 1 Battery, 1 AP
 * **Requirement:** Detached Mode
 * **Effect:** The Exodrone physically or wirelessly docks with a mechanical console, electronic lock, or computer terminal in its space. The Exodrone can force the device to take any standard action it is capable of executing (or induce targeted malfunctions), rolling tests using its highest Exodrone Attribute. While interfaced, the only other action the Exodrone can take is to decouple for **0 AP**.
 
@@ -161,16 +160,15 @@ The Recon Module equips the Exodrone with adaptive optical cloaking, remote neur
 The Seraph Module equips the Exodrone with emergency trauma medicine, auto-suture staplers, and vital-sign resuscitation hardware.
 
 **First Aid `[Action]`**
-* **Cost:** 2 Batteries, 1 AP
-* **Limit:** Once per turn
+* **Cost:** 2 Batteries, + 1 for each additional use this round
 * **Effect:** Automated dermal staplers and coagulant injectors deploy. If the Exodrone is in Attached Mode, it heals **2 Light Wounds** on the Pilot. If in Detached Mode, it administers field triage to any single creature in its current space, healing **2 Light Wounds**.
 
-**Healer Darts `[Action]`**
-* **Cost:** 2 Batteries, 1 AP
-* **Effect:** The Exodrone fires a pressurized injector dart from a wrist-mounted pneumatic launcher (`Acc: [3/2/1/-], Dmg: 0, RoF: 0`) targeting an ally within range. On a successful test, the restorative cocktail heals **1 Light Wound for every 2 Success Points** generated instead of inflicting damage.
+**Healer Darts `[Free Action]`**
+* **Cost:** 2 Batteries
+* **Effect:** Until the end of the round, the Exodrone deploys a pressurized injector dart from a wrist-mounted pneumatic launcher (`Acc: [2/-/-/-], Dmg: 0, RoF: 0`). On a successful attack, the restorative cocktail in the darts heals **1 Light Wound for every 2 Success Points** generated instead of inflicting damage.
 
 **Trauma Protocol `[Action]`**
-* **Cost:** 7 Batteries, 1 AP
+* **Cost:** 4 Batteries, 1 AP
 * **Requirement:** Detached Mode
 * **Effect:** The Exodrone clamps onto an injured or dying creature in its space and initiates intensive trauma life support. Rolling a Success Test using its highest Exodrone Attribute, the Exodrone heals **1 Light Wound for every 2 Success Points** or clears **1 Aggravated Wound for every 4 Success Points**. If the target creature died during the current round, this rapid defibrillation and synthetic blood perfusion revives them to 1 Light Wound. While clamped on, all damage the creature would suffer is redirected to the Exodrone instead. The recipient cannot take actions while the Exodrone is docked; the Exodrone’s only action is to decouple and revert to standard mode for **0 AP**.
 
@@ -188,7 +186,7 @@ Class Mods represent hardware overclocks and specialized chassis alterations. An
 
 *Calibrates a resonant micro-frequency power link between the operative's harness and the drone, backed by reinforced internal surge baffles.*
 
-**Effect**: The Exodrone loses **1 Battery for every 4 points of damage** it receives instead of 3, and it automatically recharges Batteries at the start of each Round even while in Detached Mode.
+**Effect**: The Exodrone loses **1 Battery for every 6 points of damage** it receives instead of 4, and it automatically recharges Batteries at the start of each Round even while in Detached Mode.
 
 ### Biomechanical Dynamo
 
@@ -212,12 +210,12 @@ Class Mods represent hardware overclocks and specialized chassis alterations. An
 
 The Pilot chassis can be upgraded by spending Credits during downtime. Each progression level unlocks new mechanical configurations and tactical packages.
 
-| Level | Benefits Unlocked | Credit Cost |
-| :---: | :--- | :---: |
+| Level       | Benefits Unlocked                                                                            | Credit Cost           |
+| :-----------:| :---------------------------------------------------------------------------------------------| :---------------------:|
 | **Level 1** | Base Chassis, 7 Attribute Points (base 1/1/1), Starting Module (3 Abilities), Battery Engine | **100,000 Credits\*** |
-| **Level 2** | +1 Attribute Point, +1 Module (3 Abilities) | **20,000 Credits** |
-| **Level 3** | +1 Attribute Point, +1 Class Mod Slot (Slot 1), +1 Module (3 Abilities) | **40,000 Credits** |
-| **Level 4** | +1 Attribute Point, +1 Module (3 Abilities) | **75,000 Credits** |
-| **Level 5** | +1 Attribute Point, +1 Class Mod Slot (Slot 2) | **150,000 Credits** |
+| **Level 2** | +1 Attribute Point, +1 Module (3 Abilities)                                                  | **20,000 Credits**    |
+| **Level 3** | +1 Attribute Point, +1 Class Mod Slot (Slot 1), +1 Module (3 Abilities)                      | **40,000 Credits**    |
+| **Level 4** | +1 Attribute Point, +1 Module (3 Abilities)                                                  | **75,000 Credits**    |
+| **Level 5** | +1 Attribute Point, +1 Class Mod Slot (Slot 2)                                               | **150,000 Credits**   |
 
 *\*The 100,000 Credit cost for Level 1 applies only when purchasing an additional class chassis after character creation; an operative's starting class is free.*

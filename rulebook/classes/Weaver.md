@@ -94,19 +94,19 @@ BoltWeave structures nanites into high-tolerance magnetic accelerator barrels, t
   * Increase **Rate of Fire (RoF) by +2**.
   * Increase two adjacent **Accuracy bands by +1** each (cannot increase a single band by +2).
 
-**BoltWeave Ammo `[Rider]`**
+**BoltWeave Ammo `[Action]`**
 * **Attribute:** Modify
-* **Cost:** 1 Reserve
-* **Trigger:** When you or an ally in your space declare a ranged attack with a firearm.
-* **Effect:** *Chambered ammunition is coated in high-mass sabot jackets and terminal guidance fins.* Roll an Action Roll using **Modify**. Each **Hit** spent grants your choice of:
-  * **+1 Damage Bonus** for the round.
-  * **+1 Rate of Fire (RoF)** for the round.
-  * **+1 Accuracy in a single range band** for the round (this cannot grant the ability to fire at a range band the weapon cannot naturally engage, marked `-`).
+* **Cost:** 1 Reserve (recharges at the start of the next round), 1 AP
+* **Effect:** *Chambered ammunition is coated in high-mass sabot jackets and terminal guidance fins.* You infuse and calibrate the ammunition of an ally occupying your space. Roll an Action Roll using **Modify**. Each **Hit** spent grants that ally's firearm attacks your choice of the following benefits until the end of the round:
+  * **+1 Damage Bonus**.
+  * **+1 Rate of Fire (RoF)**.
+  * **+1 Accuracy in a single range band** (this cannot grant the ability to fire at a range band the weapon cannot naturally engage, marked `-`).
+  The spent Reserve recharges at the start of the next round.
 
 **BoltWeave Bullet `[Action]`**
 * **Attribute:** Control
 * **Cost:** 1 Reserve (recharges at the start of the next round), 1 AP
-* **Effect:** *Pressurized reservoir coils launch a dense, hyper-velocity slug directly from your harness.* Make a ranged attack against a creature or object within **Short range (0–5 spaces)**, rolling a **Control Success Test**. You inflict kinetic damage equal to your **Success Points + your Control Attribute + 3 Damage Bonus**.
+* **Effect:** *Pressurized reservoir coils launch a dense, hyper-velocity slug directly from your harness.* Make a ranged attack against a creature or object within **Short range (0–5 spaces)**, rolling a **Control Success Test**. You inflict kinetic damage equal to your **Success Points + your Control Attribute**.
 
 ### FloatWeave
 
