@@ -1,35 +1,27 @@
 # Chapter 10: Running the Game
 
-Being a Game Master in Corsair is about more than just adjudicating rules; it's about building a living, reactive world and challenging your players with tactical encounters, compelling investigations, and high-stakes moral dilemmas.
+Being a Game Master in *Corsair* is about more than adjudicating dice rolls; it is about operating a living, reactive world and challenging your players with tactical encounters, high-stakes investigations, and demanding moral dilemmas. Rather than treating time, social pressure, and adversaries as abstract narrative hand-waves, *Corsair* equips the Game Master with structured mechanical engines that transform every decision into a race against the clock.
 
-### GM Guide & Campaign Frameworks
+This chapter contains the specialized operational toolkits, adversary frameworks, and procedural generators needed to run dynamic, high-tension sessions across the Sphere.
 
-Whether preparing a one-shot contract, an episodic campaign, or an open-world sandbox, learn how to frame contracts, leverage active time mechanics, and weave moral dilemmas into your sessions in the [GM Guide](GM_Guide.md).
+---
 
-### NPC Guidelines
+### Core Operational Guides
 
-Designing balanced and engaging enemies is simplified with our NPC tier and category system. Learn how to build grunts, elites, and bosses in the [NPC Guidelines](NPC_Guidelines.md).
+* **[Time Management & Pacing](Time_Management.md):** Master the universal End-of-Round heartbeat, the 3x3 chip token model across all three pacing tiers (Moment to Moment, Place to Place, Day to Day), seamless zooming transitions, and tactical countdown tracks.
+* **[Social Interactions & Negotiations](Social_Interactions.md):** Turn tense dialogues, interrogations, and station council appeals into tactical confrontations governed by Action Points, ticking Patience clocks, Determination Blocker Effects, and NPC counter-tactics.
+* **[Tracks](../core/Tracks.md):** Comprehensive rules for Progress, Countdown, Linked, Racing, and Tug-of-War Tracks used to visualize evolving situations and complex challenges.
 
-### Bestiary: Threats of the Sphere
+---
 
-Looking for ready-to-run adversaries? Browse full stat blocks and tactical behaviors for local law enforcement, corporate strike teams, bounty hunters, and frontier outlaws in the [Bestiary](Bestiary.md).
+### Adversaries & Encounter Design
 
-### Mission Generator
+* **[NPC Guidelines](NPC_Guidelines.md):** Guidelines for building balanced, engaging enemies from disposable Tier 1 grunts to formidable Tier 4 bosses, using streamlined physical/mental attribute baselines, property frameworks, and point budgets.
+* **[Bestiary: Threats of the Sphere](Bestiary.md):** A catalog of ready-to-run stat blocks and tactical behaviors spanning station security forces, corporate black-ops strike teams, frontier outlaws, bounty hunters, and dangerous biological hazards.
 
-Quickly roll up random contracts for your crew using rollable tables for contract givers, world locations across the Sphere, and sanctioned or unsanctioned objectives in the [Mission Generator](Mission_Generator.md).
+---
 
-### Open Play Contracts
+### Contracts & Mission Building
 
-A collection of plug-and-play, bite-sized mission briefs complete with locations, targets, and credit rewards across Landfall, Nimbus, Pelagia, and Suncatcher can be found in [Open Play Contracts](Open_Play_Missions.md).
-
-### Time Management
-
-Managing the flow of time and the transition between different pacing modes (Moment to Moment, Place to Place, Day to Day) is crucial for a smooth game. For tips and rules on handling the clock, see [Time Management](Time_Management.md).
-
-### Social Interactions & Negotiations
-
-Social encounters in Corsair are dynamic, tactical confrontations governed by Action Points, ticking Patience clocks, NPC counter-tactics, and Determination Blocker effects. For rules, player maneuvers, and GM guidance, see [Social Interactions](Social_Interactions.md).
-
-### Tracks
-
-In Corsair, **Tracks** are a versatile mechanic used to represent ongoing situations, environmental hazards, or the progression of events too complex to be resolved with a single dice roll. For details on how to use them, see [Tracks](../core/Tracks.md).
+* **[Mission Generator](Mission_Generator.md):** Rollable tables and procedural prompts to generate sanctioned, unsanctioned, and freelance contracts on the fly, complete with patrons, target locations, and unforeseen complications.
+* **[Open Play Contracts](Open_Play_Missions.md):** A suite of plug-and-play, bite-sized mission briefs featuring locations, targets, and credit rewards across Landfall, Nimbus, Pelagia, and Suncatcher.
