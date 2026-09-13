@@ -1,0 +1,1069 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Corsair — Master Freelance Gigs (d100)</title>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,400;0,600;0,700;0,900;1,400&family=Barlow:wght@300;400;600&family=Share+Tech+Mono&display=swap" rel="stylesheet" />
+    <style>
+/* ======================================================  TOKENS  */
+:root {
+    --black: #080a0c;
+    --dark: #10131a;
+    --mid: #181c24;
+    --surface: #1d2130;
+    --border: #2a3040;
+    --border-light: #3a4256;
+    --accent: #c8a84b;
+    --accent-dim: #7a6428;
+    --accent-glow: rgba(200, 168, 75, 0.15);
+    --red: #a02828;
+    --text: #ccc7ba;
+    --text-dim: #6a6458;
+    --text-muted: #3e3c36;
+    --stripe: rgba(200, 168, 75, 0.03);
+
+    --font-title: 'Barlow Condensed', sans-serif;
+    --font-body: 'Barlow', sans-serif;
+    --font-mono: 'Share Tech Mono', monospace;
+}
+
+/* ======================================================  RESET  */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 7.2pt;
+}
+
+body {
+    font-family: var(--font-body);
+    background: var(--black);
+    color: var(--text);
+    line-height: 1.18;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+}
+
+/* ======================================================  PRINT STYLES  */
+@page {
+    size: A4 portrait;
+    margin: 3mm;
+}
+
+@media print {
+    body {
+        background: #ffffff !important;
+    }
+
+    :root {
+        --black: #ffffff;
+        --dark: #ffffff;
+        --mid: #ffffff;
+        --surface: #ffffff;
+        --border: #888888;
+        --border-light: #cccccc;
+        --accent: #000000;
+        --accent-dim: #333333;
+        --accent-glow: transparent;
+        --text: #000000;
+        --text-dim: #333333;
+        --text-muted: #666666;
+        --stripe: transparent;
+    }
+
+    .page {
+        background: #ffffff !important;
+        box-shadow: none !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        border: none !important;
+    }
+
+    .page::before {
+        display: none !important;
+    }
+
+    .mh-logo {
+        background: #ffffff !important;
+        color: #000000 !important;
+        border: 1px solid #000000 !important;
+        clip-path: none !important;
+        padding-right: 3mm !important;
+        min-width: unset !important;
+    }
+
+    .mh-logo svg {
+        fill: #000000 !important;
+    }
+
+    .card-hd {
+        border-bottom-width: 1px !important;
+        background: #f0f0f0 !important;
+    }
+
+    .card-hd svg {
+        fill: #000000 !important;
+    }
+
+    .gig-table th {
+        background: #ffffff !important;
+        color: #000000 !important;
+        border-bottom: 1px solid #000000 !important;
+    }
+
+    .gig-table tr:nth-child(even) td {
+        background: #fafafa !important;
+    }
+
+    .fl {
+        border-bottom-color: #888888 !important;
+    }
+
+    .badge, .tag {
+        border: 1px solid #000000 !important;
+        color: #000000 !important;
+        background: #ffffff !important;
+    }
+}
+
+/* ======================================================  PAGE CONTAINERS  */
+.page {
+    width: 210mm;
+    min-height: 297mm;
+    max-height: 297mm;
+    margin: 0 auto 6mm auto;
+    padding: 3mm 4mm;
+    background: var(--dark);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    page-break-after: always;
+}
+
+.page:last-child {
+    page-break-after: avoid;
+    margin-bottom: 0;
+}
+
+.page::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+        linear-gradient(rgba(200, 168, 75, 0.016) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(200, 168, 75, 0.016) 1px, transparent 1px);
+    background-size: 16px 16px;
+    pointer-events: none;
+}
+
+/* ======================================================  MASTHEAD & HEADERS  */
+.masthead {
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 1.5mm;
+    border: 1px solid var(--accent-dim);
+    background: var(--mid);
+    flex-shrink: 0;
+}
+
+.mh-logo {
+    background: var(--accent);
+    color: var(--black);
+    padding: 1.2mm 2.5mm;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    clip-path: polygon(0 0, calc(100% - 6px) 0, 100% 50%, calc(100% - 6px) 100%, 0 100%);
+    padding-right: 7mm;
+    min-width: 15mm;
+    flex-shrink: 0;
+}
+
+.mh-logo svg {
+    width: 14px;
+    height: 14px;
+    fill: var(--black);
+}
+
+.mh-logo .logo-text {
+    font-family: var(--font-title);
+    font-weight: 900;
+    font-size: 4.8pt;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    margin-top: 1px;
+}
+
+.mh-title {
+    padding: 1.2mm 2.5mm;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mh-title h1 {
+    font-family: var(--font-title);
+    font-weight: 900;
+    font-size: 11.5pt;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    line-height: 1;
+}
+
+.mh-title .sub {
+    font-family: var(--font-title);
+    font-weight: 300;
+    font-size: 5.8pt;
+    letter-spacing: 0.18em;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    margin-top: 1px;
+}
+
+.mh-meta {
+    padding: 1.2mm 2.5mm;
+    border-left: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 44mm;
+}
+
+.mh-meta label {
+    font-family: var(--font-title);
+    font-size: 5pt;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 1px;
+}
+
+.mh-meta .fl {
+    height: 3mm;
+    border-bottom: 1px solid var(--border-light);
+}
+
+/* Page 2 Compact Header */
+.page2-hd {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--mid);
+    border: 1px solid var(--accent-dim);
+    padding: 1.2mm 2.5mm;
+    margin-bottom: 1.5mm;
+    flex-shrink: 0;
+}
+
+.page2-hd h1 {
+    font-family: var(--font-title);
+    font-weight: 900;
+    font-size: 10.5pt;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+}
+
+.page2-hd .sub {
+    font-family: var(--font-title);
+    font-weight: 300;
+    font-size: 5.8pt;
+    letter-spacing: 0.18em;
+    color: var(--text-dim);
+    text-transform: uppercase;
+}
+
+/* ======================================================  CARDS & RULES  */
+.card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-hd {
+    background: var(--mid);
+    padding: 0.8mm 1.8mm;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: 1.5mm;
+    flex-shrink: 0;
+}
+
+.card-hd svg {
+    width: 10px;
+    height: 10px;
+    fill: var(--accent);
+    flex-shrink: 0;
+}
+
+.card-hd h2 {
+    font-family: var(--font-title);
+    font-weight: 700;
+    font-size: 7.2pt;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent);
+    line-height: 1;
+}
+
+.rules-text {
+    font-size: 6.4pt;
+    color: var(--text);
+    line-height: 1.2;
+}
+
+.rule-box {
+    background: var(--mid);
+    border-left: 2px solid var(--accent);
+    padding: 0.8mm 1.2mm;
+    font-size: 6.2pt;
+    line-height: 1.18;
+}
+
+/* ======================================================  2-COLUMN GIG LAYOUT  */
+.gigs-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2mm;
+    flex: 1;
+}
+
+.gig-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 5.8pt;
+}
+
+.gig-table th {
+    background: var(--mid);
+    font-family: var(--font-title);
+    font-size: 5.4pt;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    padding: 0.6mm 1mm;
+    border-bottom: 1px solid var(--border);
+    text-align: left;
+}
+
+.gig-table td {
+    padding: 0.65mm 1mm;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+    line-height: 1.15;
+}
+
+.gig-table tr:nth-child(even) td {
+    background: var(--stripe);
+}
+
+.gig-num {
+    font-family: var(--font-mono);
+    font-weight: 700;
+    color: var(--accent);
+    text-align: center;
+    width: 18px;
+    white-space: nowrap;
+}
+
+.gig-title {
+    font-family: var(--font-title);
+    font-weight: 700;
+    font-size: 6.2pt;
+    text-transform: uppercase;
+    color: var(--text);
+    display: block;
+}
+
+.gig-desc {
+    color: var(--text-dim);
+    display: block;
+    margin-top: 0.5px;
+}
+
+.gig-test {
+    font-family: var(--font-mono);
+    font-size: 5.2pt;
+    color: var(--accent);
+    white-space: nowrap;
+    text-align: right;
+    width: 72px;
+}
+
+/* ======================================================  PAGE FOOTER  */
+.page-foot {
+    font-family: var(--font-title);
+    font-size: 5.2pt;
+    letter-spacing: 0.25em;
+    color: var(--text-muted);
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: auto;
+    padding-top: 1mm;
+    flex-shrink: 0;
+}
+    </style>
+</head>
+<body>
+
+    <!-- ================================================= PAGE 1: GIGS 01 - 50 ================================================= -->
+    <div class="page">
+        <!-- MASTHEAD -->
+        <div class="masthead">
+            <div class="mh-logo">
+                <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" /><circle cx="12" cy="12" r="1.5" /></svg>
+                <span class="logo-text">Corsair</span>
+            </div>
+            <div class="mh-title">
+                <h1>Master Freelance Gigs (Part I · 01–50)</h1>
+                <div class="sub">Day-to-Day Pacing · Low-Stakes Odd Jobs, Local Logistics & Station Services</div>
+            </div>
+            <div class="mh-meta">
+                <label>Operational Reference / d100 Table</label>
+                <div class="fl"></div>
+            </div>
+        </div>
+
+        <!-- SUMMARY CARD -->
+        <div class="card" style="margin-bottom: 1.5mm;">
+            <div class="card-hd">
+                <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+                <h2>Freelance Rules & Tiered Payout Formula</h2>
+                <span style="margin-left: auto; font-family: var(--font-mono); font-size: 5.2pt; color: var(--text-dim);">COST: 1 DAY-TO-DAY AP (8 HOURS)</span>
+            </div>
+            <div class="rules-text" style="padding: 1mm 1.8mm; display: grid; grid-template-columns: 2fr 1fr; gap: 2mm;">
+                <div>
+                    <strong>Resolution:</strong> Operative rolls a <strong>Simple Test</strong> using the gig's Attribute Pair (higher attribute is base pool, 8+ is a Hit).<br/>
+                    <strong>No Complications on Failure:</strong> Rolling 0 Hits simply yields $0 Credits (the gig fell through or took too long; no negative penalty).
+                </div>
+                <div class="rule-box" style="margin-bottom: 0;">
+                    • <strong>1 Hit:</strong> <strong>$1,000 Credits</strong> base pay.<br/>
+                    • <strong>Bonus Hits:</strong> <strong>+$500 Credits</strong> per extra Hit.<br/>
+                    • <strong>0 Hits:</strong> <strong>$0 Credits</strong> (shift lost).
+                </div>
+            </div>
+        </div>
+
+        <!-- GIGS 01-50 (2 COLUMNS) -->
+        <div class="gigs-grid">
+            <!-- COLUMN 1: 01-25 -->
+            <div class="card">
+                <table class="gig-table">
+                    <thead>
+                        <tr>
+                            <th class="gig-num">d100</th>
+                            <th>Gig Title & Assignment Situation</th>
+                            <th class="gig-test">Required Test</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="gig-num">01</td>
+                            <td><span class="gig-title">Lost Featherwing</span><span class="gig-desc">Track an orbital administrator’s prized alien songbird through maintenance ducts.</span></td>
+                            <td class="gig-test">Instinct + Knowledge</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">02</td>
+                            <td><span class="gig-title">Spacer Bar Stand-Up</span><span class="gig-desc">Deliver an eight-minute comedy routine at a rowdy dockworker dive bar.</span></td>
+                            <td class="gig-test">Presence + Presence</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">03</td>
+                            <td><span class="gig-title">PI Tail Assignment</span><span class="gig-desc">Discreetly trail a merchant’s business partner through a crowded shopping concourse.</span></td>
+                            <td class="gig-test">Agility + Instinct</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">04</td>
+                            <td><span class="gig-title">Cook-Off Judge</span><span class="gig-desc">Adjudicate an intensely heated street-noodle culinary duel between rival food stall chefs.</span></td>
+                            <td class="gig-test">Endurance + Instinct</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">05</td>
+                            <td><span class="gig-title">Synthwave Bouncer</span><span class="gig-desc">Keep rowdy young spacers in line at an underground modular synthesizer concert.</span></td>
+                            <td class="gig-test">Strength + Presence</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">06</td>
+                            <td><span class="gig-title">Zero-G Catering</span><span class="gig-desc">Carry drink trays and floating hors d'oeuvres without spilling at an eccentric noble’s party.</span></td>
+                            <td class="gig-test">Finesse + Agility</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">07</td>
+                            <td><span class="gig-title">Pawn Antique Appraisal</span><span class="gig-desc">Help an elderly scrap dealer identify weird salvage brought in by asteroid prospectors.</span></td>
+                            <td class="gig-test">Knowledge + Knowledge</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">08</td>
+                            <td><span class="gig-title">Spacer Youth Boxing</span><span class="gig-desc">Teach an unruly gang of dockside teenagers the basics of footwork and defensive guard.</span></td>
+                            <td class="gig-test">Strength + Instinct</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">09</td>
+                            <td><span class="gig-title">Love Letter Courier</span><span class="gig-desc">Hand-deliver a handwritten wax-sealed romantic letter across town without snooping.</span></td>
+                            <td class="gig-test">Agility + Presence</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">10</td>
+                            <td><span class="gig-title">Cargo Bay Sorter</span><span class="gig-desc">Help an exhausted quartermaster untangle mislabeled freight crates before inspection.</span></td>
+                            <td class="gig-test">Knowledge + Finesse</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">11</td>
+                            <td><span class="gig-title">Escaped Micro-Pigs</span><span class="gig-desc">Chase down a dozen squealing, genetically miniaturized pet pigs across a public park.</span></td>
+                            <td class="gig-test">Agility + Agility</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">12</td>
+                            <td><span class="gig-title">Apartment Move-In</span><span class="gig-desc">Help a young couple haul heavy pressurized furniture up six flights of broken stairs.</span></td>
+                            <td class="gig-test">Strength + Endurance</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">13</td>
+                            <td><span class="gig-title">Subbing as Line Cook</span><span class="gig-desc">Flip synthetic protein patties and keep tickets moving through the lunch rush at a diner.</span></td>
+                            <td class="gig-test">Finesse + Endurance</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">14</td>
+                            <td><span class="gig-title">Line-Stand Proxy</span><span class="gig-desc">Spend six tedious hours standing in line at municipal records for an elderly retiree.</span></td>
+                            <td class="gig-test">Endurance + Willpower</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">15</td>
+                            <td><span class="gig-title">Office Lunch Stakeout</span><span class="gig-desc">Hide in a corporate breakroom to catch the brazen thief stealing gourmet sandwiches.</span></td>
+                            <td class="gig-test">Instinct + Agility</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">16</td>
+                            <td><span class="gig-title">Life Drawing Model</span><span class="gig-desc">Hold grueling, dramatic classical warrior poses for a station art academy class.</span></td>
+                            <td class="gig-test">Endurance + Presence</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">17</td>
+                            <td><span class="gig-title">Mascot Suit Performer</span><span class="gig-desc">Don an oversized foam spacesuit mascot costume to hand out flyers at a store opening.</span></td>
+                            <td class="gig-test">Presence + Endurance</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">18</td>
+                            <td><span class="gig-title">Zero-G Dodgeball Ref</span><span class="gig-desc">Officiate an aggressive, high-stakes dodgeball grudge match between rival docking crews.</span></td>
+                            <td class="gig-test">Instinct + Presence</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">19</td>
+                            <td><span class="gig-title">Drone Race Gatekeeper</span><span class="gig-desc">Set up radio-timing gates and retrieve crashed amateur racing drones from rooftops.</span></td>
+                            <td class="gig-test">Agility + Knowledge</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">20</td>
+                            <td><span class="gig-title">Graffiti Power-Wash</span><span class="gig-desc">Scrub colorful, disrespectful slogans off the station commissioner’s bronze statue.</span></td>
+                            <td class="gig-test">Strength + Endurance</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">21</td>
+                            <td><span class="gig-title">Exotic Hound Walker</span><span class="gig-desc">Walk three massive, six-legged reptilian hunting dogs through a busy promenade.</span></td>
+                            <td class="gig-test">Strength + Instinct</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">22</td>
+                            <td><span class="gig-title">Barroom Taproom Singalong</span><span class="gig-desc">Play an acoustic instrument and lead drunken miners in nostalgic colony folk ballads.</span></td>
+                            <td class="gig-test">Presence + Finesse</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">23</td>
+                            <td><span class="gig-title">Flea Market Hawker</span><span class="gig-desc">Work a market booth selling refurbished kitchen gadgets using rapid-fire sales patter.</span></td>
+                            <td class="gig-test">Presence + Knowledge</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">24</td>
+                            <td><span class="gig-title">Flat-Pack Furniture Build</span><span class="gig-desc">Decipher confusing pictorial manuals and assemble modular flat-pack desks for an office.</span></td>
+                            <td class="gig-test">Knowledge + Finesse</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">25</td>
+                            <td><span class="gig-title">Hydroponic Garden Weeder</span><span class="gig-desc">Prune invasive mutated mosses from delicate vertical aeroponic tomato towers.</span></td>
+                            <td class="gig-test">Finesse + Instinct</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- COLUMN 2: 26-50 -->
+            <div class="card">
+                <table class="gig-table">
+                    <thead>
+                        <tr>
+                            <th class="gig-num">d100</th>
+                            <th>Gig Title & Assignment Situation</th>
+                            <th class="gig-test">Required Test</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="gig-num">26</td>
+                            <td><span class="gig-title">Bicycle Rickshaw Driver</span><span class="gig-desc">Pedal passengers and their heavy luggage between landing bays on a muscle-powered cart.</span></td>
+                            <td class="gig-test">Endurance + Strength</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">27</td>
+                            <td><span class="gig-title">Wedding Security Escort</span><span class="gig-desc">Keep a belligerent, estranged uncle from ruining an extravagant station wedding reception.</span></td>
+                            <td class="gig-test">Presence + Strength</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">28</td>
+                            <td><span class="gig-title">Trash Chute Unclogging</span><span class="gig-desc">Crawl down a jammed municipal waste chute with a pry-bar to dislodge a stuck metal bin.</span></td>
+                            <td class="gig-test">Strength + Endurance</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">29</td>
+                            <td><span class="gig-title">Lost Ring in Sand Dunes</span><span class="gig-desc">Comb a tourist beach or recreation dome with a metal detector to find a wedding ring.</span></td>
+                            <td class="gig-test">Instinct + Instinct</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">30</td>
+                            <td><span class="gig-title">Cat Cafe Minder</span><span class="gig-desc">Keep twenty zero-gravity shelter cats fed, calm, and brushed during afternoon visitor hours.</span></td>
+                            <td class="gig-test">Finesse + Instinct</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">31</td>
+                            <td><span class="gig-title">Radio Voiceover Jingle</span><span class="gig-desc">Record catchy promotional commercial slogans for a local used-starship dealership.</span></td>
+                            <td class="gig-test">Presence + Presence</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">32</td>
+                            <td><span class="gig-title">Docking Rope Coiler</span><span class="gig-desc">Manually haul, coil, and inspect heavy synthetic magnetic mooring cables on the flight deck.</span></td>
+                            <td class="gig-test">Strength + Endurance</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">33</td>
+                            <td><span class="gig-title">Warehouse Pest Trapper</span><span class="gig-desc">Set humane acoustic traps to catch scuttling vermin chewing through hydroponic wires.</span></td>
+                            <td class="gig-test">Instinct + Knowledge</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">34</td>
+                            <td><span class="gig-title">Neon Sign Technician</span><span class="gig-desc">Climb scaffolding to replace flickering plasma tubes on a giant noodle shop billboard.</span></td>
+                            <td class="gig-test">Agility + Finesse</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">35</td>
+                            <td><span class="gig-title">Arcade High-Score Bounty</span><span class="gig-desc">Beat a notoriously unbeatable pinball score to win a prize for a crying child.</span></td>
+                            <td class="gig-test">Finesse + Instinct</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">36</td>
+                            <td><span class="gig-title">Prom Prom-Date Escort</span><span class="gig-desc">Act as a respectable, polite chaperone for an anxious teen attending an academy ball.</span></td>
+                            <td class="gig-test">Presence + Knowledge</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">37</td>
+                            <td><span class="gig-title">Magnetic Crane Rigging</span><span class="gig-desc">Rig industrial magnetic cables to hoist a disabled cargo skiff onto a repair gantry.</span></td>
+                            <td class="gig-test">Strength + Finesse</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">38</td>
+                            <td><span class="gig-title">Bakery Sourdough Guard</span><span class="gig-desc">Watch over an artisanal baker’s century-old sourdough mother culture overnight.</span></td>
+                            <td class="gig-test">Instinct + Endurance</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">39</td>
+                            <td><span class="gig-title">Luggage Carousel Jams</span><span class="gig-desc">Untangle oversized vacuum duffels stuck in the automated passenger arrival intake chute.</span></td>
+                            <td class="gig-test">Strength + Finesse</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">40</td>
+                            <td><span class="gig-title">Used Car Lot Flagger</span><span class="gig-desc">Wave directional flags to direct chaotic traffic at a massive surface rover surplus auction.</span></td>
+                            <td class="gig-test">Agility + Presence</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">41</td>
+                            <td><span class="gig-title">Rooftop Solar Scraper</span><span class="gig-desc">Scrape baked-on volcanic ash and salt crusts off an array of domestic solar collectors.</span></td>
+                            <td class="gig-test">Endurance + Endurance</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">42</td>
+                            <td><span class="gig-title">Karaoke Bar Host</span><span class="gig-desc">Encourage shy patrons to sing and smoothly manage drunken disputes over microphone time.</span></td>
+                            <td class="gig-test">Presence + Instinct</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">43</td>
+                            <td><span class="gig-title">Rover Crater Trials</span><span class="gig-desc">Put a newly tuned all-terrain exploration rover through high-speed trials on a crater track.</span></td>
+                            <td class="gig-test">Endurance + Agility</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">44</td>
+                            <td><span class="gig-title">Lost Comm-Pad Retrieval</span><span class="gig-desc">Fish an expensive lost data terminal out of a narrow plumbing access grate with wire.</span></td>
+                            <td class="gig-test">Finesse + Instinct</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">45</td>
+                            <td><span class="gig-title">Antique Rug Beater</span><span class="gig-desc">Vigorously beat months of red planetary dust out of heavy tapestries hung in an alley.</span></td>
+                            <td class="gig-test">Strength + Endurance</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">46</td>
+                            <td><span class="gig-title">Dorm Room Sitter</span><span class="gig-desc">Watch an unruly undergraduate student’s dorm room and water bizarre alien plants.</span></td>
+                            <td class="gig-test">Instinct + Knowledge</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">47</td>
+                            <td><span class="gig-title">Speed Dating Moderator</span><span class="gig-desc">Ring timers, rotate nervous participants, and break up awkward silences at a mixer.</span></td>
+                            <td class="gig-test">Presence + Instinct</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">48</td>
+                            <td><span class="gig-title">Fish Tank Algae Cleaning</span><span class="gig-desc">Don a scrub suit to clean massive ornamental algae tanks at a corporate lobby atrium.</span></td>
+                            <td class="gig-test">Endurance + Finesse</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">49</td>
+                            <td><span class="gig-title">Ice-Harvester Rigging</span><span class="gig-desc">Secure heavy tow-cables to glacial ice blocks being hauled into a station water-converter.</span></td>
+                            <td class="gig-test">Strength + Endurance</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">50</td>
+                            <td><span class="gig-title">Costume Tailor's Assistant</span><span class="gig-desc">Take exact tailoring measurements and pin hems for an eccentric costume theater company.</span></td>
+                            <td class="gig-test">Finesse + Presence</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- PAGE FOOTER -->
+        <div class="page-foot">
+            Corsair RPG · Master Freelance Gigs Table · Page 1 of 2 (01–50)
+        </div>
+    </div>
+
+    <!-- ================================================= PAGE 2: GIGS 51 - 100 ================================================= -->
+    <div class="page">
+        <!-- HEADER -->
+        <div class="page2-hd">
+            <div>
+                <h1>Master Freelance Gigs (Part II · 51–100)</h1>
+                <div class="sub">Technical Labor · Research & Expeditions · Specialized Station Services</div>
+            </div>
+            <div style="font-family: var(--font-mono); font-size: 5.2pt; color: var(--accent);">
+                CORSAIR DOWNTIME OPERATIONS · CHAPTER 9
+            </div>
+        </div>
+
+        <!-- GIGS 51-100 (2 COLUMNS) -->
+        <div class="gigs-grid">
+            <!-- COLUMN 1: 51-75 -->
+            <div class="card">
+                <table class="gig-table">
+                    <thead>
+                        <tr>
+                            <th class="gig-num">d100</th>
+                            <th>Gig Title & Assignment Situation</th>
+                            <th class="gig-test">Required Test</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="gig-num">51</td>
+                            <td><span class="gig-title">Radio Mast Guy-Wire Rig</span><span class="gig-desc">Climb a windswept transmitter tower to tension and balance heavy braided steel guy-wires.</span></td>
+                            <td class="gig-test">Agility + Strength</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">52</td>
+                            <td><span class="gig-title">Street Magic Shilling</span><span class="gig-desc">Pose as an amazed audience plant to help a street magician build an excited crowd.</span></td>
+                            <td class="gig-test">Presence + Agility</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">53</td>
+                            <td><span class="gig-title">Vending Machine Refiller</span><span class="gig-desc">Lug heavy crates of synthetic fizzy soda cans to restock machines across a spaceport terminal.</span></td>
+                            <td class="gig-test">Strength + Endurance</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">54</td>
+                            <td><span class="gig-title">Museum Night Patrol</span><span class="gig-desc">Walk quiet halls guarding prehistoric fossil replicas against drunken prankster students.</span></td>
+                            <td class="gig-test">Instinct + Willpower</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">55</td>
+                            <td><span class="gig-title">Stunt Fall Dummy</span><span class="gig-desc">Put on padding and take controlled slapstick falls for an amateur indie film project.</span></td>
+                            <td class="gig-test">Agility + Endurance</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">56</td>
+                            <td><span class="gig-title">Lost Tourist Guide</span><span class="gig-desc">Guide a hopelessly confused group of off-world pilgrims through a chaotic market district.</span></td>
+                            <td class="gig-test">Knowledge + Presence</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">57</td>
+                            <td><span class="gig-title">Window Washing Gondola</span><span class="gig-desc">Squeegee high-altitude observation dome windows while suspended from safety ropes.</span></td>
+                            <td class="gig-test">Agility + Finesse</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">58</td>
+                            <td><span class="gig-title">Coffee Bean Roaster</span><span class="gig-desc">Monitor roasting temperature and crack times for an artisanal station coffee micro-roastery.</span></td>
+                            <td class="gig-test">Instinct + Finesse</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">59</td>
+                            <td><span class="gig-title">Balloon Animal Twister</span><span class="gig-desc">Twist synthetic latex balloons into swords and alien beasts for a swarm of unruly children.</span></td>
+                            <td class="gig-test">Finesse + Presence</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">60</td>
+                            <td><span class="gig-title">Station Gyro Calibration</span><span class="gig-desc">Fine-tune optical balance sensors on a municipal habitat attitude stabilizer flywheel.</span></td>
+                            <td class="gig-test">Knowledge + Finesse</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">61</td>
+                            <td><span class="gig-title">Food Truck Tire Change</span><span class="gig-desc">Jack up and swap massive, bald rover tires on a grease-covered mobile burrito truck.</span></td>
+                            <td class="gig-test">Strength + Knowledge</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">62</td>
+                            <td><span class="gig-title">Locker Room Attendant</span><span class="gig-desc">Sort laundry and keep the peace at a crowded dockworker gymnasium bathhouse.</span></td>
+                            <td class="gig-test">Endurance + Presence</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">63</td>
+                            <td><span class="gig-title">Data-Tape Archival Recovery</span><span class="gig-desc">Mount and digitize fragile magnetic reel tapes from early colony expansion archives.</span></td>
+                            <td class="gig-test">Knowledge + Instinct</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">64</td>
+                            <td><span class="gig-title">Lost Ferret in Sofa</span><span class="gig-desc">Disassemble plush hotel furniture to coax out an escaped, biting pet mustelid.</span></td>
+                            <td class="gig-test">Finesse + Agility</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">65</td>
+                            <td><span class="gig-title">Fountain Coin Scavenger</span><span class="gig-desc">Wade through the mall decorative fountain at midnight to dredge up discarded coins.</span></td>
+                            <td class="gig-test">Endurance + Instinct</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">66</td>
+                            <td><span class="gig-title">Board Game Explainer</span><span class="gig-desc">Teach complex board game rules to impatient families at a hobby store open game day.</span></td>
+                            <td class="gig-test">Knowledge + Presence</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">67</td>
+                            <td><span class="gig-title">Scrap Cable Stripper</span><span class="gig-desc">Strip plastic sheathing off heavy copper wires in a scrap metal recycling depot.</span></td>
+                            <td class="gig-test">Strength + Finesse</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">68</td>
+                            <td><span class="gig-title">Counter-Sniper Lookout</span><span class="gig-desc">Scan perimeter rooftops with electro-binoculars to guarantee clear security lines for a visiting patron.</span></td>
+                            <td class="gig-test">Instinct + Endurance</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">69</td>
+                            <td><span class="gig-title">Zero-G Trampoline Spotter</span><span class="gig-desc">Stand guard to catch tumbling acrobatics students bouncing off walls in a zero-g gym.</span></td>
+                            <td class="gig-test">Agility + Instinct</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">70</td>
+                            <td><span class="gig-title">Bakery Delivery Sprint</span><span class="gig-desc">Sprint armfuls of hot, fragile pastries across town on foot before breakfast rush ends.</span></td>
+                            <td class="gig-test">Agility + Endurance</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">71</td>
+                            <td><span class="gig-title">Chess Park Hustling</span><span class="gig-desc">Play rapid speed-chess games on concrete park tables to draw a betting crowd for an old veteran.</span></td>
+                            <td class="gig-test">Knowledge + Instinct</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">72</td>
+                            <td><span class="gig-title">Brewery Keg Roller</span><span class="gig-desc">Roll heavy pressurized ale kegs down a cellar ramp without dropping or denting them.</span></td>
+                            <td class="gig-test">Strength + Agility</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">73</td>
+                            <td><span class="gig-title">Lost Keys in Grate</span><span class="gig-desc">Fish a commuter’s magnetic vehicle keys out of a sewer grill using chewing gum and string.</span></td>
+                            <td class="gig-test">Finesse + Finesse</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">74</td>
+                            <td><span class="gig-title">Puppet Show Stagehand</span><span class="gig-desc">Operate hidden strings and stage lighting behind the curtain for a children's puppet theater.</span></td>
+                            <td class="gig-test">Finesse + Agility</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">75</td>
+                            <td><span class="gig-title">Flower Bouquet Arranger</span><span class="gig-desc">Trim stems and compose colorful floral centerpieces for an extravagant anniversary banquet.</span></td>
+                            <td class="gig-test">Finesse + Presence</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- COLUMN 2: 76-100 -->
+            <div class="card">
+                <table class="gig-table">
+                    <thead>
+                        <tr>
+                            <th class="gig-num">d100</th>
+                            <th>Gig Title & Assignment Situation</th>
+                            <th class="gig-test">Required Test</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="gig-num">76</td>
+                            <td><span class="gig-title">Subbing as Crosswalk Guard</span><span class="gig-desc">Hold a neon stop sign and escort kindergartners across a bustling rover thoroughfare.</span></td>
+                            <td class="gig-test">Presence + Instinct</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">77</td>
+                            <td><span class="gig-title">Squeaky Bed Repair</span><span class="gig-desc">Tighten bolts, grease joints, and test squeaky frame springs for a luxury capsule hotel.</span></td>
+                            <td class="gig-test">Knowledge + Strength</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">78</td>
+                            <td><span class="gig-title">Lost Goat on the Roof</span><span class="gig-desc">Coax an adventurous domestic mountain goat down from a precarious metal corrugated shed.</span></td>
+                            <td class="gig-test">Instinct + Agility</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">79</td>
+                            <td><span class="gig-title">Ice Cream Scooper</span><span class="gig-desc">Scoop rock-hard frozen synthetic cream into sugar cones during an unexpected heatwave.</span></td>
+                            <td class="gig-test">Strength + Endurance</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">80</td>
+                            <td><span class="gig-title">Movie Extra Crowd Actor</span><span class="gig-desc">Stand in a crowded fictional starport scene looking shocked for twenty straight takes.</span></td>
+                            <td class="gig-test">Presence + Endurance</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">81</td>
+                            <td><span class="gig-title">Mannequin Dresser</span><span class="gig-desc">Dress and pose stiff fiberglass display mannequins in new seasonal fashions at a boutique.</span></td>
+                            <td class="gig-test">Finesse + Presence</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">82</td>
+                            <td><span class="gig-title">Bellhop Luggage Stack</span><span class="gig-desc">Balance an absurdly tall tower of vintage suitcases on a brass trolley through rotating doors.</span></td>
+                            <td class="gig-test">Agility + Finesse</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">83</td>
+                            <td><span class="gig-title">Greenhouse Bee Feeder</span><span class="gig-desc">Don a beekeeper suit to refill sugar-syrup troughs for pollinator swarms in a dome garden.</span></td>
+                            <td class="gig-test">Instinct + Finesse</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">84</td>
+                            <td><span class="gig-title">Telescope Lens Polisher</span><span class="gig-desc">Carefully buff dust and condensation off the delicate glass mirror of an amateur observatory.</span></td>
+                            <td class="gig-test">Finesse + Knowledge</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">85</td>
+                            <td><span class="gig-title">Dog Bathing Attendant</span><span class="gig-desc">Wrestle soapy, energetic alien hounds into wash tubs and blow-dry their thick fur.</span></td>
+                            <td class="gig-test">Strength + Endurance</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">86</td>
+                            <td><span class="gig-title">Trophy Polishing</span><span class="gig-desc">Buff decades of tarnish off heavy brass bowling and marksmanship trophies at a social club.</span></td>
+                            <td class="gig-test">Endurance + Finesse</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">87</td>
+                            <td><span class="gig-title">Racing Skiff Tech Inspection</span><span class="gig-desc">Inspect hull welds and verify fuel flow restrictors on amateur speed-skiffs before a race.</span></td>
+                            <td class="gig-test">Knowledge + Instinct</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">88</td>
+                            <td><span class="gig-title">Nav-Beacon Signal Tuning</span><span class="gig-desc">Adjust frequency dials and calibrate acoustic antennas on an erratic orbital beacon.</span></td>
+                            <td class="gig-test">Knowledge + Instinct</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">89</td>
+                            <td><span class="gig-title">Rugged Sled Puller</span><span class="gig-desc">Pull a broken-down family snow-sled up a steep recreation slope to help crying kids.</span></td>
+                            <td class="gig-test">Strength + Endurance</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">90</td>
+                            <td><span class="gig-title">Shield Baffle Demagnetizing</span><span class="gig-desc">Sweep high-induction degaussing coils over starship radiation shields to strip residual charge.</span></td>
+                            <td class="gig-test">Knowledge + Finesse</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">91</td>
+                            <td><span class="gig-title">Food Critic Bodyguard</span><span class="gig-desc">Shield an acerbic, hated restaurant critic from angry chefs throwing rotten vegetables.</span></td>
+                            <td class="gig-test">Agility + Presence</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">92</td>
+                            <td><span class="gig-title">Aerial Circus Rigging</span><span class="gig-desc">Inspect carabiners, pulleys, and wire tethers for an acrobatic zero-g aerial silks performance.</span></td>
+                            <td class="gig-test">Agility + Finesse</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">93</td>
+                            <td><span class="gig-title">Costume Mascot Wrestling</span><span class="gig-desc">Wrestle an opponent dressed as an oversized cartoon alien during a supermarket stunt match.</span></td>
+                            <td class="gig-test">Strength + Agility</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">94</td>
+                            <td><span class="gig-title">Plumbing Drain Snaking</span><span class="gig-desc">Run a flexible mechanical snake down a salon’s blocked hair sinks to restore drainage.</span></td>
+                            <td class="gig-test">Strength + Finesse</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">95</td>
+                            <td><span class="gig-title">Herbarium Pressing</span><span class="gig-desc">Carefully press and dry rare moon desert wildflowers between botanical blotting papers.</span></td>
+                            <td class="gig-test">Finesse + Knowledge</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">96</td>
+                            <td><span class="gig-title">Car Wash Sponge Crew</span><span class="gig-desc">Vigorously scrub dried alkali dust off the chassis of dusty all-terrain exploration rovers.</span></td>
+                            <td class="gig-test">Endurance + Strength</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">97</td>
+                            <td><span class="gig-title">Lost Drone in Tree</span><span class="gig-desc">Climb a tall, artificial park tree to untangle a hobbyist's expensive quadcopter.</span></td>
+                            <td class="gig-test">Agility + Strength</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">98</td>
+                            <td><span class="gig-title">Library Book Shelf Stacker</span><span class="gig-desc">Re-shelve hundreds of returned physical paper books in a heritage atmospheric library.</span></td>
+                            <td class="gig-test">Knowledge + Agility</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">99</td>
+                            <td><span class="gig-title">Shoe Shine Stand Operator</span><span class="gig-desc">Buff scuffed leather boots and spacer magnetic boots to a mirror shine outside an executive club.</span></td>
+                            <td class="gig-test">Finesse + Endurance</td>
+                        </tr>
+                        <tr>
+                            <td class="gig-num">100</td>
+                            <td><span class="gig-title">Spacer Rock Band Fill-In</span><span class="gig-desc">Grab drumsticks or a bass synth and rock out on stage when an opening band member bails.</span></td>
+                            <td class="gig-test">Presence + Agility</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- GM OPERATIONAL TIPS CARD -->
+        <div class="card" style="margin-top: 1.5mm;">
+            <div class="card-hd">
+                <svg viewBox="0 0 24 24"><path d="M9 21c0 .55.45 1 1 1h4c.55 0 1-.45 1-1v-1H9v1zm3-19C8.14 2 5 5.14 5 9c0 2.38 1.19 4.47 3 5.74V17c0 .55.45 1 1 1h6c.55 0 1-.45 1-1v-2.26c1.81-1.27 3-3.36 3-5.74 0-3.86-3.14-7-7-7z"/></svg>
+                <h2>GM Advice: Running Freelance Gigs at the Table</h2>
+            </div>
+            <div class="rules-text" style="padding: 1mm 2mm; display: grid; grid-template-columns: 1fr 1fr; gap: 2mm;">
+                <div>
+                    • <strong>Populating Job Boards:</strong> Roll 3 or 4 gigs at the start of layover to post on the comm terminal.<br/>
+                    • <strong>Teamwork on Gigs:</strong> Two operatives can collaborate on the same gig (spending 1 AP each); one assists to grant Boost dice.
+                </div>
+                <div>
+                    • <strong>NPC Hooks:</strong> Even a simple gig can introduce colorful local contacts, rivals, or patrons.<br/>
+                    • <strong>Fast Resolution:</strong> Keep rolls swift; describe the fun 8-hour shift and award earned Credits!
+                </div>
+            </div>
+        </div>
+
+        <!-- PAGE FOOTER -->
+        <div class="page-foot">
+            Corsair RPG · Master Freelance Gigs Table · Page 2 of 2 (51–100)
+        </div>
+    </div>
+
+</body>
+</html>
