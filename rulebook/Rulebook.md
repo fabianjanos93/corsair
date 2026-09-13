@@ -62,11 +62,16 @@
     - [Internal Modules](ships/Internal_Modules.md)
     - [The Hangar Bay](ships/Hangar_Bay.md)
     - [Crew & Starship Sheet](character/Crew_Sheet.html)
-- [Chapter 9: Day-to-Day Life](downtime/Day_to_Day_Life.md)
-    - [Supplies](downtime/Day_to_Day_Life.md#supplies)
-    - [Contracts](downtime/Day_to_Day_Life.md#contracts)
-    - [Rest and Relaxation](downtime/Day_to_Day_Life.md#rest-and-relaxation)
-    - [Travel](downtime/Day_to_Day_Life.md#travel)
+- [Chapter 9: Downtime & Operations](gm/Downtime.md) ([Reference Sheet](gm/Downtime_Sheet.html) · [Freelance Gigs Sheet](gm/Freelance_Gigs_Sheet.html))
+    - [The 24-Hour Downtime Cycle](gm/Downtime.md#1-the-24-hour-downtime-round--shift-structure)
+    - [Supplies & Operating Runway](gm/Downtime.md#2-supplies--operating-runway)
+    - [Recovery, Long Rest & Healthcare](gm/Downtime.md#3-recovery-long-rest--healthcare-services)
+    - [Training & Advancement](gm/Downtime.md#4-training--character-progression)
+    - [Starship Maintenance & The Ship Fund](gm/Downtime.md#5-starship-maintenance--the-ship-fund)
+    - [Shopping & Bazaars](gm/Downtime.md#6-shopping--commercial-bazaars)
+    - [Interplanetary Travel](gm/Downtime.md#7-interplanetary-travel--fuel-consumption)
+    - [Contracts & Missions](gm/Downtime.md#8-contracts--mission-overview)
+    - [Freelance Gigs & d100 Master Table](gm/Downtime.md#9-freelance-work--the-master-d100-odd-jobs-table)
 - [Chapter 10: Running the Game](gm/Running_the_Game.md)
     - [Time Management](gm/Time_Management.md)
     - [Social Interactions](gm/Social_Interactions.md)
@@ -74,8 +79,6 @@
     - [Bestiary: Threats of the Sphere](gm/Bestiary.md)
     - [Mission Generator](gm/Mission_Generator.md)
     - [Open Play Contracts](gm/Open_Play_Missions.md)
-    - [Time Management](gm/Time_Management.md)
-    - [Social Interactions](gm/Social_Interactions.md)
     - [Tracks](gm/Running_the_Game.md#tracks)
 
 ## Introduction
@@ -429,14 +432,15 @@ into **Moment to Moment** pacing.
 
 [Starships](ships/Starships.md)
 
-## Chapter 9: Day-to-Day Life
+## Chapter 9: Downtime & Operations
 
-[Day-to-Day Life](downtime/Day_to_Day_Life.md)
+[Downtime & Operations](gm/Downtime.md) ([Reference Sheet](gm/Downtime_Sheet.html) · [Freelance Gigs Sheet](gm/Freelance_Gigs_Sheet.html))
 
 ## Chapter 10: Running the Game
 
 [Running the Game](gm/Running_the_Game.md)
 * [Time Management](gm/Time_Management.md)
+* [Downtime & Operations](gm/Downtime.md)
 * [Social Interactions](gm/Social_Interactions.md)
 * [NPC Guidelines](gm/NPC_Guidelines.md)
 * [Bestiary: Threats of the Sphere](gm/Bestiary.md)

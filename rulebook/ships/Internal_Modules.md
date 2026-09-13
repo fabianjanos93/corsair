@@ -12,7 +12,9 @@ ship's infrastructure and specialized equipment bays.
 | **Extra Ammo Storage**     | Expanded magazine and battery banks.            | Double the ammo capacity of all weapons.             | 1     | 350,000        |
 | **Reinforced Bulkheads**   | Internal structural plating and bracing.        | Increase Hull Rating by +2.                          | 1     | 650,000        |
 | **Auto-Loaders**           | Rapid-feed ammunition handling systems.         | Increase Rate of Fire (RoF) by 1 (where applicable). | 1     | 850,000        |
-| **Medical Facilities**     | Fully automated med-bays and trauma suites.     | Recovery tests on the ship receive 2 Upgrades.       | 2     | 1,200,000      |
+| **Basic MedBay**           | Compact emergency triage berth and auto-doc.    | Recovery tests on the ship receive 1 Upgrade.        | 1     | 450,000        |
+| **Advanced MedBay**        | Automated surgical suite and recovery pods.     | Recovery tests on the ship receive 2 Upgrades.       | 2     | 1,200,000      |
+| **Intensive Trauma Suite** | Full clinical biosculpting and surgical gantry. | Recovery tests on the ship receive 3 Upgrades.       | 3     | 2,500,000      |
 | **Signal Scrambler**       | Broad-spectrum electronic countermeasure array. | +2 Upgrades to Sensor Jam actions.                   | 1     | 1,500,000      |
 | **Fire-Control Computer**  | Advanced ballistic and orbital tracking core.   | +2 Upgrades to Target Lock actions.                  | 1     | 1,800,000      |
 | **Advanced Repair Drones** | Smart-autonomous maintenance nanobot swarm.     | +2 Upgrades to Repair actions.                       | 1     | 2,000,000      |
@@ -63,15 +65,22 @@ kinetic and missile weaponry.*
 * **Slot Cost**: 1
 * **Cost**: 850,000 Credits
 
-### 5. Medical Facilities
+### 5. MedBay Modules (Basic, Advanced, Intensive)
 
-*A dedicated compartment equipped with stasis pods, surgical drones, and a comprehensive pharmacopeia for treating
-combat injuries and vacuum exposure.*
+*Dedicated medical compartments ranging from compact auto-doc berths to full clinical surgical gantries, equipped with diagnostic scanners, synthetic tissue knitters, and emergency life support.*
 
-* **Effect**: Any **Recovery** tests (for healing crew or stabilizing critical systems) performed while on board the
-  ship receive 2 **Upgrades** to the dice pool.
-* **Slot Cost**: 2
-* **Cost**: 1,200,000 Credits
+* **Basic MedBay:** A compact single-bunk automated triage station.
+  * **Effect:** Any **Recovery** tests (including Long Rest) performed while on board the ship receive **1 Upgrade**.
+  * **Slot Cost:** 1
+  * **Cost:** 450,000 Credits
+* **Advanced MedBay:** A multi-bed automated trauma suite with surgical drones.
+  * **Effect:** Any **Recovery** tests (including Long Rest) performed while on board the ship receive **2 Upgrades**.
+  * **Slot Cost:** 2
+  * **Cost:** 1,200,000 Credits
+* **Intensive Trauma Suite:** A full-tier hospital bay with cryogenic pods and advanced organ synthesis.
+  * **Effect:** Any **Recovery** tests (including Long Rest) performed while on board the ship receive **3 Upgrades**.
+  * **Slot Cost:** 3
+  * **Cost:** 2,500,000 Credits
 
 ### 6. Signal Scrambler
 

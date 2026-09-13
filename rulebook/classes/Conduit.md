@@ -88,7 +88,7 @@ The Ranged Package integrates subcutaneous capacitor lines directly with chamber
 * **Cost:** 0 AP
 * **Trigger:** When declaring a ranged attack with a Firearm.
 * **Effect:** *Capacitor shunts bleed raw energy directly into the chambered round as the firing pin strikes.* You gain **+1 Charge** of the chosen element and apply the matching effect to the attack:
-  * **Flame:** The weapon gains a flat **+1 Damage Bonus per active Charge** (including the Charge just gained) as superheated thermal jackets detonate on impact.
+  * **Flame:** Ranged attacks deal a flat **+1 Damage Bonus per active Charge** (including the Charge just gained) as superheated thermal jackets detonate on impact.
   * **Frost:** You may reroll a number of dice across all rolls in the test equal to your **active Charges** (including the Charge just gained), freezing your targeting reticle onto structural weak points.
   * **Lightning:** When activating your first **Chain Effect** during the attack test, you can target a number of additional creatures equal to your **active Charges** (including the Charge just gained) without expending additional ammunition.
 
@@ -156,7 +156,7 @@ The Defense Package channels stored capacitive reserves into reactive dispersion
 * **Effect:** *Reactive capacitor circuits discharge defensively before the incoming strike lands.* You gain **+1 Charge** of the chosen element and apply the matching defensive protection scaling with your **active Charges** (including the Charge just gained):
   * **Flame:** Thermal flare vents outward. If the attacker occupies your space or an adjacent space, they immediately take thermal counter-damage equal to your **Flame Attribute + your active Charges**.
   * **Frost:** Endothermic plates flash-freeze ambient moisture across your torso. You gain **+1 Physical Protection per active Charge** against this incoming attack.
-  * **Lightning:** An electrostatic distortion field crackles around your chassis. Incoming attack dice require a result of **(7 + your active Charges) or higher** to count as a Hit for this attack, potentially turning hits into misses.
+  * **Lightning:** An electrostatic distortion field crackles around your chassis. If you contest the incoming attack, you gain a number of **Upgrades to the Contest Roll equal to your active Charges** (including the Charge just gained).
 
 **Shield Burst `[Reaction]`**
 * **Resource Cost:** Requires and consumes 3 Charges
@@ -174,11 +174,12 @@ The Defense Package channels stored capacitive reserves into reactive dispersion
 The Restoration Package routes delicate micro-currents and regulated thermal gradients through cardiovascular pathways, stimulating cellular mitosis, stabilizing shock, and defibrillating flatlined allies.
 
 **Amped Regen `[Action]`**
-* **Cost:** 1 AP
-* **Effect:** *Precision bio-electric currents stimulate rapid cellular granulation and synaptic stabilization.* You gain **+1 Charge** of the chosen element and make a **Conduit Success Test** using the chosen attribute, applying the effect to yourself or a creature in your space:
-  * **Flame:** Searing thermal cauterization closes severe hemorrhaging. For every 2 Success Points, heal **1 Light Wound**, plus heal additional Light Wounds equal to your **active Charges** (including the Charge just gained).
-  * **Frost:** Cryo-stasis biogel cools inflammation and numbs traumatic shock. For every 2 Success Points, heal **1 Light Stress (Mental Wound)** on yourself or an ally in your space, plus heal additional Light Stress equal to your **active Charges** (including the Charge just gained). Alternatively, this soothing cold immediately removes any active burning or toxic status effects.
-  * **Lightning:** Neuro-muscular micro-shocks restore spent momentum. For every 2 Success Points, grant the target **1 temporary Action Point (1 AP)** that must be spent before the end of their current Player Turn, or grant them a temporary **Physical Protection barrier equal to your active Charges** (lost after the first time they suffer damage).
+* **Cost:** 1 AP (0 AP if activated as a Reaction via Lightning)
+* **Trigger:** Once per Player Turn, as long as you have Light Wounds (or Light Stress in the case of Frost), or immediately after taking damage if using Lightning.
+* **Effect:** *Precision bio-electric currents stimulate rapid cellular granulation and synaptic stabilization.* You gain **+1 Charge** of the chosen element and heal **Light Wounds equal to your active Charges** (including the Charge just gained). In addition:
+  * **Flame:** Searing thermal cauterization closes hemorrhaging instantly; heal **+1 additional Light Wound** (healing total Light Wounds equal to your **active Charges + 1**).
+  * **Frost:** Endothermic biogel soothes trauma; you may choose to heal either **Light Wounds** or **Light Stress**.
+  * **Lightning:** Galvanic defibrillation triggers on instinct; this ability can be activated as a **Reaction (0 AP) immediately after taking damage**, but if activated in this way, you cannot activate Amped Regen on your next Player Turn.
 
 **Healing Burst `[Action]`**
 * **Resource Cost:** Requires and consumes 3 Charges
